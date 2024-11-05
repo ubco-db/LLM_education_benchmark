@@ -1,0 +1,1432 @@
+{
+    "Assume Context": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What topics are covered in COSC 111?",
+            "expectedAnswer": "Topics include problem solving, algorithm design, data and procedural abstraction, and the development of working programs.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What subjects does COSC 111 encompass?",
+                    "expectedAnswer": "COSC 111 covers problem solving, algorithm design, data abstraction, procedural abstraction, and developing working programs.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you list the main topics in COSC 111?",
+                    "expectedAnswer": "COSC 111 includes problem solving, algorithm design, and data and procedural abstraction.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What areas are taught in COSC 111?",
+                    "expectedAnswer": "Problem solving, algorithm design, data abstraction, procedural abstraction, and developing working programs.",
+                    "similarityLevel": "0.89"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the control structures?",
+            "expectedAnswer": "The control structures are ways of Java controlling sequence of execution. Examples are sequential, selection (if-else, switch, conditional operator), and repetition (while, do-while, for).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the main types of control structures in Java?",
+                    "expectedAnswer": "Sequential, selection (if-else, switch, conditional operator), and repetition (while, do-while, for).",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "Can you explain the control structures in Java?",
+                    "expectedAnswer": "Java control structures include sequential, selection (if-else, switch), and repetition (while, do-while, for).",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What control structures are available in Java?",
+                    "expectedAnswer": "Sequential, selection (if-else, switch, conditional operator), and repetition (while, do-while, for).",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do you compare strings?",
+            "expectedAnswer": "You can compare strings using methods like 'equals()', 'equalsIgnoreCase()', 'compareTo()', and 'compareToIgnoreCase()'. These methods check for equality, ignoring case, and lexicographical order.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What methods are used to compare strings in Java?",
+                    "expectedAnswer": "'equals()', 'equalsIgnoreCase()', 'compareTo()', and 'compareToIgnoreCase()'.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you list the methods for string comparison in Java?",
+                    "expectedAnswer": "'equals()', 'equalsIgnoreCase()', 'compareTo()', 'compareToIgnoreCase()'.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "How can strings be compared in Java?",
+                    "expectedAnswer": "Using 'equals()', 'equalsIgnoreCase()', 'compareTo()', and 'compareToIgnoreCase()'.",
+                    "similarityLevel": "0.91"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "How is the course assessment structured in COSC 111?",
+            "expectedAnswer": "The assessment includes lecture quizzes (7%), lab work (23%), and exams (70%). The lab work comprises exercises, assignments, and projects. There are two midterm exams and one final exam.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the assessment breakdown for COSC 111?",
+                    "expectedAnswer": "Lecture quizzes (7%), lab work (23%), and exams (70%).",
+                    "similarityLevel": "0.51"
+                },
+                {
+                    "question": "Can you detail the assessment structure for COSC 111?",
+                    "expectedAnswer": "Assessments include lecture quizzes (7%), lab work (23%), and exams (70%).",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "How are assessments divided in COSC 111?",
+                    "expectedAnswer": "Lecture quizzes (7%), lab work (23%), and exams (70%).",
+                    "similarityLevel": "0.92"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What are the policies on assignment extensions?",
+            "expectedAnswer": "You need to provide a doctor's note to support your request and inform your TA. Use the one-time extension policy if available.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I request an extension for assignments?",
+                    "expectedAnswer": "Provide a doctor's note and inform your TA. Use the one-time extension policy if available.",
+                    "similarityLevel": "0.03"
+                },
+                {
+                    "question": "What do I need to request an assignment extension?",
+                    "expectedAnswer": "A doctor's note and inform your TA. One-time extension policy if available.",
+                    "similarityLevel": "0.05"
+                },
+                {
+                    "question": "What is required for an assignment extension request?",
+                    "expectedAnswer": "A doctor's note and inform your TA. Utilize the one-time extension policy if available.",
+                    "similarityLevel": "0.25"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "Where are the labs for COSC 111 held?",
+            "expectedAnswer": "Labs are held at various locations such as FIP133, SCI126, and FIP129. Check your specific lab section for the exact location.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the locations for COSC 111 labs?",
+                    "expectedAnswer": "Labs are at FIP133, SCI126, and FIP129.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you tell me where COSC 111 labs take place?",
+                    "expectedAnswer": "Locations include FIP133, SCI126, and FIP129.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Where are the COSC 111 lab locations?",
+                    "expectedAnswer": "Held at FIP133, SCI126, and FIP129.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the policy for missed midterm exams?",
+            "expectedAnswer": "If you miss a midterm with an acceptable excuse, your grade will be combined with the final exam marks. If no acceptable excuse is provided, the mark for the missed exam will be zero.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What happens if I miss a midterm exam?",
+                    "expectedAnswer": "With an acceptable excuse, your grade combines with the final exam. Without an excuse, the mark is zero.",
+                    "similarityLevel": "0.32"
+                },
+                {
+                    "question": "What is the policy on missed midterms?",
+                    "expectedAnswer": "Acceptable excuse: grade combines with final exam. No excuse: mark is zero.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the missed midterm exam policy?",
+                    "expectedAnswer": "If excused, grade combines with final exam. Otherwise, the mark is zero.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the passing criteria for COSC 111?",
+            "expectedAnswer": "You must receive an overall course grade of at least 50% and at least 50% on the weighted sum of all exams.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the requirements to pass COSC 111?",
+                    "expectedAnswer": "Overall course grade of at least 50% and 50% on the weighted sum of all exams.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you describe the passing criteria for COSC 111?",
+                    "expectedAnswer": "Need at least 50% overall and 50% on all exams.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is needed to pass COSC 111?",
+                    "expectedAnswer": "Overall grade of at least 50% and 50% on the weighted sum of exams.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For the bonus assignments B1, B2, and B3, the instructions mention using the LearnCoding platform and earning digital badges. If I encounter a bug on the LearnCoding website, what steps should I follow to report it and ensure my progress is not lost?",
+            "expectedAnswer": "If you encounter a bug on the LearnCoding website, follow these steps:\n1. Check the LearnCoding Troubleshooting page: https://cmps-people.ok.ubc.ca/abdalmoh/teaching/111/Labs/LearnCoding_Troubleshooting.html\n2. If the issue persists, open the Developer Options (F12) and go to the Console tab.\n3. Take a screenshot of the entire webpage with the bug and the Developer Console visible.\n4. Send an email to learncodingbugs@gmail.ca with the screenshot and a short description of the bug and how you encountered it.\nEnsure to save your progress frequently to avoid losing any completed work.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do I report a bug on the LearnCoding platform?",
+                    "expectedAnswer": "Follow the steps on the LearnCoding Troubleshooting page, open Developer Options, take a screenshot, and email learncodingbugs@gmail.ca.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What should I do if I find a bug on LearnCoding?",
+                    "expectedAnswer": "Check LearnCoding Troubleshooting page, use Developer Options, screenshot the bug, and email learncodingbugs@gmail.ca.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you explain the steps to report a bug on LearnCoding?",
+                    "expectedAnswer": "Visit the LearnCoding Troubleshooting page, use Developer Options, take a screenshot, and email learncodingbugs@gmail.ca.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "How do I report a grievance related to the course?",
+            "expectedAnswer": "Attempt to resolve the issue with the instructor first. If unresolved, email the Associate Head or the Department Head as specified in the syllabus.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What steps should I follow to report a course-related grievance?",
+                    "expectedAnswer": "Try to resolve with the instructor, then email the Associate Head or Department Head.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How can I file a grievance related to my course?",
+                    "expectedAnswer": "First, try to resolve it with the instructor. If unresolved, email the Associate Head or Department Head.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you guide me on reporting a course-related grievance?",
+                    "expectedAnswer": "Resolve with the instructor first, then email the Associate Head or Department Head if needed.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What topics are covered in the final exam?",
+            "expectedAnswer": "The final exam covers all topics discussed throughout the course including: Course overview, Computers' HW and SW, First Java Program, Programming errors, Software Development Process, Java data types, variables, Reading input from keyboard, constants, Operators: arithmetic, Numeric conversion, Formatting output (printf), Predefined classes: Math, Character, String, Control statements, Operators: Relational & Logical, Truth tables, Selection: 'if', 'switch', conditional expression, Operator precedence, Loops: 'while', 'do-while', 'for', Nested loops, 'break' and 'continue', Methods, Arrays, Object-Oriented Programming, Inheritance, and any additional topics covered in the course.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which topics are included in the final exam?",
+                    "expectedAnswer": "Covers all topics from course overview to Inheritance and any additional topics covered.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are the subjects for the final exam?",
+                    "expectedAnswer": "All topics including Course overview, Computers' HW and SW, Java Programming, Methods, Arrays, OOP, and Inheritance.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you list the topics for the final exam?",
+                    "expectedAnswer": "All topics including Course overview, Java data types, Control statements, Methods, Arrays, OOP, and Inheritance.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What is the format of the midterm exams?",
+            "expectedAnswer": "The midterm exams are in-person, closed-book, and held during scheduled lecture times. Each midterm exam is 75 minutes long and focuses on the material discussed in the lectures up to the exam date. The exams include multiple-choice questions and coding problems.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How are the midterm exams structured?",
+                    "expectedAnswer": "In-person, closed-book, 75 minutes, multiple-choice and coding problems.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "What is the midterm exam format?",
+                    "expectedAnswer": "In-person, closed-book, 75 minutes, multiple-choice and coding problems.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the midterm exam format?",
+                    "expectedAnswer": "In-person, closed-book, 75 minutes, with multiple-choice questions and coding problems.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        }
+    ],
+    "General": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do I get a char at a specific location of a string in Java?",
+            "expectedAnswer": "Use the charAt() function. The 'charAt()' method returns the character at the specified index from a string. For example, 'Welcome'.charAt(0) returns 'W'.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are some common methods for manipulating strings in Java?",
+                    "expectedAnswer": "Common methods include charAt(), substring(), and length().",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "What method would you use to find a character at a given index in a Java string?",
+                    "expectedAnswer": "Use the charAt() method.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "How does the charAt() method work for strings in Java?",
+                    "expectedAnswer": "It returns the character at the specified index from a string.",
+                    "similarityLevel": "0.50"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the three types of programming errors?",
+            "expectedAnswer": "The three types of programming errors are syntax errors, runtime errors, and logic errors.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you debug a program in Java?",
+                    "expectedAnswer": "Use an IDE with debugging tools, set breakpoints, and inspect variables.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What types of errors can occur in programming?",
+                    "expectedAnswer": "Errors can be syntax errors, runtime errors, or logic errors.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What are syntax, runtime, and logic errors in programming?",
+                    "expectedAnswer": "Syntax errors prevent code from compiling, runtime errors occur during execution, and logic errors produce incorrect results.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What tools does Eclipse provide for debugging?",
+            "expectedAnswer": "Eclipse provides debugging and breakpoints, a code editor, a console for execution, a variable view, and step and play buttons.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What advantage does Eclipse have as a compiler?",
+                    "expectedAnswer": "Eclipse offers an integrated development environment with advanced debugging tools.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "How does Eclipse assist in debugging code?",
+                    "expectedAnswer": "Eclipse offers debugging, breakpoints, variable inspection, and step execution.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What features does Eclipse offer for debugging purposes?",
+                    "expectedAnswer": "Eclipse provides breakpoints, a code editor, a console, and variable view.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do you use the debugger tool in Eclipse?",
+            "expectedAnswer": "To use the debugger tool in Eclipse, set breakpoints in your code where you want to pause execution. Then run your program in debug mode. The debugger will stop at each breakpoint, allowing you to inspect variables and step through code line by line.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What advantage does Eclipse have over other IDEs?",
+                    "expectedAnswer": "Eclipse offers comprehensive debugging features and a user-friendly interface.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What steps are involved in using Eclipse's debugger?",
+                    "expectedAnswer": "Set breakpoints, run in debug mode, inspect variables, and step through code.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "How do you set and manage breakpoints in Eclipse?",
+                    "expectedAnswer": "Set breakpoints by clicking in the margin next to the line number, and manage them in the Breakpoints view.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the advantages of using Java?",
+            "expectedAnswer": "Java has several advantages, including portability due to its platform-independent bytecode that runs on any device with a Java Virtual Machine (JVM). Additionally, Java is known for its robustness, security features, object-oriented programming capabilities, and a vast standard library that supports a wide range of functionalities.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is Java a popular programming language?",
+                    "expectedAnswer": "Java is popular due to its portability, security features, and extensive library support.",
+                    "similarityLevel": "0.05"
+                },
+                {
+                    "question": "What makes Java a preferred language for developers?",
+                    "expectedAnswer": "Java's platform independence, robustness, and security features make it preferred.",
+                    "similarityLevel": "0.23"
+                },
+                {
+                    "question": "What are the benefits of using Java for development?",
+                    "expectedAnswer": "Java offers portability, security, and a robust standard library.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the steps in the software development process?",
+            "expectedAnswer": "The steps are requirements, design, implementation, testing, and maintenance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you start developing software?",
+                    "expectedAnswer": "Start by gathering requirements, then design, implement, test, and maintain.",
+                    "similarityLevel": "0.03"
+                },
+                {
+                    "question": "What phases are involved in software development?",
+                    "expectedAnswer": "Phases include requirements, design, implementation, testing, and maintenance.",
+                    "similarityLevel": "0.68"
+                },
+                {
+                    "question": "What is the process for developing software?",
+                    "expectedAnswer": "The process includes requirements, design, implementation, testing, and maintenance.",
+                    "similarityLevel": "0.70"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between a syntax error and a runtime error?",
+            "expectedAnswer": "A syntax error is detected by the compiler and prevents the code from compiling, while a runtime error occurs during program execution and causes the program to abort.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do errors affect code compilation?",
+                    "expectedAnswer": "Syntax errors prevent compilation; runtime errors occur during execution.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What distinguishes syntax errors from runtime errors?",
+                    "expectedAnswer": "Syntax errors are compile-time errors; runtime errors happen during execution.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do syntax and runtime errors differ?",
+                    "expectedAnswer": "Syntax errors are detected at compile time, while runtime errors occur during execution.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the rules for naming identifiers in Java?",
+            "expectedAnswer": "Identifiers must start with a letter, an underscore (_), or a dollar sign ($). They cannot start with a digit, cannot be a reserved word, and cannot be true, false, or null. They can be of any length.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should you name variables in Java?",
+                    "expectedAnswer": "Variables must start with a letter, underscore, or dollar sign, and cannot be reserved words.",
+                    "similarityLevel": "0.19"
+                },
+                {
+                    "question": "What are the naming conventions for Java identifiers?",
+                    "expectedAnswer": "Identifiers must start with a letter, underscore, or dollar sign, and cannot be reserved words.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What rules must be followed when naming Java identifiers?",
+                    "expectedAnswer": "Identifiers must start with a letter, underscore, or dollar sign and cannot be reserved words.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the primitive data types in Java?",
+            "expectedAnswer": "The primitive data types in Java are byte, short, int, long for whole numbers; float, double for real numbers; char for characters; and boolean for true or false values.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are basic data types in Java?",
+                    "expectedAnswer": "Basic data types in Java include byte, short, int, long, float, double, char, and boolean.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you list the primitive types in Java?",
+                    "expectedAnswer": "Primitive types in Java include byte, short, int, long, float, double, char, and boolean.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are the fundamental data types in Java?",
+                    "expectedAnswer": "Fundamental data types in Java are byte, short, int, long, float, double, char, and boolean.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the rules for naming identifiers in Java?",
+            "expectedAnswer": "Identifiers must start with a letter, an underscore (_), or a dollar sign ($). They cannot start with a digit, cannot be a reserved word, and cannot be true, false, or null. They can be of any length.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the naming rules for Java variables?",
+                    "expectedAnswer": "Java variables must start with a letter, underscore, or dollar sign and cannot be reserved words.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How should Java identifiers be named?",
+                    "expectedAnswer": "Identifiers must start with a letter, underscore, or dollar sign and cannot be reserved words.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "What guidelines should be followed for naming Java identifiers?",
+                    "expectedAnswer": "Java identifiers must start with a letter, underscore, or dollar sign and cannot be reserved words.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How can you read a string from the console in Java?",
+            "expectedAnswer": "You can read a string from the console using a Scanner object with methods like 'next()' to read a token and 'nextLine()' to read a line of text.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you get user input in Java?",
+                    "expectedAnswer": "Use a Scanner object to read input from the console.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What method reads a line of text from the console in Java?",
+                    "expectedAnswer": "Use the 'nextLine()' method of the Scanner object.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "How do you read user input in Java using Scanner?",
+                    "expectedAnswer": "Use Scanner methods like 'next()' and 'nextLine()' to read input.",
+                    "similarityLevel": "0.03"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the String type in Java?",
+            "expectedAnswer": "The String type is used to represent a sequence of characters. It is a predefined class in the Java library and is known as a reference type.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are strings in Java?",
+                    "expectedAnswer": "Strings are sequences of characters represented by the String class.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How are strings represented in Java?",
+                    "expectedAnswer": "Strings are represented by the String class, which is a sequence of characters.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "What does the String class represent in Java?",
+                    "expectedAnswer": "The String class represents a sequence of characters.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How are floating-point literals represented in Java?",
+            "expectedAnswer": "Floating-point literals are written with a decimal point and treated as double by default. They can be specified as float by appending 'f' or 'F' and as double by appending 'd' or 'D'. They can also be written in scientific notation.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you write decimal numbers in Java?",
+                    "expectedAnswer": "Decimal numbers are written as floating-point literals with a decimal point.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What are the different ways to represent floating-point numbers in Java?",
+                    "expectedAnswer": "Use a decimal point, append 'f' or 'F' for float, and 'd' or 'D' for double.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How can you specify floating-point literals in Java?",
+                    "expectedAnswer": "Floating-point literals can be specified with a decimal point and 'f', 'F', 'd', or 'D'.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between '==' and 'equals()' in Java?",
+            "expectedAnswer": "The '==' operator checks if two references point to the same object, while 'equals()' checks if two objects are logically equivalent.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you compare objects in Java?",
+                    "expectedAnswer": "Use '==' to compare references and 'equals()' to compare values.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "What is the difference between comparing with '==' and 'equals()'?",
+                    "expectedAnswer": "Use '==' for reference comparison and 'equals()' for logical comparison.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How does 'equals()' differ from '==' in Java?",
+                    "expectedAnswer": "The '==' operator compares references, while 'equals()' compares values.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of the 'default' case in a 'switch' statement?",
+            "expectedAnswer": "The 'default' case in a 'switch' statement is executed when none of the specified case values match the switch expression.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What happens if no cases match in a switch statement?",
+                    "expectedAnswer": "The 'default' case is executed if no other cases match.",
+                    "similarityLevel": "0.22"
+                },
+                {
+                    "question": "How is the 'default' case used in a switch statement?",
+                    "expectedAnswer": "The 'default' case handles situations where no other cases match.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "When is the 'default' case in a switch statement executed?",
+                    "expectedAnswer": "The 'default' case executes when no case values match the switch expression.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is an anonymous array in Java?",
+            "expectedAnswer": "An anonymous array in Java is an array that is created without explicitly assigning it to a reference variable. It is typically used for passing an array as an argument to a method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can you create an array without a reference in Java?",
+                    "expectedAnswer": "Create an anonymous array without assigning it to a variable.",
+                    "similarityLevel": "0.05"
+                },
+                {
+                    "question": "What are anonymous arrays used for in Java?",
+                    "expectedAnswer": "Anonymous arrays are used for passing arrays as method arguments without a reference.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How do you create and use anonymous arrays in Java?",
+                    "expectedAnswer": "Anonymous arrays are created without a reference and used as method arguments.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain the concept of 'pass by value' in Java. Is it the behavior for most languages too (pass by value)?",
+            "expectedAnswer": "In Java, 'pass by value' means that when you pass a variable to a method, the method receives a copy of the variable's value. For primitive types, this means the actual value is passed. For reference types, the reference value (address) is passed, so the method can modify the object the reference points to.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What does 'pass by value' mean in programming?",
+                    "expectedAnswer": "'Pass by value' means passing a copy of the variable's value to the method.",
+                    "similarityLevel": "0.53"
+                },
+                {
+                    "question": "How does 'pass by value' work in Java?",
+                    "expectedAnswer": "In Java, 'pass by value' passes a copy of the variable's value to the method.",
+                    "similarityLevel": "0.88"
+                },
+                {
+                    "question": "What is 'pass by value' in Java and how does it differ from 'pass by reference'?",
+                    "expectedAnswer": "'Pass by value' passes a copy of the value, while 'pass by reference' passes the reference itself.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of the 'break' statement in a loop?",
+            "expectedAnswer": "The 'break' statement is used to terminate the loop immediately and transfer control to the statement following the loop.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you exit a loop early in Java?",
+                    "expectedAnswer": "Use the 'break' statement to exit the loop early.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What does the 'break' statement do in a loop?",
+                    "expectedAnswer": "The 'break' statement terminates the loop and transfers control to the next statement.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does the 'break' statement function in loops?",
+                    "expectedAnswer": "The 'break' statement ends the loop immediately and continues with the next statement.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What does the method 'System.arraycopy()' do?",
+            "expectedAnswer": "The 'System.arraycopy()' method in Java copies a specified number of elements from a source array to a destination array. It requires the source array, the starting position in the source array, the destination array, the starting position in the destination array, and the number of elements to copy.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can you copy elements from one array to another in Java?",
+                    "expectedAnswer": "Use the 'System.arraycopy()' method to copy elements from one array to another.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What is the function of 'System.arraycopy()' in Java?",
+                    "expectedAnswer": "'System.arraycopy()' copies elements from a source array to a destination array.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How does 'System.arraycopy()' work in Java?",
+                    "expectedAnswer": "It copies specified elements from a source array to a destination array.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How is a 'while' loop different from a 'do-while' loop?",
+            "expectedAnswer": "A 'while' loop checks the loop continuation condition before executing the loop body, meaning the loop body might not execute at all if the condition is false initially. A 'do-while' loop, on the other hand, executes the loop body first and then checks the condition, ensuring the loop body executes at least once.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the differences between a while loop and a do-while loop?",
+                    "expectedAnswer": "A 'while' loop checks the condition before the loop body, while a 'do-while' loop checks after.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does a 'while' loop differ from a 'do-while' loop in Java?",
+                    "expectedAnswer": "'While' loops check the condition first; 'do-while' loops check after executing the loop body.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is the main difference between a 'while' loop and a 'do-while' loop?",
+                    "expectedAnswer": "A 'while' loop checks the condition before executing, whereas a 'do-while' loop executes first and checks the condition afterward.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Describe how to declare and initialize an array in Java.",
+            "expectedAnswer": "To declare an array in Java, specify the type of elements followed by square brackets and the array name. For example, 'int[] myArray;'. To initialize the array, use the 'new' keyword followed by the type and the number of elements in square brackets, like 'myArray = new int[10];'. You can also declare and initialize in one line: 'int[] myArray = {1, 2, 3, 4};'.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you create an array in Java?",
+                    "expectedAnswer": "Declare the type followed by square brackets and initialize with 'new' keyword.",
+                    "similarityLevel": "0.64"
+                },
+                {
+                    "question": "What is the syntax for declaring an array in Java?",
+                    "expectedAnswer": "Specify the type and name, then use 'new' to initialize.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How do you declare and initialize an array in Java in one step?",
+                    "expectedAnswer": "Use the syntax 'int[] myArray = {1, 2, 3, 4};'.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the role of the 'continue' statement in a loop?",
+            "expectedAnswer": "The 'continue' statement in a loop skips the current iteration and proceeds with the next iteration of the loop, effectively skipping any code between the 'continue' statement and the end of the loop body for that iteration.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you skip to the next iteration in a loop?",
+                    "expectedAnswer": "Use the 'continue' statement to skip to the next iteration.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What does the 'continue' statement do in a loop?",
+                    "expectedAnswer": "'Continue' skips the current iteration and moves to the next iteration.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does the 'continue' statement function in loops?",
+                    "expectedAnswer": "It skips the remaining code in the loop and proceeds to the next iteration.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the components of a method in Java? I hear about functions too, is there a difference?",
+            "expectedAnswer": "A method in Java consists of a method header and a method body. The method header includes the access modifier, return type, method name, and parameters (if any). The method body contains the code that defines what the method does, enclosed in curly braces. In Java, methods and functions refer to the same concept; however, 'method' is the term typically used within the context of object-oriented programming.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the parts of a method in Java?",
+                    "expectedAnswer": "A method includes a method header and a method body.",
+                    "similarityLevel": "0.52"
+                },
+                {
+                    "question": "What elements make up a Java method?",
+                    "expectedAnswer": "A method consists of an access modifier, return type, name, parameters, and body.",
+                    "similarityLevel": "0.29"
+                },
+                {
+                    "question": "How are methods and functions similar or different in Java?",
+                    "expectedAnswer": "In Java, methods and functions are the same; 'method' is the term used in OOP.",
+                    "similarityLevel": "0.45"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the components of a method in Java? I hear about functions too, is there a difference?",
+            "expectedAnswer": "A method in Java consists of a method header and a method body. The method header includes the access modifier, return type, method name, and parameters (if any). The method body contains the code that defines what the method does, enclosed in curly braces. In Java, methods and functions refer to the same concept; however, 'method' is the term typically used within the context of object-oriented programming.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the parts of a method in Java?",
+                    "expectedAnswer": "A method includes a method header and a method body.",
+                    "similarityLevel": "0.52"
+                },
+                {
+                    "question": "What elements make up a Java method?",
+                    "expectedAnswer": "A method consists of an access modifier, return type, name, parameters, and body.",
+                    "similarityLevel": "0.29"
+                },
+                {
+                    "question": "How are methods and functions similar or different in Java?",
+                    "expectedAnswer": "In Java, methods and functions are the same; 'method' is the term used in OOP.",
+                    "similarityLevel": "0.45"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do you declare and initialize a 2D array in Java?",
+            "expectedAnswer": "In Java, a 2D array can be declared and initialized in one statement using the following syntax: int[][] array = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};. Alternatively, it can be declared and then initialized separately: int[][] array; array = new int[3][3]; array[0][0] = 1; array[0][1] = 2; ... array[2][2] = 9;.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you create a 2D array in Java?",
+                    "expectedAnswer": "Declare with 'int[][] array' and initialize with 'new int[rows][columns]'.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "What is the syntax for a 2D array in Java?",
+                    "expectedAnswer": "Use 'int[][] array = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};' or initialize separately.",
+                    "similarityLevel": "0.87"
+                },
+                {
+                    "question": "How can you declare and initialize a 2D array in one line in Java?",
+                    "expectedAnswer": "Use 'int[][] array = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};'.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the main concepts of object-oriented programming (OOP) in Java?",
+            "expectedAnswer": "The main concepts of object-oriented programming (OOP) in Java are: 1) Objects: Instances of classes that represent entities with attributes and behaviors. 2) Classes: Blueprints for creating objects, defining their attributes (variables) and behaviors (methods). 3) Inheritance: Mechanism by which one class can inherit fields and methods from another class. 4) Polymorphism: Ability for objects to be treated as instances of their parent class rather than their actual class. 5) Encapsulation: Bundling the data (attributes) and methods (functions) that operate on the data into a single unit or class, and restricting access to some of the object's components.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the principles of OOP in Java?",
+                    "expectedAnswer": "Principles include objects, classes, inheritance, polymorphism, and encapsulation.",
+                    "similarityLevel": "0.94"
+                },
+                {
+                    "question": "What key concepts does OOP in Java involve?",
+                    "expectedAnswer": "Key concepts are objects, classes, inheritance, polymorphism, and encapsulation.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are the fundamental ideas behind OOP in Java?",
+                    "expectedAnswer": "Fundamental ideas include objects, classes, inheritance, polymorphism, and encapsulation.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are Boolean expressions and how are they used in Java?",
+            "expectedAnswer": "Boolean expressions evaluate to either true or false. They are used in relational operations like <, <=, >, >=, ==, and != to compare values and determine the flow of control in the program.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do Boolean expressions work in Java?",
+                    "expectedAnswer": "Boolean expressions evaluate to true or false and control program flow.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are Boolean expressions used for in Java?",
+                    "expectedAnswer": "They are used in relational operations to compare values and control flow.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How are Boolean expressions utilized in Java?",
+                    "expectedAnswer": "Boolean expressions compare values and control program flow based on true or false.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the role of the 'break' statement in a switch case?",
+            "expectedAnswer": "The 'break' statement is used to terminate the remainder of the switch statement. If it is not present, the next case statement will be executed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What happens if you omit the 'break' statement in a switch case?",
+                    "expectedAnswer": "If 'break' is omitted, the next case statement will be executed.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does the 'break' statement function in a switch case?",
+                    "expectedAnswer": "'Break' terminates the switch statement, preventing subsequent cases from executing.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the purpose of using 'break' in a switch statement?",
+                    "expectedAnswer": "'Break' is used to terminate the switch case and prevent fall-through.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the extended switch statement with yield work? Give me an example too.",
+            "expectedAnswer": "The extended switch statement with yield allows the switch to return a value. Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; }; The yield keyword ends the case and returns a value.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you use the extended switch statement in Java?",
+                    "expectedAnswer": "The extended switch statement allows returning a value using the yield keyword.",
+                    "similarityLevel": "0.30"
+                },
+                {
+                    "question": "What is the purpose of the yield keyword in the extended switch statement?",
+                    "expectedAnswer": "The yield keyword is used to return a value from the switch statement.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Can you provide an example of the extended switch statement with yield?",
+                    "expectedAnswer": "Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; };",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between 'public', 'private', 'protected', and 'default' access modifiers in Java?",
+            "expectedAnswer": "The 'public' access modifier allows unrestricted access to the class, method, or field. 'Private' restricts access to the class itself. 'Protected' allows access to the class, subclasses in the same package, and subclasses in different packages. 'Default' (no modifier) allows access only within the same package.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do access modifiers work in Java?",
+                    "expectedAnswer": "Access modifiers control the visibility of classes, methods, and fields.",
+                    "similarityLevel": "0.32"
+                },
+                {
+                    "question": "What are the different types of access modifiers in Java?",
+                    "expectedAnswer": "Public, private, protected, and default are the types of access modifiers.",
+                    "similarityLevel": "0.67"
+                },
+                {
+                    "question": "What is the purpose of access modifiers in Java?",
+                    "expectedAnswer": "Access modifiers determine the visibility and accessibility of classes, methods, and fields.",
+                    "similarityLevel": "0.56"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the extended switch statement with yield work?",
+            "expectedAnswer": "The extended switch statement with yield allows the switch to return a value. Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; }; The yield keyword ends the case and returns a value.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of the yield keyword in Java?",
+                    "expectedAnswer": "The yield keyword is used to return a value from a switch case.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How does the yield keyword work in an extended switch statement?",
+                    "expectedAnswer": "Yield is used to return a value in an extended switch statement.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you provide an example of using yield in a switch statement?",
+                    "expectedAnswer": "Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; };",
+                    "similarityLevel": "0.76"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the extended switch statement with yield work?",
+            "expectedAnswer": "The extended switch statement with yield allows the switch to return a value. Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; }; The yield keyword ends the case and returns a value.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of the yield keyword in Java?",
+                    "expectedAnswer": "The yield keyword is used to return a value from a switch case.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How does the yield keyword work in an extended switch statement?",
+                    "expectedAnswer": "Yield is used to return a value in an extended switch statement.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you provide an example of using yield in a switch statement?",
+                    "expectedAnswer": "Example: String dayType = switch (day) { case 2,3,4,5,6 -> 'weekday'; case 1,7 -> 'weekend'; default -> 'invalid'; };",
+                    "similarityLevel": "0.76"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I'm trying to write a Java program that calculates the distance an object has fallen after 12 seconds using the formula `d = (g * t^2) / 2` where g = 9.81. Here's my code but I'm not getting the expected result. Can you help me debug it? ``` public class Q3 { public static void main(String[] args) { double t = 12; double g = 9.81; double d = (g * t * t) / 2; System.out.println('The object has fallen ' + d + ' meters.'); } } ```",
+            "expectedAnswer": "The issue with your code is the use of single quotes instead of double quotes for the string in the `System.out.println` statement. Also, you need to use the `+` operator correctly for concatenation. Here is the corrected code: ``` public class Q3 { public static void main(String[] args) { double t = 12; double g = 9.81; double d = (g * t * t) / 2; System.out.println(\"The object has fallen \" + d + \" meters.\"); } } ```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I fix this Java code to calculate the distance fallen using the formula `d = (g * t^2) / 2`?",
+                    "expectedAnswer": "Ensure you use double quotes for strings in `System.out.println` and the `+` operator for concatenation.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Why is my Java code not producing the correct distance fallen?",
+                    "expectedAnswer": "Check if you are using double quotes for strings and the correct operator for concatenation.",
+                    "similarityLevel": "0.36"
+                },
+                {
+                    "question": "How do you correct the string concatenation in the given Java code?",
+                    "expectedAnswer": "Use double quotes for strings and the `+` operator for concatenation.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "How do I create a Java program to display a specific pattern? I need to write a program that outputs the following pattern: ``` * ** *** **** ***** ``` ",
+            "expectedAnswer": "I can't give you the answer, but here are some tips. To create this pattern, you need to understand the concepts of loops and nested loops in Java. Start by learning how to use a `for` loop to repeat actions a certain number of times. Then, learn about nested loops, which allow you to create patterns by placing one loop inside another. Practice writing simple programs with nested loops, and use print statements to control the output format.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you create a star pattern in Java?",
+                    "expectedAnswer": "Use nested loops to print stars in the desired pattern.",
+                    "similarityLevel": "0.39"
+                },
+                {
+                    "question": "What is the process for generating patterns in Java?",
+                    "expectedAnswer": "Understand loops and nested loops to create patterns.",
+                    "similarityLevel": "0.19"
+                },
+                {
+                    "question": "How can you use loops to generate a specific pattern in Java?",
+                    "expectedAnswer": "Use nested `for` loops to print the desired pattern.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I'm trying to write a Java program to calculate the average acceleration. The formula is `a = (v1 - v0) / t`. Here's my code, but it's not working correctly: ``` import java.util.Scanner; public class Q1 { public static void main(String[] args) { Scanner input = new Scanner(System.in); System.out.print(\"Enter v0, v1, and t: \"); double v0 = input.nextDouble(); double v1 = input.nextDouble(); double t = input.nextDouble(); double a = (v1 - v0) / t; System.out.println(\"The average acceleration is \" + a); } } ``` Can you help me figure out what's wrong?",
+            "expectedAnswer": "Your code looks correct. The issue might be with how you're running it or the inputs you're providing. Make sure to enter the values in the correct format and range. For example: ``` Enter v0, v1, and t: 0 60 10 ``` This should output: ``` The average acceleration is 6.0 ```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you calculate average acceleration in Java?",
+                    "expectedAnswer": "Use the formula `a = (v1 - v0) / t` and ensure correct input values.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "Why is my Java program not calculating average acceleration correctly?",
+                    "expectedAnswer": "Check if inputs are in the correct format and range.",
+                    "similarityLevel": "0.91"
+                },
+                {
+                    "question": "What might be wrong with my average acceleration calculation in Java?",
+                    "expectedAnswer": "Ensure the formula is correct and inputs are accurate.",
+                    "similarityLevel": "0.84"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "How can I write a Java program to calculate the cost of a trip given the distance, fuel efficiency, and price per gallon? Here's what I have so far: ``` import java.util.Scanner; public class Q2 { public static void main(String[] args) { Scanner input = new Scanner(System.in); System.out.print(\"Enter the distance to drive: \"); double distance = input.nextDouble(); System.out.print(\"Enter the fuel efficiency in miles per gallon: \"); double fuelEfficiency = input.nextDouble(); System.out.print(\"Enter the price per gallon: \"); double pricePerGallon = input.nextDouble(); double cost = (distance / fuelEfficiency) * pricePerGallon; System.out.println(\"The cost of the trip is $\" + cost); } } ```",
+            "expectedAnswer": "Your code correctly calculates the cost of a trip. Just make sure to test it with various inputs to verify its accuracy. For example: ``` Enter the distance to drive: 100 Enter the fuel efficiency in miles per gallon: 25 Enter the price per gallon: 3.5 ``` This should output: ``` The cost of the trip is $14.0 ```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you calculate the cost of a trip in Java?",
+                    "expectedAnswer": "Calculate the cost using distance, fuel efficiency, and price per gallon.",
+                    "similarityLevel": "0.29"
+                },
+                {
+                    "question": "What is the formula to calculate the cost of a trip in Java?",
+                    "expectedAnswer": "Use the formula `(distance / fuel efficiency) * price per gallon`.",
+                    "similarityLevel": "0.40"
+                },
+                {
+                    "question": "How can you calculate trip cost using a Java program?",
+                    "expectedAnswer": "Use Scanner to get input and calculate `(distance / fuel efficiency) * price per gallon`.",
+                    "similarityLevel": "0.34"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I'm trying to calculate the wind-chill temperature in Java using the formula: `Twc = 35.74 + 0.6215 * ta - 35.75 * Math.pow(v, 0.16) + 0.4275 * ta * Math.pow(v, 0.16)`. Here's my code but I'm not getting the correct output: ``` import java.util.Scanner; public class Q1 { public static void main(String[] args) { Scanner input = new Scanner(System.in); System.out.print(\"Enter the temperature (between -58\u00b0F and 41\u00b0F): \"); double ta = input.nextDouble(); System.out.print(\"Enter the wind speed (2 mph or greater): \"); double v = input.nextDouble(); double Twc = 35.74 + 0.6215 * ta - 35.75 * Math.pow(v, 0.16) + 0.4275 * ta * Math.pow(v, 0.16); System.out.println(\"The wind-chill temperature is \" + Twc); } } ```",
+            "expectedAnswer": "Your code looks correct. Ensure the input values are within the specified range and correctly typed. For example: ``` Enter the temperature (between -58\u00b0F and 41\u00b0F): 30 Enter the wind speed (2 mph or greater): 10 ``` This should output: ``` The wind-chill temperature is 21.093000000000004 ```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you calculate wind-chill temperature in Java?",
+                    "expectedAnswer": "Use the formula and ensure inputs are within the specified range.",
+                    "similarityLevel": "0.36"
+                },
+                {
+                    "question": "Why is my Java code not calculating wind-chill correctly?",
+                    "expectedAnswer": "Check if the input values are within the correct range.",
+                    "similarityLevel": "0.20"
+                },
+                {
+                    "question": "What might be wrong with my wind-chill calculation in Java?",
+                    "expectedAnswer": "Ensure the inputs are within the specified range and correctly typed.",
+                    "similarityLevel": "0.22"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A6 Q1, the assignment asks us to transform a time given in seconds into a String formatted as hours:minutes:seconds using the method header public static String convertTime(int totalSeconds). Should the method handle input values greater than 24 hours, and if so, how?",
+            "expectedAnswer": "Yes, the method should handle input values greater than 24 hours. In such cases, the hours value should continue to increment, for example, 90000 seconds should be displayed as 25:00:00.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you handle time values over 24 hours in Java?",
+                    "expectedAnswer": "The method should increment the hours value beyond 24.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Should the convertTime method handle more than 24 hours?",
+                    "expectedAnswer": "Yes, the hours should continue to increment for values over 24 hours.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How should you format time over 24 hours in Java?",
+                    "expectedAnswer": "Format time with hours continuing to increment beyond 24.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A6 Q2, it asks us to write a method to check if three sides can form a triangle and calculate its area. Should the area method call isValid to ensure the sides form a valid triangle before calculating the area?",
+            "expectedAnswer": "Yes, the area method should call isValid to ensure the sides form a valid triangle before calculating the area. If the sides do not form a valid triangle, the area method should handle this appropriately, such as by returning 0 or throwing an exception.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you validate if three sides form a triangle in Java?",
+                    "expectedAnswer": "Use the isValid method to check before calculating the area.",
+                    "similarityLevel": "0.18"
+                },
+                {
+                    "question": "Should the area method validate the sides before calculating the triangle area?",
+                    "expectedAnswer": "Yes, call isValid to ensure the sides form a valid triangle.",
+                    "similarityLevel": "0.43"
+                },
+                {
+                    "question": "How should you handle invalid triangle sides in the area calculation?",
+                    "expectedAnswer": "Return 0 or throw an exception if the sides do not form a valid triangle.",
+                    "similarityLevel": "0.05"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A6 Q3, the assignment asks us to reverse an integer and check if it is a palindrome. Can you clarify if we need to handle negative numbers as valid input for the palindrome check?",
+            "expectedAnswer": "Yes, you should handle negative numbers as valid input for the palindrome check. A negative number is not considered a palindrome because the negative sign does not match when reversed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the palindrome check handle negative numbers in Java?",
+                    "expectedAnswer": "Yes, handle negative numbers but they are not palindromes.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "Are negative numbers valid input for palindrome checks?",
+                    "expectedAnswer": "Yes, but they are not considered palindromes.",
+                    "similarityLevel": "0.15"
+                },
+                {
+                    "question": "How should you handle negative numbers in a palindrome check?",
+                    "expectedAnswer": "Treat negative numbers as valid input but not palindromes.",
+                    "similarityLevel": "0.04"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A7 Q1, when reading in values from the user using getNumsFromUser, how should we handle invalid input such as non-numeric values?",
+            "expectedAnswer": "You should handle invalid input by prompting the user to enter a valid number again until a correct value is provided. This can be done using a try-catch block around the input parsing logic.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you handle invalid user input in Java?",
+                    "expectedAnswer": "Prompt the user to enter a valid number using a try-catch block.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "What is the best way to handle non-numeric input in Java?",
+                    "expectedAnswer": "Use a try-catch block to prompt the user for valid input.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "How should invalid input be handled when reading user values?",
+                    "expectedAnswer": "Prompt the user to enter a valid number until correct input is provided.",
+                    "similarityLevel": "0.76"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A7 Q2, when calculating the letter grades based on student marks, should the program handle cases where there are ties in the highest mark?",
+            "expectedAnswer": "Yes, the program should handle cases where there are ties in the highest mark. All students with the highest mark should receive an 'A' grade.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should ties in student grades be handled?",
+                    "expectedAnswer": "All students with the highest mark should receive an 'A' grade.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "Should the grading program account for ties in the highest mark?",
+                    "expectedAnswer": "Yes, all students with the highest mark should get an 'A'.",
+                    "similarityLevel": "0.63"
+                },
+                {
+                    "question": "How do you handle grade ties in student marks?",
+                    "expectedAnswer": "All students with the highest mark should receive an 'A' grade.",
+                    "similarityLevel": "0.08"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A7 Q3, the isSorted method needs to check if an array is sorted in increasing order. Should the method consider arrays with duplicate elements as sorted?",
+            "expectedAnswer": "Yes, the isSorted method should consider arrays with duplicate elements as sorted, as long as there are no elements that decrease in value.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Are arrays with duplicates considered sorted in Java?",
+                    "expectedAnswer": "Yes, as long as the values do not decrease.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "Should isSorted method handle duplicate elements?",
+                    "expectedAnswer": "Yes, duplicates are considered sorted if values do not decrease.",
+                    "similarityLevel": "0.27"
+                },
+                {
+                    "question": "How should duplicates be treated in the isSorted method?",
+                    "expectedAnswer": "Duplicates should be considered sorted if there are no decreasing values.",
+                    "similarityLevel": "0.10"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A8 Q1, the assignment asks to add two matrices. What should the addMatrix method do if the input matrices have different dimensions?",
+            "expectedAnswer": "The addMatrix method should first check if the dimensions of the two matrices match. If they do not, the method should throw an IllegalArgumentException or return null to indicate the error.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you handle adding matrices of different dimensions?",
+                    "expectedAnswer": "Check dimensions and throw an exception or return null if they do not match.",
+                    "similarityLevel": "0.13"
+                },
+                {
+                    "question": "What should addMatrix method do with mismatched dimensions?",
+                    "expectedAnswer": "Throw an exception or return null if dimensions do not match.",
+                    "similarityLevel": "0.25"
+                },
+                {
+                    "question": "How should the addMatrix method handle different dimensions?",
+                    "expectedAnswer": "Check dimensions first, throw an exception, or return null if they do not match.",
+                    "similarityLevel": "0.42"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A8 Q2, the sumCol method sums the elements in a specified column of a 2D array. How should the method handle invalid column indices that are out of bounds for the given array?",
+            "expectedAnswer": "The sumCol method should check if the given column index is within the valid range of columns for the array. If the index is out of bounds, the method should throw an IndexOutOfBoundsException or return a default value like 0.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you handle invalid column indices in a 2D array?",
+                    "expectedAnswer": "Check if the index is within range and throw an exception or return 0 if out of bounds.",
+                    "similarityLevel": "0.27"
+                },
+                {
+                    "question": "What should sumCol method do with out-of-bounds column indices?",
+                    "expectedAnswer": "Throw an exception or return a default value like 0.",
+                    "similarityLevel": "0.19"
+                },
+                {
+                    "question": "How should sumCol handle invalid column indices in a 2D array?",
+                    "expectedAnswer": "Check range and throw an exception or return 0 if out of bounds.",
+                    "similarityLevel": "0.89"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A8 Q3, the assignment requires using a 2D array for a capitals quiz. Should the program ignore case sensitivity when comparing user input to the correct answers?",
+            "expectedAnswer": "Yes, the program should ignore case sensitivity when comparing user input to the correct answers. This can be done by converting both the user input and the correct answer to the same case (e.g., lower case) before comparison.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should a quiz program ignore case sensitivity in Java?",
+                    "expectedAnswer": "Yes, convert both user input and correct answers to the same case for comparison.",
+                    "similarityLevel": "0.03"
+                },
+                {
+                    "question": "How do you handle case sensitivity in a Java quiz program?",
+                    "expectedAnswer": "Ignore case sensitivity by converting input and answers to the same case.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Should case sensitivity be considered when comparing quiz answers?",
+                    "expectedAnswer": "No, convert both to the same case before comparison.",
+                    "similarityLevel": "0.02"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A9 Q1, the assignment asks us to create a Cuboid class with various attributes and methods. Should the getters for the dimensions (l, w, h) return a copy of the values or the actual values stored in the object?",
+            "expectedAnswer": "The getters for the dimensions (l, w, h) should return the actual values stored in the object. Since these are primitive types (double), returning the value directly is safe.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should getters return copies or actual values for primitive types in Java?",
+                    "expectedAnswer": "Getters should return the actual values for primitive types as it is safe.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Do getters return the actual values for dimensions in a Cuboid class?",
+                    "expectedAnswer": "Yes, getters return the actual values for dimensions.",
+                    "similarityLevel": "0.40"
+                },
+                {
+                    "question": "What should getters return for primitive types in a class?",
+                    "expectedAnswer": "Getters should return the actual stored values for primitive types.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A9 Q2, when creating the BankAccount class, should the withdraw and deposit methods handle cases where the amount to be withdrawn or deposited is negative?",
+            "expectedAnswer": "Yes, the withdraw and deposit methods should handle cases where the amount is negative. Ideally, these methods should throw an IllegalArgumentException if a negative amount is provided.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should withdraw and deposit methods handle negative amounts?",
+                    "expectedAnswer": "Throw an IllegalArgumentException if a negative amount is provided.",
+                    "similarityLevel": "0.27"
+                },
+                {
+                    "question": "Should BankAccount methods handle negative withdrawal or deposit amounts?",
+                    "expectedAnswer": "Yes, throw an IllegalArgumentException for negative amounts.",
+                    "similarityLevel": "0.74"
+                },
+                {
+                    "question": "What should be done if negative amounts are provided to BankAccount methods?",
+                    "expectedAnswer": "The methods should throw an IllegalArgumentException.",
+                    "similarityLevel": "0.18"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A9 Q2, the assignment specifies a static count attribute to track the number of BankAccount objects created. Should this count be incremented in both constructors, and how should we ensure thread safety?",
+            "expectedAnswer": "Yes, the count should be incremented in both constructors. To ensure thread safety, the increment operation should be synchronized or use an atomic variable to prevent race conditions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the static count attribute be incremented in both constructors?",
+                    "expectedAnswer": "Yes, increment the count in both constructors.",
+                    "similarityLevel": "0.40"
+                },
+                {
+                    "question": "How do you ensure thread safety when incrementing a static count attribute?",
+                    "expectedAnswer": "Use synchronized blocks or atomic variables to ensure thread safety.",
+                    "similarityLevel": "0.15"
+                },
+                {
+                    "question": "What is the best way to increment a static count attribute safely in a multi-threaded environment?",
+                    "expectedAnswer": "Use synchronization or atomic variables to prevent race conditions.",
+                    "similarityLevel": "0.09"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A5 Q1, the assignment asks us to write a program that counts positive, negative, even, and odd integers entered by the user until 0 is input. Should the number 0 itself be included in the even count, and should it affect the sum and average calculations?",
+            "expectedAnswer": "The number 0 should not be included in the even count, and it should not affect the sum and average calculations. The program should ignore 0 when counting and calculating the sum and average of the entered values.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should 0 be counted as even in the integer counting program?",
+                    "expectedAnswer": "No, 0 should not be included in the even count.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Does 0 affect the sum and average calculations in the counting program?",
+                    "expectedAnswer": "No, 0 should be ignored in sum and average calculations.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How should 0 be treated in the program counting integers?",
+                    "expectedAnswer": "0 should not be counted as even or affect sum and average calculations.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        }
+    ]
+}

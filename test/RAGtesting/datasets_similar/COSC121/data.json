@@ -1,0 +1,1432 @@
+{
+    "Assume Context": [
+        {
+            "category": "Administrative",
+            "question": "What items are required and allowed to be brought to the final exam, and what are the restrictions on entering and leaving the exam room?",
+            "expectedAnswer": "Required: UBC ID card. Allowed: Pencils, pens, eraser, and sharpener. You may use the back of exam sheets for your answers if indicated clearly. Not allowed: Books, notes, electronics (calculators, computers, sound or image players/recorders/transmitters including telephones), extra sheets of paper, entering the exam room after the first half-hour, leaving during the first half-hour of the exam.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What can you bring to the final exam?",
+                    "expectedAnswer": "UBC ID card, pencils, pens, eraser, and sharpener. No books, notes, or electronics.",
+                    "similarityLevel": "0.85"
+                },
+                {
+                    "question": "What are the rules for entering and leaving the final exam room?",
+                    "expectedAnswer": "You cannot enter after the first half-hour or leave during the first half-hour.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "What items are prohibited in the final exam room?",
+                    "expectedAnswer": "Books, notes, electronics, and extra sheets of paper are not allowed.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the policy on late assignments in COSC 121, and are there any exceptions to this policy?",
+            "expectedAnswer": "The policy on late assignments is: 0 to 24 hours late results in a 25% mark deduction; 24 to 48 hours late results in a 50% mark deduction; more than 48 hours late will receive no mark unless in extreme situations supported by written proof such as a doctor's note.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the deduction for assignments submitted late in COSC 121?",
+                    "expectedAnswer": "0-24 hours late: 25% deduction, 24-48 hours late: 50% deduction, more than 48 hours: no mark.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Are there exceptions to the late assignment policy in COSC 121?",
+                    "expectedAnswer": "Exceptions require written proof, such as a doctor's note.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How much is deducted for assignments more than 48 hours late in COSC 121?",
+                    "expectedAnswer": "Assignments more than 48 hours late receive no mark unless in extreme situations.",
+                    "similarityLevel": "0.71"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "Can I bring arguments about the midterm marking?",
+            "expectedAnswer": "If you believe mistakes have been made in grading, please bring arguments about the midterm marking with the instructor.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do I address grading mistakes on my midterm?",
+                    "expectedAnswer": "Bring your arguments to the instructor if you believe mistakes have been made.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What should I do if I find errors in my midterm grading?",
+                    "expectedAnswer": "Discuss the errors with the instructor.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Can I challenge the grading of my midterm?",
+                    "expectedAnswer": "Yes, by bringing your arguments to the instructor.",
+                    "similarityLevel": "0.13"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What are the components and their respective weights for the course assessment in COSC 121, and what is the minimum requirement to pass the course?",
+            "expectedAnswer": "The course assessment includes: Clickers + pre-recorded lectures, lab work (exercises, assignments, project), and exams (Midterm 1, Midterm 2, Final Exam). Specific weights for each component can be found in the syllabus. Students must receive a combined grade of at least 50% on the exams to pass the course.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the assessment breakdown for COSC 121?",
+                    "expectedAnswer": "Assessment includes Clickers + pre-recorded lectures, lab work, and exams.",
+                    "similarityLevel": "0.15"
+                },
+                {
+                    "question": "How are the components of COSC 121 weighted?",
+                    "expectedAnswer": "Weights are specified in the syllabus. Includes Clickers, lab work, and exams.",
+                    "similarityLevel": "0.62"
+                },
+                {
+                    "question": "What is the minimum requirement to pass COSC 121?",
+                    "expectedAnswer": "A combined grade of at least 50% on the exams.",
+                    "similarityLevel": "0.63"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What are the steps and requirements for participating in the online final exam, including Zoom session setup and ID verification procedures?",
+            "expectedAnswer": "On the exam day, join the Zoom session 15 minutes before the exam starts for instructions, ID verification, and breakout room assignments. Keep your webcam and mic on throughout the exam. Inform the invigilator before taking a bathroom break. Do not leave Zoom until you submit the exam. Hold your student card beside your face for identification at the beginning and end of the exam.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the requirements for the online final exam via Zoom?",
+                    "expectedAnswer": "Join the Zoom session 15 minutes early, keep webcam and mic on, and show student ID for verification.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How do I set up for the online final exam using Zoom?",
+                    "expectedAnswer": "Join the Zoom session 15 minutes early for instructions, ID verification, and breakout room assignments.",
+                    "similarityLevel": "0.72"
+                },
+                {
+                    "question": "What steps should I follow for the online final exam?",
+                    "expectedAnswer": "Join Zoom early, keep webcam and mic on, show student ID for verification, and inform invigilator before taking a break.",
+                    "similarityLevel": "0.52"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What are the rules for bringing a cheat sheet to the final exam?",
+            "expectedAnswer": "You can bring a cheat sheet to the final exam under the following rules: Use up to two sides of an A4 paper, notes must be handwritten, your name must be on the cheat sheet, only one cheat sheet is allowed, and no switching cheat sheets during the exam. No other aids are allowed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can I bring a cheat sheet to the final exam?",
+                    "expectedAnswer": "Yes, but it must be handwritten, up to two sides of an A4 paper, and include your name.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "What are the restrictions on cheat sheets for the final exam?",
+                    "expectedAnswer": "Handwritten notes on two sides of an A4 paper, name included, only one cheat sheet allowed.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What are the rules for using a cheat sheet in the final exam?",
+                    "expectedAnswer": "Handwritten on two sides of an A4 paper, name included, only one allowed, no switching.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What topics are covered up to midterm 1?",
+            "expectedAnswer": "Topics include OOP basics, encapsulation, inheritance, polymorphism, abstract classes, interfaces, and polymorphism-related concepts from chapters 9, 11, and 13.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which topics are included up to midterm 1?",
+                    "expectedAnswer": "OOP basics, encapsulation, inheritance, polymorphism, abstract classes, interfaces, and chapters 9, 11, 13.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What subjects should I study for midterm 1?",
+                    "expectedAnswer": "OOP basics, encapsulation, inheritance, polymorphism, abstract classes, interfaces, and chapters 9, 11, 13.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "What areas are tested in midterm 1?",
+                    "expectedAnswer": "OOP basics, encapsulation, inheritance, polymorphism, abstract classes, interfaces, and chapters 9, 11, 13.",
+                    "similarityLevel": "0.58"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "For exam 1, what is the format of the exam? Breakdown of points per question type.",
+            "expectedAnswer": "The exam has multiple-choice questions, code analysis questions, and short/long programming questions. Programming questions are worth the most, then coding analysis, and finally multiple-choice questions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the format of exam 1?",
+                    "expectedAnswer": "Multiple-choice, code analysis, and short/long programming questions.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "How are the points distributed in exam 1?",
+                    "expectedAnswer": "Programming questions have the highest points, followed by code analysis, and then multiple-choice questions.",
+                    "similarityLevel": "0.50"
+                },
+                {
+                    "question": "What types of questions are in exam 1?",
+                    "expectedAnswer": "Multiple-choice, code analysis, and programming questions.",
+                    "similarityLevel": "0.65"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "In final revision p15, why is java.lang.Object@5b2b6037 printed? Is that default output for an object? and for j1, it is a gradstudent? why is also of class student?",
+            "expectedAnswer": "java.lang.Object@5b2b6037 is the default toString() output for an object. j1 is a GradStudent, but m(Object) is called due to method matching at compile time.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why does java.lang.Object@5b2b6037 appear in the output?",
+                    "expectedAnswer": "It's the default toString() output for an object.",
+                    "similarityLevel": "0.64"
+                },
+                {
+                    "question": "Why is j1 also a class student?",
+                    "expectedAnswer": "j1 is a GradStudent, but m(Object) is called due to method matching at compile time.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What does the default toString() method output for an object?",
+                    "expectedAnswer": "java.lang.Object@5b2b6037, the default output.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "In the practice question on polymorphism on p10, why does the statement Student s = (Student) h1; cause a runtime error? Can you explain the concept behind this?",
+            "expectedAnswer": "The statement Student s = (Student) h1; causes a runtime error because h1 is actually a Human object, not a Student object. Even though h1 is being cast to Student, it does not change the actual type of the object at runtime. The runtime type of h1 is checked, and since it is not a Student, a ClassCastException is thrown.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why does casting h1 to Student cause a runtime error?",
+                    "expectedAnswer": "h1 is a Human, not a Student, causing a ClassCastException.",
+                    "similarityLevel": "0.40"
+                },
+                {
+                    "question": "What is the error when casting a Human object to a Student?",
+                    "expectedAnswer": "A ClassCastException is thrown because the runtime type is checked.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you explain why Student s = (Student) h1; fails at runtime?",
+                    "expectedAnswer": "h1 is a Human, not a Student, causing a runtime ClassCastException.",
+                    "similarityLevel": "0.85"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "In the midterm practice questions on p9, why is the declaration class WorkingStudent implements Comparable, Serializable considered valid?",
+            "expectedAnswer": "The declaration class WorkingStudent implements Comparable, Serializable is considered valid because a class can implement multiple interfaces in Java. This means WorkingStudent can provide implementations for the methods in both the Comparable and Serializable interfaces, allowing objects of WorkingStudent to be compared and serialized, respectively.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why can a class implement multiple interfaces in Java?",
+                    "expectedAnswer": "Java allows a class to implement multiple interfaces, like Comparable and Serializable.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Is it valid for WorkingStudent to implement Comparable and Serializable?",
+                    "expectedAnswer": "Yes, a class can implement multiple interfaces.",
+                    "similarityLevel": "0.78"
+                },
+                {
+                    "question": "Why is the class WorkingStudent implements Comparable, Serializable valid?",
+                    "expectedAnswer": "A class can implement multiple interfaces in Java, such as Comparable and Serializable.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        }
+    ],
+    "General": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do you handle input and output exceptions when reading a file using Scanner in Java?",
+            "expectedAnswer": "When using Scanner to read a file in Java, input and output exceptions should be handled using try-catch blocks. Specifically, you should catch FileNotFoundException when creating a Scanner object for a file. Additionally, ensure that the Scanner is closed in a finally block or use a try-with-resources statement to automatically close the Scanner.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you catch input and output exceptions when reading a file using Scanner in Java?",
+                    "expectedAnswer": "Use try-catch blocks to handle exceptions. Catch FileNotFoundException when creating a Scanner for a file, and close the Scanner in a finally block or use try-with-resources.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is the best way to handle file reading exceptions in Java?",
+                    "expectedAnswer": "Employ try-catch to catch FileNotFoundException and use try-with-resources for automatic resource management.",
+                    "similarityLevel": "0.82"
+                },
+                {
+                    "question": "How can you ensure a Scanner is properly closed after reading a file?",
+                    "expectedAnswer": "Use try-with-resources or close the Scanner in a finally block to ensure it is properly closed.",
+                    "similarityLevel": "0.04"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "In the polymorphism slide, you mentioned three rules. Can you expand on Rule 3, 'dynamic binding,' and provide some examples?",
+            "expectedAnswer": "Rule 3 of polymorphism, dynamic binding, means that when invoking a method using a reference variable, the method in the actual object's class is executed, regardless of the reference type. For example, if you have a superclass reference pointing to a subclass object, the subclass's overridden method will be called. Example:\n\njava\nShape shape1 = new Circle();\nshape1.draw(); // Calls Circle's draw method\n\nShape shape2 = new Rectangle();\nshape2.draw(); // Calls Rectangle's draw method\n\nHere, even though shape1 and shape2 are references of type Shape, the draw method of the actual object's class (Circle and Rectangle) is executed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is dynamic binding in polymorphism, and how does it work in Java?",
+                    "expectedAnswer": "Dynamic binding means the method in the actual object's class is executed, regardless of the reference type. Example: Shape shape = new Circle(); shape.draw(); // Calls Circle's draw method.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "Can you explain dynamic method dispatch in Java?",
+                    "expectedAnswer": "Dynamic method dispatch refers to calling the overridden method based on the actual object's class. Example: Shape shape = new Rectangle(); shape.draw(); // Calls Rectangle's draw method.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How does dynamic binding work in Java?",
+                    "expectedAnswer": "Dynamic binding in Java means that method calls are resolved at runtime. For example, if a superclass reference variable refers to a subclass object, the subclass method is executed. Example: Shape shape = new Circle(); shape.draw(); // Calls Circle's draw method.",
+                    "similarityLevel": "0.01"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain the difference between primitive and reference types in Java.",
+            "expectedAnswer": "Primitive types in Java, such as int, double, and boolean, hold their values directly and have default values (0, 0.0, and false respectively). Reference types, such as Strings, arrays, and other class types, store references to their data (objects) and have a default value of null.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the difference between primitive and reference types in Java?",
+                    "expectedAnswer": "Primitive types hold their values directly with default values like 0, 0.0, and false. Reference types store references to objects and default to null.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How do primitive and reference types differ in Java?",
+                    "expectedAnswer": "Primitive types directly store values, while reference types store references to objects, with primitives having default values and references defaulting to null.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the distinction between primitive and reference types in Java?",
+                    "expectedAnswer": "Primitives have direct values and defaults like 0 and false; references point to objects and default to null.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the main benefit of using inheritance in Java?",
+            "expectedAnswer": "The main benefit of using inheritance in Java is to promote code reusability. By creating a superclass with common code and inheriting from it, subclasses can extend and add specific functionality without reimplementing the shared code.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is inheritance beneficial in Java?",
+                    "expectedAnswer": "Inheritance promotes code reusability, allowing subclasses to use and extend the functionality of a superclass without reimplementing shared code.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What advantage does inheritance offer in Java?",
+                    "expectedAnswer": "Inheritance allows for code reuse by enabling subclasses to inherit and extend common functionality from a superclass.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How does inheritance enhance code reusability in Java?",
+                    "expectedAnswer": "Inheritance enhances code reusability by letting subclasses inherit shared code from a superclass and add their specific functionality.",
+                    "similarityLevel": "0.92"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does Java enforce the concept of single inheritance?",
+            "expectedAnswer": "Java enforces the concept of single inheritance by allowing a class to extend only one superclass using the 'extends' keyword. This prevents a class from inheriting from multiple superclasses, which avoids the complexities and ambiguities associated with multiple inheritance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why does Java use single inheritance?",
+                    "expectedAnswer": "Java uses single inheritance to avoid the complexities and ambiguities associated with multiple inheritance.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "What is the purpose of single inheritance in Java?",
+                    "expectedAnswer": "Single inheritance in Java prevents a class from inheriting multiple superclasses, simplifying the inheritance structure.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "How does Java implement single inheritance?",
+                    "expectedAnswer": "Java implements single inheritance by allowing a class to extend only one superclass using the 'extends' keyword.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is method overriding and how is it used in Java inheritance?",
+            "expectedAnswer": "Method overriding in Java allows a subclass to provide a specific implementation of a method that is already defined in its superclass. This is done by defining a method in the subclass with the same signature (name, return type, and parameters) as in the superclass. It is used to allow a subclass to tailor the superclass method to its own needs.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you use method overriding in Java?",
+                    "expectedAnswer": "Method overriding is used to allow a subclass to provide a specific implementation of a method already defined in its superclass.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the purpose of method overriding in Java?",
+                    "expectedAnswer": "Method overriding allows a subclass to tailor a superclass method to its own needs by providing a specific implementation.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain method overriding in Java inheritance?",
+                    "expectedAnswer": "Method overriding involves defining a method in a subclass with the same signature as in the superclass to provide a specific implementation.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the rules for method overriding related to visibility and return types?",
+            "expectedAnswer": "When overriding a method in Java, the visibility of the overridden method in the subclass must be the same or more accessible than the method in the superclass. Additionally, the return type must be the same or a subtype (covariant return type) of the return type declared in the superclass method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the visibility rules for method overriding in Java?",
+                    "expectedAnswer": "The visibility of the overridden method in the subclass must be the same or more accessible than in the superclass.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does return type affect method overriding in Java?",
+                    "expectedAnswer": "The return type of the overridden method must be the same or a subtype of the return type in the superclass method.",
+                    "similarityLevel": "0.64"
+                },
+                {
+                    "question": "What are the visibility and return type rules for overriding methods?",
+                    "expectedAnswer": "Overridden methods must have the same or more accessible visibility and the same or a covariant return type as the superclass method.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the differences between abstract classes and interfaces in Java?",
+            "expectedAnswer": "Abstract classes can have both abstract and concrete methods, can have instance variables, and can provide a common base with default behaviors for subclasses. Interfaces, on the other hand, can only have abstract methods (until Java 8, after which default and static methods were added) and constants. A class can implement multiple interfaces but can only extend one abstract class.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do abstract classes and interfaces differ in Java?",
+                    "expectedAnswer": "Abstract classes can have concrete methods and instance variables, while interfaces (pre-Java 8) can only have abstract methods and constants.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the main difference between an abstract class and an interface?",
+                    "expectedAnswer": "The main difference is that abstract classes can have both abstract and concrete methods and instance variables, whereas interfaces can only have abstract methods and constants (pre-Java 8).",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you compare abstract classes and interfaces in Java?",
+                    "expectedAnswer": "Abstract classes can have concrete methods and instance variables, while interfaces can only have abstract methods and constants until Java 8, when default and static methods were introduced.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Describe the use of the 'super' keyword in Java.",
+            "expectedAnswer": "The 'super' keyword in Java is used to refer to the immediate superclass of the current object. It can be used to access superclass methods and constructors. For example, 'super.methodName()' calls a method from the superclass, and 'super(arguments)' calls a constructor from the superclass.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you use the 'super' keyword in Java?",
+                    "expectedAnswer": "The 'super' keyword refers to the superclass of the current object and can be used to call superclass methods and constructors.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is the purpose of the 'super' keyword in Java?",
+                    "expectedAnswer": "The 'super' keyword is used to access methods and constructors from the superclass of the current object.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain how the 'super' keyword works in Java?",
+                    "expectedAnswer": "The 'super' keyword allows access to the immediate superclass's methods and constructors. For example, 'super.methodName()' calls a method from the superclass, and 'super(arguments)' calls a superclass constructor.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain the concept of polymorphism in Java.",
+            "expectedAnswer": "Polymorphism in Java is the ability of an object to take on many forms. It allows a supertype reference to refer to a subtype object. This enables a single method to perform different functions based on the object it is acting upon. The main benefit is to allow one interface to be used for a general class of actions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is polymorphism in Java?",
+                    "expectedAnswer": "Polymorphism is the ability of an object to take on many forms, allowing a supertype reference to refer to a subtype object and enabling a single method to perform different functions based on the object.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain polymorphism in Java with an example?",
+                    "expectedAnswer": "Polymorphism allows a single method to perform different functions based on the object it is acting upon. For example, a method that takes a superclass type as a parameter can accept any subclass type and execute the appropriate subclass method.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does polymorphism work in Java?",
+                    "expectedAnswer": "Polymorphism in Java works by allowing a supertype reference to refer to a subtype object. This enables methods to perform different functions based on the actual object's type, providing flexibility in code.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the 'instanceof' operator function in Java?",
+            "expectedAnswer": "The 'instanceof' operator in Java is used to test whether an object is an instance of a specific class or a subclass thereof. It returns true if the object is an instance of the specified class (or subclass), and false otherwise. It is useful for type checking before performing type-specific operations.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of the 'instanceof' operator in Java?",
+                    "expectedAnswer": "The 'instanceof' operator tests whether an object is an instance of a specific class or a subclass thereof, returning true or false based on the result.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do you use the 'instanceof' operator in Java?",
+                    "expectedAnswer": "Use the 'instanceof' operator to check if an object is an instance of a particular class or subclass before performing type-specific operations.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain how 'instanceof' works in Java?",
+                    "expectedAnswer": "The 'instanceof' operator checks if an object is an instance of a specific class or subclass, returning true if it is and false otherwise, which is useful for type checking.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "In the inheritance slide, you discussed the use of the 'extends' keyword. Can you explain why inheritance is beneficial in Java and provide an example?",
+            "expectedAnswer": "Inheritance is beneficial in Java because it promotes code reuse and logical hierarchy. It allows a new class (subclass) to inherit fields and methods from an existing class (superclass), thus enabling the subclass to reuse the code and add or override methods to introduce new functionalities. Example:\n\njava\nclass Shape {\n String color;\n void setColor(String c) {\n color = c;\n }\n}\n\nclass Circle extends Shape {\n double radius;\n double getArea() {\n return Math.PI * radius * radius;\n }\n}\n\nHere, Circle inherits the color field and setColor method from Shape and adds its own field and method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is inheritance used in Java?",
+                    "expectedAnswer": "Inheritance is used to promote code reuse and logical hierarchy by allowing a subclass to inherit fields and methods from a superclass.",
+                    "similarityLevel": "0.50"
+                },
+                {
+                    "question": "Can you give an example of inheritance in Java?",
+                    "expectedAnswer": "Example: class Circle extends Shape; Circle inherits fields and methods from Shape, adding its own specific methods.",
+                    "similarityLevel": "0.32"
+                },
+                {
+                    "question": "What are the benefits of using inheritance in Java?",
+                    "expectedAnswer": "Benefits include code reuse and logical hierarchy, allowing subclasses to reuse and extend superclass functionality.",
+                    "similarityLevel": "0.42"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Regarding the abstract classes slide, can you clarify why you cannot instantiate an abstract class and provide an example of when you might use one?",
+            "expectedAnswer": "You cannot instantiate an abstract class because it is meant to be a blueprint for other classes. Abstract classes can contain abstract methods, which are methods without a body that must be implemented by subclasses. They are used when you have a base class that should not be instantiated but still want to enforce a certain structure on the derived classes. Example:\n\njava\nabstract class Animal {\n abstract void makeSound();\n}\n\nclass Dog extends Animal {\n void makeSound() {\n System.out.println('Woof');\n }\n}\n\nclass Cat extends Animal {\n void makeSound() {\n System.out.println('Meow');\n }\n}\n\nIn this example, Animal is an abstract class with an abstract method makeSound. Both Dog and Cat classes implement this method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why can't you instantiate an abstract class in Java?",
+                    "expectedAnswer": "An abstract class cannot be instantiated because it is a blueprint for other classes and can contain abstract methods that need to be implemented by subclasses.",
+                    "similarityLevel": "0.76"
+                },
+                {
+                    "question": "Can you provide an example of when to use an abstract class in Java?",
+                    "expectedAnswer": "Use an abstract class when you have a base class with methods that must be implemented by subclasses. Example: abstract class Animal with abstract method makeSound.",
+                    "similarityLevel": "0.77"
+                },
+                {
+                    "question": "What is an abstract class and why can't it be instantiated?",
+                    "expectedAnswer": "An abstract class is a blueprint for other classes with abstract methods to be implemented by subclasses, hence it cannot be instantiated directly.",
+                    "similarityLevel": "0.63"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Why are constructors important in Java, and what rules do they follow?",
+            "expectedAnswer": "Constructors are important in Java because they initialize new objects. They must have the same name as the class and do not have a return type. A constructor can be overloaded to allow different ways of initializing objects. If no constructor is defined, Java provides a default constructor that initializes instance variables to default values.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of constructors in Java?",
+                    "expectedAnswer": "Constructors initialize new objects and have the same name as the class without a return type.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How do constructors work in Java?",
+                    "expectedAnswer": "Constructors initialize objects, must have the same name as the class, and do not have a return type. They can be overloaded.",
+                    "similarityLevel": "0.85"
+                },
+                {
+                    "question": "Why are constructors necessary in Java?",
+                    "expectedAnswer": "Constructors are necessary to initialize objects and set up initial values for instance variables.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the function of the 'this' keyword in Java?",
+            "expectedAnswer": "The 'this' keyword in Java is used to refer to the current instance of the class. It is useful for distinguishing between instance variables and parameters with the same name, and it can also be used to invoke other constructors in the same class.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What does the 'this' keyword do in Java?",
+                    "expectedAnswer": "The 'this' keyword refers to the current instance of the class and helps distinguish between instance variables and parameters with the same name.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How is the 'this' keyword used in Java?",
+                    "expectedAnswer": "The 'this' keyword is used to refer to the current object instance and to invoke other constructors within the same class.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the purpose of the 'this' keyword in Java?",
+                    "expectedAnswer": "The 'this' keyword refers to the current instance of the class, distinguishing instance variables from parameters and invoking other constructors.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do you implement a deep copy of an object in Java?",
+            "expectedAnswer": "To implement a deep copy of an object in Java, you need to create a clone method that not only clones the object itself but also recursively clones all objects that are referenced by it. This involves overriding the clone() method from the Object class and ensuring that each contained object also implements Cloneable and its clone method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the process for creating a deep copy of an object in Java?",
+                    "expectedAnswer": "Create a clone method that clones the object and recursively clones all referenced objects, ensuring each contained object implements Cloneable.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do you make a deep copy of an object in Java?",
+                    "expectedAnswer": "Override the clone() method and recursively clone all referenced objects, ensuring they implement Cloneable.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the steps to implement a deep copy in Java?",
+                    "expectedAnswer": "Override the clone() method from the Object class and recursively clone all referenced objects, making sure they implement Cloneable.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is dynamic binding in Java, and how does it work?",
+            "expectedAnswer": "Dynamic binding in Java refers to the process where the method to be invoked is determined at runtime rather than compile-time. When a method is called on an object, the JVM determines the appropriate method implementation based on the actual object's type, not the reference type, allowing for method overriding to be utilized effectively.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does dynamic binding function in Java?",
+                    "expectedAnswer": "Dynamic binding determines the method to invoke at runtime based on the actual object's type, not the reference type.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain dynamic binding in Java?",
+                    "expectedAnswer": "Dynamic binding allows the JVM to determine the method implementation at runtime based on the actual object's type, enabling method overriding.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the purpose of dynamic binding in Java?",
+                    "expectedAnswer": "Dynamic binding allows method calls to be resolved at runtime based on the actual object's type, facilitating method overriding.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the 'try-with-resources' statement improve resource management in Java?",
+            "expectedAnswer": "The 'try-with-resources' statement in Java ensures that each resource is closed at the end of the statement. It improves resource management by automatically closing resources such as streams, files, and sockets, which implement the AutoCloseable interface, thus preventing resource leaks.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the benefit of using 'try-with-resources' in Java?",
+                    "expectedAnswer": "The 'try-with-resources' statement automatically closes resources, preventing leaks and improving resource management.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How does 'try-with-resources' help in managing resources?",
+                    "expectedAnswer": "'Try-with-resources' automatically closes resources that implement AutoCloseable, preventing leaks.",
+                    "similarityLevel": "0.91"
+                },
+                {
+                    "question": "Can you explain how 'try-with-resources' works in Java?",
+                    "expectedAnswer": "'Try-with-resources' ensures resources are closed at the end of the statement, managing them automatically and preventing leaks.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Describe the difference between checked and unchecked exceptions, providing examples of each.",
+            "expectedAnswer": "Checked exceptions are subclasses of Exception excluding RuntimeException, e.g., IOException, FileNotFoundException. They must be handled using try-catch or declared with throws. Unchecked exceptions are subclasses of Error or RuntimeException, e.g., ArithmeticException, NullPointerException, and do not require explicit handling.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are checked and unchecked exceptions in Java?",
+                    "expectedAnswer": "Checked exceptions, like IOException, must be handled or declared, while unchecked exceptions, like NullPointerException, do not require explicit handling.",
+                    "similarityLevel": "0.85"
+                },
+                {
+                    "question": "Can you give examples of checked and unchecked exceptions?",
+                    "expectedAnswer": "Examples: Checked - IOException; Unchecked - NullPointerException.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How do checked and unchecked exceptions differ in Java?",
+                    "expectedAnswer": "Checked exceptions must be handled or declared, while unchecked exceptions do not require explicit handling.",
+                    "similarityLevel": "0.88"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain how dynamic binding works in Java, and provide an example demonstrating how method calls are resolved at runtime based on the actual object type.",
+            "expectedAnswer": "Dynamic binding in Java means that method calls are resolved at runtime. For example, if a superclass reference variable refers to a subclass object, the subclass method is executed. Example:\njava\nShape shape = new Circle();\nshape.draw(); // Calls Circle's draw method\n Here, even though shape is a Shape reference, the draw method of Circle is called at runtime.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does dynamic binding resolve method calls at runtime?",
+                    "expectedAnswer": "Dynamic binding resolves method calls at runtime based on the actual object's type, not the reference type.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you provide an example of dynamic binding in Java?",
+                    "expectedAnswer": "Example: Shape shape = new Circle(); shape.draw(); // Calls Circle's draw method at runtime.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "What is dynamic binding in Java with an example?",
+                    "expectedAnswer": "Dynamic binding allows the JVM to determine the method implementation at runtime based on the actual object's type. Example: Shape shape = new Circle(); shape.draw(); // Calls Circle's draw method.",
+                    "similarityLevel": "0.90"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the steps for using I/O streams in Java, and why is it important to follow these steps to manage system resources efficiently?",
+            "expectedAnswer": "There are three steps for using I/O streams in Java: 1) Open the stream, 2) Read from or write to the stream, 3) Close the stream. These steps are crucial for managing system resources efficiently and preventing resource leaks.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the steps to use I/O streams in Java?",
+                    "expectedAnswer": "Steps: Open the stream, read/write to the stream, close the stream.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "Why is it important to close I/O streams in Java?",
+                    "expectedAnswer": "Closing I/O streams prevents resource leaks and ensures efficient resource management.",
+                    "similarityLevel": "0.82"
+                },
+                {
+                    "question": "Can you explain the steps for using I/O streams in Java?",
+                    "expectedAnswer": "Steps: Open the stream, read/write, close the stream. This prevents resource leaks and ensures efficient resource management.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of default methods in Java interfaces?",
+            "expectedAnswer": "Default methods in interfaces provide a default implementation that can be used by all classes implementing the interface. This allows new methods to be added to interfaces without breaking existing implementations, providing backward compatibility.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why are default methods used in Java interfaces?",
+                    "expectedAnswer": "Default methods provide a default implementation to avoid breaking existing implementations when new methods are added.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is the advantage of default methods in Java interfaces?",
+                    "expectedAnswer": "Default methods ensure backward compatibility by providing a default implementation for new methods added to interfaces.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How do default methods in Java interfaces provide backward compatibility?",
+                    "expectedAnswer": "Default methods allow new methods to be added to interfaces without breaking existing implementations by providing a default implementation.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain the concept of multiple inheritance in Java using interfaces.",
+            "expectedAnswer": "Java supports multiple inheritance through interfaces. A class can implement multiple interfaces, allowing it to inherit the abstract methods of each interface. This is different from class inheritance, where a class can only extend one superclass. Multiple inheritance with interfaces allows for a flexible design without the complications of multiple class inheritance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does Java achieve multiple inheritance?",
+                    "expectedAnswer": "Java achieves multiple inheritance through interfaces. A class can implement multiple interfaces, inheriting their abstract methods.",
+                    "similarityLevel": "0.89"
+                },
+                {
+                    "question": "What is the purpose of multiple inheritance in Java?",
+                    "expectedAnswer": "Multiple inheritance via interfaces allows a class to inherit abstract methods from multiple sources, enhancing flexibility.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "Can you explain multiple inheritance in Java using interfaces?",
+                    "expectedAnswer": "Multiple inheritance in Java is achieved by implementing multiple interfaces, which allows a class to inherit methods from multiple sources.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does the try-catch block work in Java?",
+            "expectedAnswer": "The try-catch block in Java is used to handle exceptions. Code that might throw an exception is placed inside the try block. If an exception occurs, the flow of control is transferred to the corresponding catch block that can handle that specific exception. Multiple catch blocks can be used to handle different types of exceptions. Finally, the 'finally' block can be used to execute code that must run regardless of whether an exception occurred or not.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of a try-catch block in Java?",
+                    "expectedAnswer": "A try-catch block handles exceptions by executing code in the try block and catching exceptions in the catch block.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does a try-catch block handle exceptions in Java?",
+                    "expectedAnswer": "Exceptions are caught in the catch block after they occur in the try block. Multiple catch blocks can handle different exceptions.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the use of the try-catch block in Java?",
+                    "expectedAnswer": "The try block contains code that might throw exceptions, and the catch block handles them. The finally block can execute code regardless of exceptions.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Explain the concept of recursion with an example.",
+            "expectedAnswer": "Recursion is a programming technique where a method calls itself to solve a problem. For example, the factorial of a number n (denoted as n!) can be defined recursively as: factorial(n) = n * factorial(n-1) with the base case being factorial(0) = 1.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is recursion in programming?",
+                    "expectedAnswer": "Recursion is a technique where a method calls itself to solve a problem. Example: factorial(n) = n * factorial(n-1) with factorial(0) = 1.",
+                    "similarityLevel": "0.32"
+                },
+                {
+                    "question": "Can you provide an example of recursion?",
+                    "expectedAnswer": "Example: factorial(n) = n * factorial(n-1). Base case: factorial(0) = 1.",
+                    "similarityLevel": "0.91"
+                },
+                {
+                    "question": "How does recursion work in Java?",
+                    "expectedAnswer": "Recursion involves a method calling itself to solve smaller instances of the problem until a base case is reached. Example: factorial(n) = n * factorial(n-1).",
+                    "similarityLevel": "0.04"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the base case and the recursive case in a recursive function?",
+            "expectedAnswer": "The base case in a recursive function is the condition under which the function stops calling itself, preventing an infinite loop. The recursive case is the part of the function where the recursion actually occurs. For example, in computing the factorial of a number, factorial(0) = 1 is the base case, and factorial(n) = n * factorial(n-1) is the recursive case.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is a base case in recursion?",
+                    "expectedAnswer": "The base case is the condition that stops the recursion, preventing an infinite loop.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the recursive case in a recursive function?",
+                    "expectedAnswer": "The recursive case is where the function calls itself to solve smaller instances of the problem. Example: factorial(n) = n * factorial(n-1).",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "What are the base case and recursive case in recursion?",
+                    "expectedAnswer": "The base case stops the recursion, while the recursive case is where the function calls itself. Example: factorial(0) = 1 (base case), factorial(n) = n * factorial(n-1) (recursive case).",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A4 Q1, it says to write a Java program to track how many times the program has been executed by storing an int in a file. What should the program do if it encounters an IOException when trying to read or write to the file?",
+            "expectedAnswer": "The program should handle the IOException by displaying an appropriate error message to the user and terminating gracefully or attempting a retry mechanism. The specifics of the error handling should be implemented in a way that does not cause the program to crash.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should a Java program handle IOException when reading or writing to a file?",
+                    "expectedAnswer": "The program should handle IOException by displaying an error message and terminating gracefully or retrying.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What should a program do if it encounters an IOException while accessing a file?",
+                    "expectedAnswer": "Handle the IOException by showing an error message and either terminating gracefully or retrying the operation.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you explain how to handle IOException in a Java program?",
+                    "expectedAnswer": "Handle IOException by displaying an error message and either gracefully terminating or retrying the operation to prevent crashing.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A4 Q3, regarding the backup method, should the partSize parameter be considered in bytes, kilobytes, megabytes, or gigabytes, and how should the method handle non-integer values for partSize?",
+            "expectedAnswer": "The partSize parameter should be considered in megabytes as specified in the question. The method should handle non-integer values for partSize by rounding them appropriately or converting them to the nearest whole number of bytes for processing. Additionally, the method should check for valid positive values and handle any invalid input with an error message.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What unit should be used for the partSize parameter in the backup method?",
+                    "expectedAnswer": "The partSize parameter should be in megabytes.",
+                    "similarityLevel": "0.89"
+                },
+                {
+                    "question": "How should non-integer values for partSize be handled in the backup method?",
+                    "expectedAnswer": "Non-integer values should be rounded appropriately or converted to the nearest whole number of bytes.",
+                    "similarityLevel": "0.77"
+                },
+                {
+                    "question": "Can you explain how to handle partSize in the backup method?",
+                    "expectedAnswer": "PartSize should be in megabytes. Non-integer values should be rounded or converted to the nearest whole number of bytes.",
+                    "similarityLevel": "0.41"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A5 Q2, the reverse method, should the helper method be a private static method within the same class, and should it handle null or empty strings differently?",
+            "expectedAnswer": "Yes, the helper method should be a private static method within the same class to ensure encapsulation and improve performance. It should handle null or empty strings by returning immediately without attempting to process further, ensuring that the program does not crash or produce incorrect results.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the reverse helper method be a private static method?",
+                    "expectedAnswer": "Yes, it should be private and static for encapsulation and performance.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How should the reverse helper method handle null or empty strings?",
+                    "expectedAnswer": "The method should return immediately if the input is null or an empty string.",
+                    "similarityLevel": "0.77"
+                },
+                {
+                    "question": "Can you explain how to implement the reverse helper method?",
+                    "expectedAnswer": "The helper method should be private and static, handling null or empty strings by returning immediately.",
+                    "similarityLevel": "0.18"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A5 Q4, the method listAllFiles, how should the program handle symbolic links to avoid infinite loops, and should it include hidden files and directories in the output?",
+            "expectedAnswer": "The program should detect symbolic links and avoid traversing them to prevent infinite loops. It can do this by checking if the file is a symbolic link using methods provided in the Java NIO package. The inclusion of hidden files and directories should be specified in the requirements, but by default, the program should include all files and directories unless specified otherwise.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the program handle symbolic links in the listAllFiles method?",
+                    "expectedAnswer": "Detect symbolic links and avoid traversing them to prevent infinite loops.",
+                    "similarityLevel": "0.86"
+                },
+                {
+                    "question": "Should hidden files be included in the listAllFiles method?",
+                    "expectedAnswer": "The inclusion of hidden files should be specified in the requirements, but by default, all files and directories should be included.",
+                    "similarityLevel": "0.09"
+                },
+                {
+                    "question": "Can you explain how to handle symbolic links and hidden files in listAllFiles?",
+                    "expectedAnswer": "Avoid traversing symbolic links to prevent infinite loops. Include hidden files unless specified otherwise.",
+                    "similarityLevel": "0.31"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A6 Q1, should the noDuplicates method maintain the order of the first occurrence of each element in the list, and how should it handle null values in the input list?",
+            "expectedAnswer": "Yes, the noDuplicates method should maintain the order of the first occurrence of each element to ensure that the original order is preserved. The method should handle null values by either ignoring them or explicitly removing them from the returned list, depending on the specified requirements.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the noDuplicates method maintain the order of elements?",
+                    "expectedAnswer": "Yes, it should maintain the order of the first occurrence of each element.",
+                    "similarityLevel": "0.79"
+                },
+                {
+                    "question": "How should the noDuplicates method handle null values?",
+                    "expectedAnswer": "Handle null values by ignoring them or explicitly removing them from the returned list.",
+                    "similarityLevel": "0.25"
+                },
+                {
+                    "question": "Can you explain the implementation of the noDuplicates method?",
+                    "expectedAnswer": "Maintain the order of the first occurrence of each element and handle null values by ignoring or removing them from the list.",
+                    "similarityLevel": "0.03"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A6 Q2, in the printShuffled method, should the program handle empty lines or lines without sentence-ending punctuation differently, and how should it handle files that do not exist or cannot be opened?",
+            "expectedAnswer": "The printShuffled method should handle empty lines or lines without sentence-ending punctuation by ignoring them or treating them as part of the previous sentence. If a file does not exist or cannot be opened, the method should catch the IOException and display an appropriate error message to the user, possibly allowing the user to retry with a different file.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the printShuffled method handle empty lines?",
+                    "expectedAnswer": "Handle empty lines by ignoring them or treating them as part of the previous sentence.",
+                    "similarityLevel": "0.87"
+                },
+                {
+                    "question": "What should the printShuffled method do if a file cannot be opened?",
+                    "expectedAnswer": "Catch the IOException and display an error message, allowing the user to retry with a different file.",
+                    "similarityLevel": "0.23"
+                },
+                {
+                    "question": "Can you explain how to handle empty lines and file errors in printShuffled?",
+                    "expectedAnswer": "Ignore empty lines or treat them as part of the previous sentence. Catch IOException and display an error message if a file cannot be opened.",
+                    "similarityLevel": "0.46"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A7, in the PatientManager class, how should the program handle cases where the user inputs an emergency value outside the range of 1 to 5 or provides a non-numeric value?",
+            "expectedAnswer": "The program should validate the user input for the emergency value, ensuring it is a number within the range of 1 to 5. If the input is outside this range or non-numeric, the program should display an error message and prompt the user to enter a valid value without crashing.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the PatientManager class handle invalid emergency values?",
+                    "expectedAnswer": "Validate the emergency value to ensure it is a number within 1 to 5. Display an error message for invalid or non-numeric inputs.",
+                    "similarityLevel": "0.80"
+                },
+                {
+                    "question": "What should the PatientManager class do if an emergency value is out of range?",
+                    "expectedAnswer": "Display an error message and prompt the user to enter a valid value within the range of 1 to 5.",
+                    "similarityLevel": "0.75"
+                },
+                {
+                    "question": "Can you explain how to handle invalid emergency values in PatientManager?",
+                    "expectedAnswer": "Validate the emergency value to ensure it is within 1 to 5 and display an error message for invalid or non-numeric inputs.",
+                    "similarityLevel": "0.30"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A7, should the PatientManager class implement any specific thread-safety mechanisms to handle concurrent modifications to the priority queue, and if so, what are the recommended practices?",
+            "expectedAnswer": "The PatientManager class should implement thread-safety mechanisms if the program is expected to handle concurrent modifications to the priority queue. Recommended practices include using synchronized blocks or methods, or employing concurrent data structures like `PriorityBlockingQueue` from the `java.util.concurrent` package to ensure thread-safe operations.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can the PatientManager class ensure thread safety with the priority queue?",
+                    "expectedAnswer": "Use synchronized blocks or methods, or employ concurrent data structures like `PriorityBlockingQueue`.",
+                    "similarityLevel": "0.79"
+                },
+                {
+                    "question": "What are the recommended practices for thread safety in PatientManager?",
+                    "expectedAnswer": "Implement synchronized blocks or methods, or use concurrent data structures to ensure thread-safe operations.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "Can you explain thread safety mechanisms for PatientManager?",
+                    "expectedAnswer": "Use synchronized blocks or methods, or concurrent data structures like `PriorityBlockingQueue` to handle concurrent modifications to the priority queue.",
+                    "similarityLevel": "0.17"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A1 Q1, the assignment involves checking instances of different classes using 'instanceof'. Can you clarify whether 'fruit instanceof Orange' would return true if 'fruit' is an instance of GoldenDelicious which extends Apple and Fruit?",
+            "expectedAnswer": "No, 'fruit instanceof Orange' would return false because 'fruit' is an instance of GoldenDelicious, which does not inherit from Orange. The 'instanceof' operator checks the actual inheritance hierarchy, and GoldenDelicious is not related to Orange.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Does 'fruit instanceof Orange' return true if 'fruit' is a GoldenDelicious?",
+                    "expectedAnswer": "No, because GoldenDelicious does not inherit from Orange.",
+                    "similarityLevel": "0.74"
+                },
+                {
+                    "question": "How does 'instanceof' work with unrelated classes in Java?",
+                    "expectedAnswer": "'Instanceof' returns false if the object does not belong to the specified class or its subclasses.",
+                    "similarityLevel": "0.09"
+                },
+                {
+                    "question": "Can you explain 'instanceof' with an example of unrelated classes?",
+                    "expectedAnswer": "'Instanceof' returns false if the object is not an instance of the specified class or its subclasses. Example: 'fruit instanceof Orange' returns false if 'fruit' is a GoldenDelicious.",
+                    "similarityLevel": "0.19"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A1 Q1, the assignment asks if 'fruit' can invoke the 'makeAppleCider' method. Given that 'fruit' is an instance of GoldenDelicious, should this method be directly invocable, or does it depend on the type cast?",
+            "expectedAnswer": "Whether 'fruit' can invoke 'makeAppleCider' depends on whether the method is defined in the Fruit class or any of its superclasses. If 'makeAppleCider' is defined in Apple or GoldenDelicious, 'fruit' would need to be cast to Apple or GoldenDelicious respectively to invoke the method.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can 'fruit' invoke 'makeAppleCider' if 'fruit' is a GoldenDelicious?",
+                    "expectedAnswer": "It depends on whether 'makeAppleCider' is defined in Apple or GoldenDelicious. A cast may be needed.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "How does type casting affect method invocation in Java?",
+                    "expectedAnswer": "Type casting may be necessary to invoke methods defined in subclasses or specific types.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you explain method invocation with type casting in Java?",
+                    "expectedAnswer": "Method invocation may require type casting to the appropriate subclass if the method is not defined in the superclass.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A2 Q2, when implementing the Hexagon class, how should we handle the 'clone' method to ensure that it creates a deep copy of the Hexagon object?",
+            "expectedAnswer": "To handle the 'clone' method in the Hexagon class, ensure that you override the method properly and call 'super.clone()' within a try-catch block. This will create a shallow copy, but since Hexagon only contains primitive types, this is effectively a deep copy. Make sure to also implement the Cloneable interface.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you implement the 'clone' method in the Hexagon class?",
+                    "expectedAnswer": "Override the 'clone' method, call 'super.clone()' within a try-catch block, and implement Cloneable.",
+                    "similarityLevel": "0.74"
+                },
+                {
+                    "question": "What is the process for cloning a Hexagon object in Java?",
+                    "expectedAnswer": "Override 'clone', call 'super.clone()', and implement Cloneable for a deep copy.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "Can you explain how to ensure a deep copy with the 'clone' method in Hexagon?",
+                    "expectedAnswer": "Override the 'clone' method, use 'super.clone()', and implement Cloneable. For Hexagon, this creates an effective deep copy as it contains only primitive types.",
+                    "similarityLevel": "0.70"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A2 Q1, the assignment requires modifying the Shape class to implement Comparable based on the area. Should the compareTo method handle cases where the area of one shape is undefined or zero?",
+            "expectedAnswer": "The compareTo method should handle cases where the area is undefined by first checking if the areas are valid (e.g., greater than zero). If areas are zero or invalid, it can throw an appropriate exception or handle the comparison logic accordingly to avoid incorrect comparisons.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the compareTo method handle undefined or zero areas?",
+                    "expectedAnswer": "Check if the areas are valid. If not, throw an exception or handle the comparison logic appropriately.",
+                    "similarityLevel": "0.47"
+                },
+                {
+                    "question": "What should the compareTo method do with invalid area values?",
+                    "expectedAnswer": "Throw an exception or handle the logic to avoid incorrect comparisons.",
+                    "similarityLevel": "0.13"
+                },
+                {
+                    "question": "Can you explain how to handle undefined or zero areas in compareTo?",
+                    "expectedAnswer": "Ensure the areas are valid before comparison. Handle invalid areas by throwing an exception or implementing appropriate logic.",
+                    "similarityLevel": "0.13"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A3 Q1, when handling out-of-bounds exceptions in the version that uses exception handling, should the program immediately terminate after an invalid index, or should it prompt the user to try again?",
+            "expectedAnswer": "The program should not terminate immediately after an invalid index. Instead, it should catch the exception, display an error message, and prompt the user to enter another index until a valid one is received. This ensures the program handles errors gracefully and continues execution.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the program terminate after an out-of-bounds exception?",
+                    "expectedAnswer": "No, the program should catch the exception, display an error message, and prompt the user to try again.",
+                    "similarityLevel": "0.88"
+                },
+                {
+                    "question": "How should the program handle out-of-bounds exceptions?",
+                    "expectedAnswer": "Catch the exception, display an error message, and prompt the user to enter a valid index.",
+                    "similarityLevel": "0.57"
+                },
+                {
+                    "question": "Can you explain how to handle out-of-bounds exceptions gracefully?",
+                    "expectedAnswer": "Do not terminate the program. Catch the exception, show an error message, and prompt the user for a valid index.",
+                    "similarityLevel": "0.21"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A3 Q2, when using Scanner to read a mathematical formula, how can we ensure that we catch InputMismatchException specifically when the user enters a non-numeric value instead of a number?",
+            "expectedAnswer": "To catch InputMismatchException, use a try-catch block around the part of the code where the Scanner reads the numeric values with 'nextDouble()'. If an exception is caught, prompt the user to enter the formula again. This approach will ensure that non-numeric values are handled correctly.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can we catch InputMismatchException when reading a mathematical formula?",
+                    "expectedAnswer": "Use a try-catch block around 'nextDouble()' to catch non-numeric values and prompt the user to re-enter the formula.",
+                    "similarityLevel": "0.60"
+                },
+                {
+                    "question": "What is the best way to handle non-numeric values when reading input with Scanner?",
+                    "expectedAnswer": "Catch InputMismatchException with a try-catch block and prompt the user to enter a valid value.",
+                    "similarityLevel": "0.03"
+                },
+                {
+                    "question": "Can you explain how to handle InputMismatchException with Scanner?",
+                    "expectedAnswer": "Use try-catch around 'nextDouble()' to catch non-numeric inputs and prompt the user to re-enter the formula.",
+                    "similarityLevel": "0.09"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A5 Q1, the program should allow a user to enter numbers until they input 0. Should the number 0 be included in the count of even numbers, and how should the program handle multiple zero inputs?",
+            "expectedAnswer": "The number 0 should not be included in the count of even numbers, nor should it affect the sum and average calculations. If the user inputs multiple zeros, the program should simply continue to prompt for input without including these zeros in any of the calculations.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the number 0 be included in the count of even numbers?",
+                    "expectedAnswer": "No, the number 0 should not be included in the count of even numbers.",
+                    "similarityLevel": "0.21"
+                },
+                {
+                    "question": "How should the program handle multiple zero inputs?",
+                    "expectedAnswer": "Continue to prompt for input without including zeros in the calculations.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "Can you explain how to handle the number 0 in the program?",
+                    "expectedAnswer": "Do not include 0 in the count of even numbers or in the calculations. Continue prompting for input if multiple zeros are entered.",
+                    "similarityLevel": "0.06"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A5 Q2, when writing the program to find perfect numbers between 1 and 10,000, should the program use a specific algorithm to check for perfect numbers efficiently?",
+            "expectedAnswer": "Yes, the program should use an efficient algorithm to check for perfect numbers. This can be done by iterating through numbers and for each number, summing its divisors up to half of that number (since a divisor cannot be greater than half the number). If the sum of divisors equals the number, it is a perfect number.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What algorithm should the program use to find perfect numbers?",
+                    "expectedAnswer": "Use an efficient algorithm by summing divisors up to half of the number. If the sum equals the number, it is perfect.",
+                    "similarityLevel": "0.62"
+                },
+                {
+                    "question": "How can the program efficiently check for perfect numbers?",
+                    "expectedAnswer": "Sum the divisors of each number up to half the number. If the sum equals the number, it is a perfect number.",
+                    "similarityLevel": "0.16"
+                },
+                {
+                    "question": "Can you explain an efficient method to find perfect numbers?",
+                    "expectedAnswer": "Iterate through numbers, sum divisors up to half the number. If the sum equals the number, it is a perfect number.",
+                    "similarityLevel": "0.04"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For A9 Q1, when implementing bubble sort using a Comparator, should the method handle cases where the Comparator is null, and if so, how?",
+            "expectedAnswer": "Yes, the method should handle cases where the Comparator is null. If the Comparator is null, the method should fall back to using the Comparable interface of the Patient class to compare elements. This ensures the method can still function without a custom Comparator.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the bubble sort method handle a null Comparator?",
+                    "expectedAnswer": "If the Comparator is null, fall back to using the Comparable interface of the Patient class.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "What should the bubble sort method do if the Comparator is null?",
+                    "expectedAnswer": "Use the Comparable interface of the Patient class to compare elements.",
+                    "similarityLevel": "0.88"
+                },
+                {
+                    "question": "Can you explain how to handle a null Comparator in bubble sort?",
+                    "expectedAnswer": "Fallback to using the Comparable interface of the Patient class if the Comparator is null.",
+                    "similarityLevel": "0.74"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I have renamed MyLinkedList class to MyDoublyLinkedList in my project. Now, I'm getting a NullPointerException when I try to add elements to the list. Here is my code snippet:\n\n```java\npublic void add(E element) {\n    Node<E> newNode = new Node<>(element);\n    if (head == null) {\n        head = newNode;\n        tail = newNode;\n    } else {\n        tail.next = newNode;\n        newNode.previous = tail;\n        tail = newNode;\n    }\n}\n```\n\nCan you help me debug this issue?",
+            "expectedAnswer": "The NullPointerException might be caused by the `previous` reference not being properly initialized in the `Node` class or the `tail` being `null`. Ensure that the `Node` constructor initializes both `next` and `previous` references properly. Additionally, check if `tail` is correctly updated and not `null` before accessing its `next` reference.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why am I getting a NullPointerException when adding elements to MyDoublyLinkedList?",
+                    "expectedAnswer": "The `previous` reference might not be initialized properly, or `tail` might be `null`. Ensure proper initialization and updates.",
+                    "similarityLevel": "0.80"
+                },
+                {
+                    "question": "How can I debug a NullPointerException in MyDoublyLinkedList?",
+                    "expectedAnswer": "Check if `previous` and `next` references in the `Node` class are initialized correctly. Ensure `tail` is updated and not `null`.",
+                    "similarityLevel": "0.46"
+                },
+                {
+                    "question": "Can you help me fix the NullPointerException in MyDoublyLinkedList?",
+                    "expectedAnswer": "Ensure the `Node` constructor initializes `next` and `previous` references. Check if `tail` is updated correctly and not `null`.",
+                    "similarityLevel": "0.56"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I need to implement the `getNodeAt(int index)` method in my MyDoublyLinkedList class. How can I optimize this method using both `next` and `previous` references to improve performance?",
+            "expectedAnswer": "To optimize the `getNodeAt(int index)` method, you can start from the head if the index is less than half the size of the list, and from the tail if the index is greater than or equal to half the size of the list. This reduces the number of iterations needed to find the node. Here's a sample implementation:\n\n```java\npublic Node<E> getNodeAt(int index) {\n    if (index < 0 || index >= size) throw new IndexOutOfBoundsException();\n    Node<E> current;\n    if (index < size / 2) {\n        current = head;\n        for (int i = 0; i < index; i++) {\n            current = current.next;\n        }\n    } else {\n        current = tail;\n        for (int i = size - 1; i > index; i--) {\n            current = current.previous;\n        }\n    }\n    return current;\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I optimize the `getNodeAt(int index)` method in MyDoublyLinkedList?",
+                    "expectedAnswer": "Start from the head if index < size/2, and from the tail if index >= size/2 to reduce iterations.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the best way to implement `getNodeAt(int index)` in MyDoublyLinkedList?",
+                    "expectedAnswer": "Optimize by starting from the head if index < size/2, and from the tail if index >= size/2.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you provide an optimized implementation of `getNodeAt(int index)`?",
+                    "expectedAnswer": "Start from the head if index < size/2, and from the tail if index >= size/2 to minimize iterations.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I have created a Hexagon class that extends Shape and implements the Comparable and Cloneable interfaces. However, I'm not sure how to implement the `compareTo` method to compare Hexagon objects based on their area. Here is my Hexagon class:\n\n```java\npublic class Hexagon extends Shape implements Comparable<Shape>, Cloneable {\n    private double side;\n    // getters and setters\n    @Override\n    public int compareTo(Shape shp) {\n        // implementation needed\n    }\n    @Override\n    public Object clone() throws CloneNotSupportedException {\n        return super.clone();\n    }\n}\n```\n\nCan you help me with the `compareTo` method implementation?",
+            "expectedAnswer": "To implement the `compareTo` method, you can compare the areas of the current Hexagon object with the provided Shape object. Ensure that the comparison logic is based on the area. Here is the implementation:\n\n```java\n@Override\npublic int compareTo(Shape shp) {\n    if (shp instanceof Hexagon) {\n        double thisArea = this.getArea();\n        double otherArea = ((Hexagon) shp).getArea();\n        return Double.compare(thisArea, otherArea);\n    }\n    return 0; // or throw an exception if shp is not a Hexagon\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I implement the `compareTo` method in Hexagon class?",
+                    "expectedAnswer": "Compare the areas of the current Hexagon object with the provided Shape object based on their areas.",
+                    "similarityLevel": "0.80"
+                },
+                {
+                    "question": "What is the best way to compare Hexagon objects based on their area?",
+                    "expectedAnswer": "Use the `compareTo` method to compare the areas of Hexagon objects with the provided Shape object.",
+                    "similarityLevel": "0.21"
+                },
+                {
+                    "question": "Can you help me implement `compareTo` for Hexagon class?",
+                    "expectedAnswer": "Compare the areas of the current Hexagon object with the provided Shape object. Return the comparison result.",
+                    "similarityLevel": "0.67"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "In the test program for the Hexagon class, I need to create a clone of a Hexagon object and compare it to the original object using the `compareTo` method. Here is my test code:\n\n```java\npublic class HexagonTest {\n    public static void main(String[] args) throws CloneNotSupportedException {\n        Hexagon hex1 = new Hexagon(5.0, \"red\", true);\n        Hexagon hex2 = (Hexagon) hex1.clone();\n        int comparison = hex1.compareTo(hex2);\n        System.out.println(\"Comparison result: \" + comparison);\n    }\n}\n```\n\nI am getting a ClassCastException. How can I fix this?",
+            "expectedAnswer": "The ClassCastException is likely due to the `compareTo` method not handling different types properly. Ensure the `compareTo` method checks for the correct instance type before casting. Also, update the test code to include proper type checking.\n\nIn the `compareTo` method, ensure that you check if the `shp` object is an instance of `Hexagon` before casting. Here is the updated method:\n\n```java\n@Override\npublic int compareTo(Shape shp) {\n    if (shp instanceof Hexagon) {\n        double thisArea = this.getArea();\n        double otherArea = ((Hexagon) shp).getArea();\n        return Double.compare(thisArea, otherArea);\n    }\n    throw new ClassCastException(\"Cannot compare Hexagon with \" + shp.getClass().getName());\n}\n```\n\nIn your test program, ensure the clone method works correctly by also printing out the properties of the cloned object to verify the cloning process:\n\n```java\npublic class HexagonTest {\n    public static void main(String[] args) throws CloneNotSupportedException {\n        Hexagon hex1 = new Hexagon(5.0, \"red\", true);\n        Hexagon hex2 = (Hexagon) hex1.clone();\n        int comparison = hex1.compareTo(hex2);\n        System.out.println(\"Comparison result: \" + comparison);\n        System.out.println(\"Hexagon 1: \" + hex1);\n        System.out.println(\"Hexagon 2: \" + hex2);\n    }\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why am I getting a ClassCastException in my Hexagon test program?",
+                    "expectedAnswer": "Ensure the `compareTo` method checks for the correct instance type before casting. Update the method to handle different types properly.",
+                    "similarityLevel": "0.59"
+                },
+                {
+                    "question": "How can I fix the ClassCastException in my Hexagon test program?",
+                    "expectedAnswer": "Check if the `shp` object is an instance of `Hexagon` before casting in the `compareTo` method.",
+                    "similarityLevel": "0.54"
+                },
+                {
+                    "question": "Can you help me debug the ClassCastException in Hexagon test program?",
+                    "expectedAnswer": "Ensure the `compareTo` method handles different types correctly by checking the instance type before casting. Print properties of cloned objects to verify cloning.",
+                    "similarityLevel": "0.57"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I have implemented the bubbleSort method in my Sorter class to sort a list of Patient objects using the Comparable interface. However, my sorting doesn't seem to work as expected. Here is my method:\n\n```java\npublic static void bubbleSort(ArrayList<Patient> list) {\n    int n = list.size();\n    for (int i = 0; i < n-1; i++) {\n        for (int j = 0; j < n-i-1; j++) {\n            if (list.get(j).compareTo(list.get(j+1)) > 0) {\n                Patient temp = list.get(j);\n                list.set(j, list.get(j+1));\n                list.set(j+1, temp);\n            }\n        }\n    }\n}\n```\n\nWhat could be the issue?",
+            "expectedAnswer": "Ensure that the `Patient` class implements the `Comparable<Patient>` interface correctly. The `compareTo` method should define the natural ordering of `Patient` objects. Here is a sample implementation of the `compareTo` method in the `Patient` class:\n\n```java\npublic class Patient implements Comparable<Patient> {\n    // attributes and other methods\n    @Override\n    public int compareTo(Patient other) {\n        return this.id - other.id; // assuming sorting by id\n    }\n}\n```\n\nMake sure that the `compareTo` method is correctly implemented, and it returns a negative value, zero, or a positive value if `this` patient is less than, equal to, or greater than the specified patient, respectively.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why isn't my bubbleSort method working as expected?",
+                    "expectedAnswer": "Ensure the `Patient` class implements the `Comparable<Patient>` interface correctly and the `compareTo` method is implemented properly.",
+                    "similarityLevel": "0.24"
+                },
+                {
+                    "question": "How should the `compareTo` method be implemented in the Patient class?",
+                    "expectedAnswer": "Implement `compareTo` to define the natural ordering of Patient objects. Return a negative value, zero, or positive value based on comparison.",
+                    "similarityLevel": "0.12"
+                },
+                {
+                    "question": "Can you help me fix the bubbleSort method in my Sorter class?",
+                    "expectedAnswer": "Ensure `Patient` implements `Comparable<Patient>` correctly. Implement `compareTo` to define natural ordering, returning appropriate comparison values.",
+                    "similarityLevel": "0.73"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I need to measure the execution time of bubble sort, selection sort, and insertion sort in my Sorter class for different list sizes. How can I modify my main method to achieve this?",
+            "expectedAnswer": "You can measure the execution time of each sorting algorithm by recording the start and end time using `System.currentTimeMillis()`. Here is a sample implementation for your main method:\n\n```java\npublic class SorterTest {\n    public static void main(String[] args) {\n        int[] sizes = {5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000};\n        for (int size : sizes) {\n            ArrayList<Patient> list = generateRandomPatients(size);\n            ArrayList<Patient> list1 = (ArrayList<Patient>) list.clone();\n            ArrayList<Patient> list2 = (ArrayList<Patient>) list.clone();\n\n            long startTime = System.currentTimeMillis();\n            Sorter.bubbleSort(list);\n            long endTime = System.currentTimeMillis();\n            System.out.println(\"Bubble Sort time for \" + size + \" patients: \" + (endTime - startTime) + \"ms\");\n\n            startTime = System.currentTimeMillis();\n            Sorter.selectionSort(list1);\n            endTime = System.currentTimeMillis();\n            System.out.println(\"Selection Sort time for \" + size + \" patients: \" + (endTime - startTime) + \"ms\");\n\n            startTime = System.currentTimeMillis();\n            Sorter.insertionSort(list2);\n            endTime = System.currentTimeMillis();\n            System.out.println(\"Insertion Sort time for \" + size + \" patients: \" + (endTime - startTime) + \"ms\");\n        }\n    }\n\n    private static ArrayList<Patient> generateRandomPatients(int size) {\n        ArrayList<Patient> patients = new ArrayList<>();\n        Random rand = new Random();\n        for (int i = 0; i < size; i++) {\n            patients.add(new Patient(rand.nextInt(size), rand.nextBoolean()));\n        }\n        return patients;\n    }\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I measure the execution time of sorting algorithms in Java?",
+                    "expectedAnswer": "Use `System.currentTimeMillis()` to record start and end times of each sorting algorithm. Calculate the difference to get execution time.",
+                    "similarityLevel": "0.07"
+                },
+                {
+                    "question": "What is the best way to measure sorting algorithm execution time?",
+                    "expectedAnswer": "Record start and end times using `System.currentTimeMillis()`, then calculate the execution time.",
+                    "similarityLevel": "0.06"
+                },
+                {
+                    "question": "Can you provide a method to measure execution time of sorting algorithms?",
+                    "expectedAnswer": "Use `System.currentTimeMillis()` to record start and end times for each sorting algorithm. Calculate the difference to determine execution time.",
+                    "similarityLevel": "0.17"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "In my program for handling mathematical formulas, I need to catch an InputMismatchException when the user enters an invalid number. Here is my code:\n\n```java\npublic class MathFormula {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        while (true) {\n            System.out.println(\"Enter a mathematical formula (e.g., 4.3 + 5.1):\");\n            try {\n                double num1 = scanner.nextDouble();\n                String operator = scanner.next();\n                double num2 = scanner.nextDouble();\n                double result = 0;\n                switch (operator) {\n                    case \"+\": result = num1 + num2; break;\n                    case \"-\": result = num1 - num2; break;\n                    case \"*\": result = num1 * num2; break;\n                    case \"/\": result = num1 / num2; break;\n                    default: throw new InputMismatchException(\"Invalid operator\");\n                }\n                System.out.println(\"Result: \" + result);\n                break;\n            } catch (InputMismatchException e) {\n                System.out.println(\"Invalid input. Please try again.\");\n                scanner.nextLine(); // clear the invalid input\n            }\n        }\n    }\n}\n```\n\nHow can I improve this code to handle invalid inputs more effectively?",
+            "expectedAnswer": "You can improve the code by separating the input handling for numbers and operators, and by adding specific exception handling for invalid numbers. Here is the improved code:\n\n```java\npublic class MathFormula {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        while (true) {\n            System.out.println(\"Enter a mathematical formula (e.g., 4.3 + 5.1):\");\n            try {\n                String input = scanner.nextLine();\n                String[] parts = input.split(\" \");\n                if (parts.length != 3) throw new InputMismatchException(\"Invalid format\");\n                double num1 = Double.parseDouble(parts[0]);\n                String operator = parts[1];\n                double num2 = Double.parseDouble(parts[2]);\n                double result = 0;\n                switch (operator) {\n                    case \"+\": result = num1 + num2; break;\n                    case \"-\": result = num1 - num2; break;\n                    case \"*\": result = num1 * num2; break;\n                    case \"/\": result = num1 / num2; break;\n                    default: throw new InputMismatchException(\"Invalid operator\");\n                }\n                System.out.println(\"Result: \" + result);\n                break;\n            } catch (NumberFormatException e) {\n                System.out.println(\"Invalid number. Please try again.\");\n            } catch (InputMismatchException e) {\n                System.out.println(e.getMessage());\n            }\n        }\n    }\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I handle invalid inputs more effectively in my MathFormula program?",
+                    "expectedAnswer": "Separate input handling for numbers and operators. Add specific exception handling for invalid numbers.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "What is the best way to handle invalid inputs in my MathFormula program?",
+                    "expectedAnswer": "Separate input handling and add exception handling for invalid numbers. Improve error messages and prompt for re-entry.",
+                    "similarityLevel": "0.03"
+                },
+                {
+                    "question": "Can you provide an improved method for handling invalid inputs in MathFormula?",
+                    "expectedAnswer": "Separate input handling for numbers and operators. Add specific exception handling for invalid numbers and improve error messages.",
+                    "similarityLevel": "0.03"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I am trying to handle an `ArrayIndexOutOfBoundsException` when a user enters an invalid index to access an array element. Here is my code:\n\n```java\npublic class ArrayAccess {\n    public static void main(String[] args) {\n        int[] array = new int[50];\n        Random rand = new Random();\n        for (int i = 0; i < array.length; i++) {\n            array[i] = rand.nextInt(100);\n        }\n        Scanner scanner = new Scanner(System.in);\n        System.out.println(\"Enter an index (0-49):\");\n        try {\n            int index = scanner.nextInt();\n            System.out.println(\"Value at index \" + index + \": \" + array[index]);\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Out of Bounds\");\n        }\n    }\n}\n```\n\nHow can I modify this code to keep prompting the user until they enter a valid index?",
+            "expectedAnswer": "You can use a while loop to keep prompting the user until a valid index is entered. Here is the modified code:\n\n```java\npublic class ArrayAccess {\n    public static void main(String[] args) {\n        int[] array = new int[50];\n        Random rand = new Random();\n        for (int i = 0; i < array.length; i++) {\n            array[i] = rand.nextInt(100);\n        }\n        Scanner scanner = new Scanner(System.in);\n        int index = -1;\n        while (index < 0 || index >= array.length) {\n            System.out.println(\"Enter an index (0-49):\");\n            try {\n                index = scanner.nextInt();\n                if (index >= 0 && index < array.length) {\n                    System.out.println(\"Value at index \" + index + \": \" + array[index]);\n                } else {\n                    System.out.println(\"Out of Bounds\");\n                }\n            } catch (ArrayIndexOutOfBoundsException e) {\n                System.out.println(\"Out of Bounds\");\n            }\n        }\n    }\n}\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I keep prompting the user until they enter a valid index in ArrayAccess?",
+                    "expectedAnswer": "Use a while loop to keep prompting the user until a valid index is entered.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What is the best way to handle invalid indices in ArrayAccess?",
+                    "expectedAnswer": "Use a while loop to keep prompting the user until a valid index is entered.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you provide a method to handle invalid indices in ArrayAccess?",
+                    "expectedAnswer": "Use a while loop to keep prompting the user until a valid index is entered. Display appropriate messages for invalid inputs.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        }
+    ]
+}

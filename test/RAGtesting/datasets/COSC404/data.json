@@ -1,0 +1,378 @@
+{
+  "General": [
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can you explain the differences between volatile and non-volatile memory?",
+      "expectedAnswer": "Volatile memory, such as DRAM, retains data only while the power is on, whereas non-volatile memory, such as SSDs and hard drives, retains data even after power is off.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the most common RAID level used in commercial database systems?",
+      "expectedAnswer": "RAID 5 is commonly used in commercial database systems due to its balance of performance, storage efficiency, and reliability.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the significance of a B-tree's order in database indexing, is it commonplace in commercial database systems?",
+      "expectedAnswer": "The order of a B-tree determines the minimum and maximum number of keys in each node. It ensures balanced trees with efficient search, insertion, and deletion operations. A higher order B-tree has fewer levels, which reduces the number of disk accesses needed for search operations, thereby improving performance.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How do sparse and dense indexes differ in terms of storage efficiency and performance?",
+      "expectedAnswer": "Sparse indexes are more space-efficient as they store one entry per block, while dense indexes store one entry per record, making dense indexes larger but faster for exact match queries.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can you explain the concept of pointer swizzling in database systems?",
+      "expectedAnswer": "Pointer swizzling is the process of converting disk pointers to memory pointers and vice versa when data blocks move between disk and memory, improving access speed and efficiency.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Just to double check that not all one-pass algorithms have the assumption that the smaller relation(S) have to fit entirely in memory, right? We only do one-pass binary operation algorithms with this assumption, but the one-pass grouping and duplicate elimination algorithms can read 1 block at a time into memory and just keep track of the seen records with a table.",
+      "expectedAnswer": "One pass algorithms with two inputs require the smallest relation (S) to fit in memory. One pass algorithm with one input requires the one input relation to fit in memory.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the definition of a database?",
+      "expectedAnswer": "A database is a collection of logically related data for a particular domain.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a Database Management System (DBMS)?",
+      "expectedAnswer": "A Database Management System (DBMS) is software designed for the creation and management of databases. Examples include Oracle, DB2, Microsoft Access, MySQL, SQL Server, and MongoDB.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the difference between a database and a database system?",
+      "expectedAnswer": "A database is the data stored, while a database system is the software that manages the data.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Why are databases critical in the real world?",
+      "expectedAnswer": "Databases are critical because they are used in various industries to manage large amounts of data efficiently. Examples include retailers managing products and sales, online websites tracking orders and customers, and universities maintaining registration information.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are some common issues with developing applications without a database?",
+      "expectedAnswer": "Without a database, applications use files to store data, leading to problems such as code and data duplication, high maintenance costs, and difficulty in supporting multiple users due to the lack of program-data independence.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is data independence in the context of databases?",
+      "expectedAnswer": "Data independence allows the internal representation of data to change without affecting the programs that use the data through an external definition. This is achieved by the DBMS handling the details of storing, retrieving, and providing concurrent access to the data.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What properties do database systems provide?",
+      "expectedAnswer": "Database systems provide efficient, convenient, and safe multi-user storage and access to massive amounts of persistent data. They ensure data is stored efficiently, is easy to query, is protected from system failures and hackers, and supports multiple users.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the different data models used in databases?",
+      "expectedAnswer": "Data models used in databases include relational, XML, graphs, objects, and JSON. The relational model represents data as tables and fields.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is concurrency control in databases?",
+      "expectedAnswer": "Concurrency control (CC) is a mechanism for guaranteeing that concurrent transactions in the database exhibit the ACID properties, specifically the isolation property.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the two modes in which data items can be locked?",
+      "expectedAnswer": "Data items can be locked in two modes: exclusive (X) mode, which allows data items to be both read and written, and shared (S) mode, which allows data items to be only read.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a lock compatibility matrix?",
+      "expectedAnswer": "A lock compatibility matrix is a tool used to determine if a lock request on a data item can be granted based on the locks already held by other transactions. For example, any number of transactions can hold shared locks on an item, but if any transaction holds an exclusive lock on the item, no other transaction may hold any lock on the item.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a deadlock in the context of lock-based protocols?",
+      "expectedAnswer": "A deadlock is a situation where two or more transactions are unable to proceed because each is waiting for the other to release a lock. For example, if Transaction T3 holds a lock on data item A and waits for a lock on data item B held by Transaction T4, and T4 waits for a lock on data item A held by T3, neither can proceed.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How can deadlocks be handled in a database system?",
+      "expectedAnswer": "Deadlocks can be handled by either deadlock prevention, where the system ensures that it never enters a deadlock state, or deadlock detection, where the system periodically checks for deadlocks and resolves them by aborting one or more transactions.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the main types of database architectures discussed in COSC 404?",
+      "expectedAnswer": "The main types of database architectures discussed include single (centralized) server databases, parallel databases, distributed databases, virtual (multi-)databases, data warehouses, and NoSQL databases.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Why is the 'one size fits all' approach not suitable for database architectures?",
+      "expectedAnswer": "The 'one size fits all' approach is not suitable because different types of data management problems require different architectures for optimal performance. For example, transactional systems may benefit from in-memory architectures, data warehousing may benefit from column stores and parallel query processing, and big data applications may require massive scale-out with fault tolerance.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are some examples of NoSQL databases and their typical use cases?",
+      "expectedAnswer": "Examples of NoSQL databases include MongoDB and Cassandra. They are typically used for applications with variable data that is semi-structured or unstructured, massive amounts of data, and scenarios requiring high parallelism, scalability, and reliability.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is concurrency control in database systems?",
+      "expectedAnswer": "Concurrency control (CC) is a mechanism for guaranteeing that concurrent transactions in the database exhibit the ACID properties, specifically the isolation property.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the different types of concurrency control protocols?",
+      "expectedAnswer": "The different types of concurrency control protocols include lock-based protocols, timestamp protocols, validation protocols, and snapshot isolation.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the two modes in which data items can be locked?",
+      "expectedAnswer": "Data items can be locked in two modes: exclusive (X) mode, which allows data items to be both read and written, and shared (S) mode, which allows data items to be only read.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a B-tree in database systems?",
+      "expectedAnswer": "A B-tree is a balanced search tree where each node has a minimum and maximum number of keys, which are stored in a sorted array. It is used to maintain sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How does a B-tree maintain balance?",
+      "expectedAnswer": "A B-tree maintains balance by ensuring that every leaf has the same depth. When nodes are inserted or deleted, the tree is adjusted to maintain this balance, often involving splitting nodes during insertion and merging nodes during deletion.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the difference between a B-tree and a B+-tree?",
+      "expectedAnswer": "A B+-tree is a variation of a B-tree where all data is stored at the leaf nodes, and leaf nodes are linked to provide ordered access. Interior nodes only store pointers to other nodes, not actual data, which improves search and sequential access performance.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is an R-tree?",
+      "expectedAnswer": "An R-tree is a generalized B-tree suitable for processing spatial queries. It handles multidimensional data, unlike B-trees, which handle only one-dimensional keys.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What types of spatial data can R-trees handle?",
+      "expectedAnswer": "R-trees can handle multidimensional points, lines, rectangles, and other geometric objects. Spatial data objects occupy a region of space, defined by their location and boundary.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the different types of spatial queries?",
+      "expectedAnswer": "The different types of spatial queries include spatial range queries (e.g., finding all cities within 50 miles of a location), nearest neighbor queries (e.g., finding the closest cities to a location), and spatial join queries (e.g., finding all cities near a lake).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the purpose of creating indexes in SQL?",
+      "expectedAnswer": "The purpose of creating indexes in SQL is to improve query performance by allowing faster retrieval of records. Indexes achieve this by creating a data structure that allows for quick searches, updates, and deletes.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the difference between a unique index and a regular index in SQL?",
+      "expectedAnswer": "A unique index ensures that all values in the indexed column are unique, meaning no duplicates are allowed. A regular index does not enforce uniqueness and can contain duplicate values.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How does a clustered index differ from a non-clustered index?",
+      "expectedAnswer": "A clustered index sorts and stores the data rows of the table based on the index key. This means the table data is physically reordered to match the index. A non-clustered index, creates a separate structure that points to the original table rows without altering the physical order of the data.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the main goal of using hash indexes in database systems?",
+      "expectedAnswer": "The main goal of using hash indexes in database systems is to reduce the number of block accesses required for operations to one.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a collision in the context of hash indexing and how is it typically handled?",
+      "expectedAnswer": "A collision occurs when two different keys hash to the same location in the hash table. It is typically handled using techniques like open addressing (e.g., linear probing) or separate chaining, where each array location points to a linked list of elements.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is linear hashing and how does it handle database growth?",
+      "expectedAnswer": "Linear hashing is a dynamic hashing technique that allows a hash table to expand and shrink dynamically. It uses a linear method for splitting and merging buckets as needed, triggered either by bucket overflow or when the load factor of the hash table exceeds a certain threshold.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For the COSC 404 Lab 5 on Query Parsing with JavaCC, when adding ORDER BY support in SQLParser.jjt, the instructions state that the default sorting order should be used if neither ASC nor DESC is specified. Should this default sorting order be ASC?",
+      "expectedAnswer": "Yes, if neither ASC nor DESC is specified in the ORDER BY clause, the default sorting order should be ASC.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In the COSC 404 Lab 5 instructions on Query Parsing with JavaCC, it mentions modifying SQLParser.jjt to support ORDER BY with multiple attributes. Should I include support for expressions in the ORDER BY clause or just attribute names?",
+      "expectedAnswer": "You should only include support for attribute names in the ORDER BY clause, not expressions.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For COSC 404 Lab 5 on Query Parsing with JavaCC, the instructions state to limit support in query/Optimizer.java to only one attribute either in ASC or DESC order. Should I ignore additional attributes in the ORDER BY clause if they are provided?",
+      "expectedAnswer": "Yes, you should limit the support to only one attribute in either ASC or DESC order. If multiple attributes are provided, you can ignore the additional attributes.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In COSC 404 Lab 8 on Transactions with Microsoft SQL Server, for the readBalance() transaction that reads a balance for a given account, do we need to handle any specific transaction isolation level or is the default level sufficient?",
+      "expectedAnswer": "For the readBalance() transaction, you should use the transaction isolation level that ensures the correct balance is read without being affected by other concurrent transactions. The default isolation level might be sufficient, but it's generally recommended to use READ COMMITTED or higher to avoid dirty reads.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In the COSC 404 Lab 8 instructions on Transactions with Microsoft SQL Server, for the transfer() transaction that transfers an amount from one account to another, is there a specific isolation level recommended to ensure consistency during the transfer?",
+      "expectedAnswer": "For the transfer() transaction, it is recommended to use the REPEATABLE READ or SERIALIZABLE isolation level to ensure consistency and prevent issues such as non-repeatable reads or phantom reads.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For the COSC 404 Lab 8 on Transactions with Microsoft SQL Server, when implementing the setIsolationLevelTest, do we need to test all five isolation levels (READ UNCOMMITTED, READ COMMITTED, SNAPSHOT, REPEATABLE READ, and SERIALIZABLE) or only a subset?",
+      "expectedAnswer": "For the setIsolationLevelTest, you need to test all five isolation levels to understand the effects of each isolation level on the transactions.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In COSC 404 Lab 10 on Recovering from a Database Failure, when implementing undo-redo recovery using a write-ahead log, should we consider the checkpoint end record during pass #1 to ensure the database is recovered to the proper state?",
+      "expectedAnswer": "Yes, during pass 1, you should set the item values to those in the checkpoint end record to ensure the database is recovered to the proper state.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For COSC 404 Lab 10 on Recovering from a Database Failure, when modifying Recovery.java, how should we handle log records that contain both the before and after values of data items to ensure proper undo-redo recovery?",
+      "expectedAnswer": "In Recovery.java, you should implement the logic to first use the after values to redo changes for committed transactions and then use the before values to undo changes for uncommitted transactions.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "How do I create a new Snowflake database and a table within it?",
+      "expectedAnswer": "To create a new database in Snowflake, you can use the following SQL command: `CREATE DATABASE lab;`. To create a table within this database, you can use: `USE DATABASE lab; CREATE TABLE OrderedProduct (OrderId char(5) NOT NULL, ProductId char(5) NOT NULL, Quantity integer, Price decimal(9,2), PRIMARY KEY (OrderId, ProductId), FOREIGN KEY (OrderId) REFERENCES Orders (OrderId) ON UPDATE CASCADE ON DELETE CASCADE, FOREIGN KEY (ProductId) REFERENCES Product (ProductId));`.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "How can I load data into a Snowflake table from a CSV file using the web interface?",
+      "expectedAnswer": "To load data into a Snowflake table from a CSV file using the web interface, follow these steps: 1. Navigate to the classic user interface. 2. Click on the 'Databases' icon. 3. Find your database and select the table you want to load data into. 4. Click the 'Load Data..' button. 5. Select your warehouse and CSV file. 6. Define the CSV import format by clicking on '+', entering the necessary details, and clicking 'Load'.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "What is the purpose of a warehouse in Snowflake and how do I create one?",
+      "expectedAnswer": "In Snowflake, a warehouse is required to perform any operations on data. It is essentially a cluster of compute resources that processes queries. To create a warehouse, navigate to 'Compute' then 'Warehouses' in the user interface. If there are no warehouses defined, click on the '+ Warehouse' button, fill out the necessary information (e.g., name, size, auto-suspend), and create the warehouse. Using an X-Small warehouse is recommended to avoid using up too many credits.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "How do I execute a SQL query in Snowflake using JDBC in Java?",
+      "expectedAnswer": "To execute a SQL query in Snowflake using JDBC in Java, you can follow these steps: 1. Add the Snowflake JDBC driver to your project dependencies. 2. Establish a connection to Snowflake using the `Connection` class. 3. Create a `Statement` object. 4. Execute your query using the `executeQuery` method. 5. Process the results using a `ResultSet` object. Example code snippet: `Connection conn = DriverManager.getConnection(url, user, password); Statement stmt = conn.createStatement(); ResultSet rs = stmt.executeQuery(\"SELECT * FROM lab.OrderedProduct\"); while (rs.next()) { System.out.println(rs.getString(1)); }`.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "I'm getting an error while trying to load data into Snowflake from a CSV file. The error message says 'File not found'. How can I resolve this?",
+      "expectedAnswer": "The 'File not found' error indicates that Snowflake cannot locate the specified CSV file. Ensure that the file path is correct and that the file exists at the specified location. If you are loading the file via the web interface, make sure to upload the CSV file correctly by selecting the file through the file picker dialog. Additionally, verify that the file format settings match the structure of your CSV file.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the load factor in hashing and why is it important?",
+      "expectedAnswer": "The load factor in hashing is the ratio of the number of records stored to the number of possible storage locations in the hash table. It is important because it helps determine when the hash table should be resized to maintain efficiency. A high load factor can lead to more collisions and decreased performance, while a low load factor indicates underutilized space.",
+      "history": []
+    }
+  ],
+  "Assume Context": [
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Regarding 2PC protocol question on Slide 13 p43, can you explain the statements in the slide? Which ones are correct and why?",
+      "expectedAnswer": "All of them are correct. i is correct because there is prepare and commit phase. ii is correct message to all sites. iii is correct because each site can report their status. iv is correct because coordinator would abort if any site votes no.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "When are the midterm exams?",
+      "expectedAnswer": "Midterm 1 is on Febrary 28th and Midterm 2 is on March 21st.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "What percentage is the projects for me (graduate student)?",
+      "expectedAnswer": "The percentage of graduate projects is 15%",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "What is the requirement on the graduate project?",
+      "expectedAnswer": "The primary objective of the Database Implementation Project for graduate students is to explore new database systems or innovative techniques that extend beyond the course material, fostering a deeper understanding of database systems. This project accounts for 15% of the overall grade.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "What is the policy on midterms, if I can't make to one of them",
+      "expectedAnswer": "There is no make-up exam for the midterm.",
+      "history": []
+    },
+    {
+      "category": "Exam_Related",
+      "question": "In Question 18 of the midterm, can you explain how the number of disk operations for the sort-merge join is calculated?",
+      "expectedAnswer": "The number of disk operations for the sort-merge join is calculated as 3 * (B(S) + B(R)), where B(S) and B(R) are the number of blocks for relations S and R respectively. For this question, it should be 3 * (100,000 + 200,000) = 900,000 disk operations.",
+      "history": []
+    },
+    {
+      "category": "Exam_Related",
+      "question": "For Question 21 in the midterm, can you clarify the steps for this calculation? ",
+      "expectedAnswer": "To retrieve a record using a dense secondary index, perform a binary search on the index. With 25,000 blocks, the number of probes is ceiling(log2(25000)) = 15. Including 1 block to read the primary index and 1 block to get the data record, the total is 17 blocks.",
+      "history": []
+    },
+    {
+      "category": "Exam_Related",
+      "question": "I am confused about the B-tree insertion steps shown in the final exam slides. Specifically, for Insert #2, could you explain why the value 23 is placed where it is?",
+      "expectedAnswer": "During the insertion of 23 into the B-tree, the value 23 is inserted into the appropriate leaf node in sorted order. As a result, the structure of the tree is adjusted to maintain the B-tree properties, leading to the reorganization of the nodes as shown.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In Lab 5 of COSC 404, for the ORDER BY clause modification in SQLParser.jjt, should we handle cases where both ASC and DESC are specified for the same attribute?",
+      "expectedAnswer": "No, you only need to handle cases where either ASC or DESC is specified for an attribute, or where neither is specified (defaulting to ASC). Both ASC and DESC should not be specified for the same attribute.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For COSC 404 Lab 5, when modifying the query/Optimizer.java file to support ORDER BY, how should we handle ordering by multiple attributes?",
+      "expectedAnswer": "For this lab, you only need to support ordering by a single attribute either in ASC or DESC order as specified in the instructions. Handling multiple attributes is not required.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In the COSC 404 Lab 5 setup instructions, it mentions using the command: ../../../scripts/jjtree SQLParser.jjt. I'm getting a 'Permission denied' error on macOS. How do I fix this?",
+      "expectedAnswer": "Normally this is an issue on MacOs, if so, you need to make the script files executable. Run the commands chmod +x ../../../scripts/jjtree and chmod +x ../../..//scripts/javacc to fix the 'Permission denied' error.",
+      "history": []
+    }
+  ]
+}

@@ -1,0 +1,1432 @@
+{
+    "General": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can you explain the differences between volatile and non-volatile memory?",
+            "expectedAnswer": "Volatile memory, such as DRAM, retains data only while the power is on, whereas non-volatile memory, such as SSDs and hard drives, retains data even after power is off.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does volatile memory differ from non-volatile memory?",
+                    "expectedAnswer": "Volatile memory loses data when power is off; non-volatile memory retains data.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What happens to data in volatile memory when the power is turned off?",
+                    "expectedAnswer": "Data in volatile memory is lost when power is off.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "Is data in non-volatile memory preserved when power is lost?",
+                    "expectedAnswer": "Yes, non-volatile memory retains data without power.",
+                    "similarityLevel": "0.74"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the most common RAID level used in commercial database systems?",
+            "expectedAnswer": "RAID 5 is commonly used in commercial database systems due to its balance of performance, storage efficiency, and reliability.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which RAID level is frequently implemented in databases for balanced performance?",
+                    "expectedAnswer": "RAID 5 is often implemented for its balance of performance and efficiency.",
+                    "similarityLevel": "0.77"
+                },
+                {
+                    "question": "What are the benefits of using RAID 5 in database systems?",
+                    "expectedAnswer": "RAID 5 provides a good balance of performance, storage efficiency, and reliability.",
+                    "similarityLevel": "0.64"
+                },
+                {
+                    "question": "Why is RAID 5 preferred in commercial databases?",
+                    "expectedAnswer": "RAID 5 is preferred for its balance of performance, efficiency, and reliability.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the significance of a B-tree's order in database indexing, is it commonplace in commercial database systems?",
+            "expectedAnswer": "The order of a B-tree determines the minimum and maximum number of keys in each node. It ensures balanced trees with efficient search, insertion, and deletion operations. A higher order B-tree has fewer levels, which reduces the number of disk accesses needed for search operations, thereby improving performance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does the order of a B-tree affect its performance?",
+                    "expectedAnswer": "A B-tree's order affects the number of keys per node, influencing search efficiency.",
+                    "similarityLevel": "0.07"
+                },
+                {
+                    "question": "What role does a B-tree's order play in database indexing?",
+                    "expectedAnswer": "The order of a B-tree determines the number of keys per node and the tree's balance.",
+                    "similarityLevel": "0.89"
+                },
+                {
+                    "question": "Why is the order of a B-tree important in indexing?",
+                    "expectedAnswer": "The order ensures balanced trees and efficient operations by determining keys per node.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do sparse and dense indexes differ in terms of storage efficiency and performance?",
+            "expectedAnswer": "Sparse indexes are more space-efficient as they store one entry per block, while dense indexes store one entry per record, making dense indexes larger but faster for exact match queries.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the main differences between sparse and dense indexes?",
+                    "expectedAnswer": "Sparse indexes store one entry per block; dense indexes store one per record.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "Why might a dense index be faster than a sparse index?",
+                    "expectedAnswer": "Dense indexes are faster for exact match queries because they store one entry per record.",
+                    "similarityLevel": "0.55"
+                },
+                {
+                    "question": "What are the storage implications of using sparse vs. dense indexes?",
+                    "expectedAnswer": "Sparse indexes are space-efficient, storing one entry per block; dense indexes store more entries.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can you explain the concept of pointer swizzling in database systems?",
+            "expectedAnswer": "Pointer swizzling is the process of converting disk pointers to memory pointers and vice versa when data blocks move between disk and memory, improving access speed and efficiency.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What does pointer swizzling involve in database systems?",
+                    "expectedAnswer": "Pointer swizzling involves converting disk pointers to memory pointers and back.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does pointer swizzling improve database performance?",
+                    "expectedAnswer": "Pointer swizzling improves access speed by converting disk pointers to memory pointers.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Why is pointer swizzling used in databases?",
+                    "expectedAnswer": "Pointer swizzling is used to enhance access speed by converting pointers as data moves between disk and memory.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Just to double check that not all one-pass algorithms have the assumption that the smaller relation(S) have to fit entirely in memory, right? We only do one-pass binary operation algorithms with this assumption, but the one-pass grouping and duplicate elimination algorithms can read 1 block at a time into memory and just keep track of the seen records with a table.",
+            "expectedAnswer": "One pass algorithms with two inputs require the smallest relation (S) to fit in memory. One pass algorithm with one input requires the one input relation to fit in memory.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Do all one-pass algorithms assume the smaller relation must fit in memory?",
+                    "expectedAnswer": "Only one-pass binary operation algorithms assume the smaller relation must fit in memory.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can one-pass grouping algorithms read one block at a time into memory?",
+                    "expectedAnswer": "Yes, one-pass grouping algorithms can read one block at a time and track seen records.",
+                    "similarityLevel": "0.43"
+                },
+                {
+                    "question": "Do one-pass duplicate elimination algorithms require the entire relation to fit in memory?",
+                    "expectedAnswer": "No, they can read one block at a time and use a table to track seen records.",
+                    "similarityLevel": "0.91"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the definition of a database?",
+            "expectedAnswer": "A database is a collection of logically related data for a particular domain.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How would you define a database?",
+                    "expectedAnswer": "A database is a collection of related data organized for a particular domain.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "What constitutes a database?",
+                    "expectedAnswer": "A database consists of logically related data.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you explain what a database is?",
+                    "expectedAnswer": "A database is a collection of logically related data for a specific domain.",
+                    "similarityLevel": "0.79"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a Database Management System (DBMS)?",
+            "expectedAnswer": "A Database Management System (DBMS) is software designed for the creation and management of databases. Examples include Oracle, DB2, Microsoft Access, MySQL, SQL Server, and MongoDB.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a DBMS function?",
+                    "expectedAnswer": "A DBMS manages database creation and maintenance. Examples: Oracle, MySQL.",
+                    "similarityLevel": "0.38"
+                },
+                {
+                    "question": "What are some examples of DBMS software?",
+                    "expectedAnswer": "Examples include Oracle, DB2, Microsoft Access, MySQL, SQL Server, MongoDB.",
+                    "similarityLevel": "0.47"
+                },
+                {
+                    "question": "Can you describe the purpose of a DBMS?",
+                    "expectedAnswer": "A DBMS is software for creating and managing databases. Examples: Oracle, MySQL.",
+                    "similarityLevel": "0.66"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between a database and a database system?",
+            "expectedAnswer": "A database is the data stored, while a database system is the software that manages the data.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do a database and a database system differ?",
+                    "expectedAnswer": "A database is the stored data; a database system manages the data.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "What distinguishes a database from a database system?",
+                    "expectedAnswer": "A database stores data; a database system is the managing software.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain the difference between a database and a database system?",
+                    "expectedAnswer": "A database is stored data; a database system is the software that manages it.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Why are databases critical in the real world?",
+            "expectedAnswer": "Databases are critical because they are used in various industries to manage large amounts of data efficiently. Examples include retailers managing products and sales, online websites tracking orders and customers, and universities maintaining registration information.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do databases impact real-world applications?",
+                    "expectedAnswer": "Databases efficiently manage large data volumes in various industries.",
+                    "similarityLevel": "0.82"
+                },
+                {
+                    "question": "What are some real-world uses of databases?",
+                    "expectedAnswer": "Retailers, online websites, and universities use databases for efficient data management.",
+                    "similarityLevel": "0.57"
+                },
+                {
+                    "question": "Why are databases essential in modern industries?",
+                    "expectedAnswer": "Databases manage large data efficiently in retail, online services, and education.",
+                    "similarityLevel": "0.62"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are some common issues with developing applications without a database?",
+            "expectedAnswer": "Without a database, applications use files to store data, leading to problems such as code and data duplication, high maintenance costs, and difficulty in supporting multiple users due to the lack of program-data independence.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What problems arise from developing apps without a database?",
+                    "expectedAnswer": "Issues include data duplication, high maintenance, and poor multi-user support.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Why is using files instead of databases problematic?",
+                    "expectedAnswer": "Files lead to data duplication, high maintenance costs, and poor user support.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What challenges do developers face without databases?",
+                    "expectedAnswer": "Challenges include data duplication, high maintenance, and lack of multi-user support.",
+                    "similarityLevel": "0.92"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is data independence in the context of databases?",
+            "expectedAnswer": "Data independence allows the internal representation of data to change without affecting the programs that use the data through an external definition. This is achieved by the DBMS handling the details of storing, retrieving, and providing concurrent access to the data.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does data independence benefit database systems?",
+                    "expectedAnswer": "Data independence allows internal data changes without affecting programs.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What does data independence enable in databases?",
+                    "expectedAnswer": "It enables internal data changes without affecting external programs.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the concept of data independence?",
+                    "expectedAnswer": "Data independence allows data representation changes without affecting external programs.",
+                    "similarityLevel": "0.78"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What properties do database systems provide?",
+            "expectedAnswer": "Database systems provide efficient, convenient, and safe multi-user storage and access to massive amounts of persistent data. They ensure data is stored efficiently, is easy to query, is protected from system failures and hackers, and supports multiple users.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the main properties of database systems?",
+                    "expectedAnswer": "Database systems offer efficient, safe, multi-user data storage and access.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do database systems ensure data efficiency and safety?",
+                    "expectedAnswer": "They provide efficient storage, easy querying, failure protection, and multi-user support.",
+                    "similarityLevel": "0.60"
+                },
+                {
+                    "question": "Can you describe the key properties of database systems?",
+                    "expectedAnswer": "Database systems offer efficient, safe, and convenient multi-user data storage and access.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the different data models used in databases?",
+            "expectedAnswer": "Data models used in databases include relational, XML, graphs, objects, and JSON. The relational model represents data as tables and fields.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are some types of data models in databases?",
+                    "expectedAnswer": "Types include relational, XML, graphs, objects, and JSON.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How is data represented in the relational model?",
+                    "expectedAnswer": "The relational model represents data as tables and fields.",
+                    "similarityLevel": "0.34"
+                },
+                {
+                    "question": "Can you list different data models used in databases?",
+                    "expectedAnswer": "Data models include relational, XML, graphs, objects, and JSON.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is concurrency control in databases?",
+            "expectedAnswer": "Concurrency control (CC) is a mechanism for guaranteeing that concurrent transactions in the database exhibit the ACID properties, specifically the isolation property.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does concurrency control work in databases?",
+                    "expectedAnswer": "Concurrency control ensures concurrent transactions maintain ACID properties.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Why is concurrency control important in databases?",
+                    "expectedAnswer": "It ensures transactions maintain ACID properties, particularly isolation.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the purpose of concurrency control in databases?",
+                    "expectedAnswer": "Concurrency control guarantees ACID properties for concurrent transactions.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the two modes in which data items can be locked?",
+            "expectedAnswer": "Data items can be locked in two modes: exclusive (X) mode, which allows data items to be both read and written, and shared (S) mode, which allows data items to be only read.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How are data items locked in databases?",
+                    "expectedAnswer": "Data items can be locked in exclusive (X) or shared (S) modes.",
+                    "similarityLevel": "0.65"
+                },
+                {
+                    "question": "What are the exclusive and shared lock modes in databases?",
+                    "expectedAnswer": "Exclusive (X) locks allow read/write; shared (S) locks allow only read.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you explain the modes of locking data items?",
+                    "expectedAnswer": "Data items can be locked in exclusive (X) and shared (S) modes.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a lock compatibility matrix?",
+            "expectedAnswer": "A lock compatibility matrix is a tool used to determine if a lock request on a data item can be granted based on the locks already held by other transactions. For example, any number of transactions can hold shared locks on an item, but if any transaction holds an exclusive lock on the item, no other transaction may hold any lock on the item.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a lock compatibility matrix function?",
+                    "expectedAnswer": "It determines if a lock request can be granted based on existing locks.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Why is a lock compatibility matrix used in databases?",
+                    "expectedAnswer": "It helps decide if a lock request can be granted, considering existing locks.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the purpose of a lock compatibility matrix?",
+                    "expectedAnswer": "It determines if a lock request is compatible with existing locks.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a deadlock in the context of lock-based protocols?",
+            "expectedAnswer": "A deadlock is a situation where two or more transactions are unable to proceed because each is waiting for the other to release a lock. For example, if Transaction T3 holds a lock on data item A and waits for a lock on data item B held by Transaction T4, and T4 waits for a lock on data item A held by T3, neither can proceed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do deadlocks occur in lock-based protocols?",
+                    "expectedAnswer": "Deadlocks occur when transactions wait indefinitely for each other's locks.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Why do deadlocks happen in databases?",
+                    "expectedAnswer": "They happen when transactions wait on each other to release locks.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "Can you describe what causes a deadlock in databases?",
+                    "expectedAnswer": "Deadlocks occur when transactions wait for each other's locks, preventing progress.",
+                    "similarityLevel": "0.06"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How can deadlocks be handled in a database system?",
+            "expectedAnswer": "Deadlocks can be handled by either deadlock prevention, where the system ensures that it never enters a deadlock state, or deadlock detection, where the system periodically checks for deadlocks and resolves them by aborting one or more transactions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What strategies can handle deadlocks in databases?",
+                    "expectedAnswer": "Strategies include deadlock prevention and deadlock detection.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does deadlock detection work in databases?",
+                    "expectedAnswer": "Deadlock detection periodically checks for and resolves deadlocks by aborting transactions.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Can you explain deadlock prevention in databases?",
+                    "expectedAnswer": "Deadlock prevention ensures the system never enters a deadlock state.",
+                    "similarityLevel": "0.75"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the main types of database architectures discussed in COSC 404?",
+            "expectedAnswer": "The main types of database architectures discussed include single (centralized) server databases, parallel databases, distributed databases, virtual (multi-)databases, data warehouses, and NoSQL databases.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What kinds of database architectures are there?",
+                    "expectedAnswer": "Database architectures include centralized, parallel, distributed, virtual, data warehouses, and NoSQL.",
+                    "similarityLevel": "0.35"
+                },
+                {
+                    "question": "Can you list the types of database architectures?",
+                    "expectedAnswer": "Types include centralized, parallel, distributed, virtual, data warehouses, and NoSQL.",
+                    "similarityLevel": "0.44"
+                },
+                {
+                    "question": "What are the different database architectures covered in COSC 404?",
+                    "expectedAnswer": "The architectures are single server, parallel, distributed, virtual, data warehouses, and NoSQL.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Why is the 'one size fits all' approach not suitable for database architectures?",
+            "expectedAnswer": "The 'one size fits all' approach is not suitable because different types of data management problems require different architectures for optimal performance. For example, transactional systems may benefit from in-memory architectures, data warehousing may benefit from column stores and parallel query processing, and big data applications may require massive scale-out with fault tolerance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why can't a single database architecture fit all applications?",
+                    "expectedAnswer": "Different data management problems need specific architectures for best performance.",
+                    "similarityLevel": "0.42"
+                },
+                {
+                    "question": "What are the limitations of a 'one size fits all' approach in databases?",
+                    "expectedAnswer": "It fails because various data management needs require different optimal architectures.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain why one database architecture doesn't suit all needs?",
+                    "expectedAnswer": "Different problems require specific architectures for optimal performance, e.g., in-memory for transactions, column stores for data warehousing.",
+                    "similarityLevel": "0.16"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are some examples of NoSQL databases and their typical use cases?",
+            "expectedAnswer": "Examples of NoSQL databases include MongoDB and Cassandra. They are typically used for applications with variable data that is semi-structured or unstructured, massive amounts of data, and scenarios requiring high parallelism, scalability, and reliability.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are NoSQL databases used for?",
+                    "expectedAnswer": "NoSQL databases are used for semi-structured or unstructured data, large-scale data, and high scalability needs.",
+                    "similarityLevel": "0.57"
+                },
+                {
+                    "question": "Can you name some NoSQL databases and their uses?",
+                    "expectedAnswer": "Examples include MongoDB and Cassandra, used for scalable, high-parallelism, and variable data applications.",
+                    "similarityLevel": "0.63"
+                },
+                {
+                    "question": "What are some NoSQL databases and their typical applications?",
+                    "expectedAnswer": "NoSQL databases like MongoDB and Cassandra are used for applications needing scalability and handling semi-structured data.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is concurrency control in database systems?",
+            "expectedAnswer": "Concurrency control (CC) is a mechanism for guaranteeing that concurrent transactions in the database exhibit the ACID properties, specifically the isolation property.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does concurrency control work in databases?",
+                    "expectedAnswer": "Concurrency control ensures concurrent transactions maintain ACID properties.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Why is concurrency control important in databases?",
+                    "expectedAnswer": "It ensures transactions maintain ACID properties, particularly isolation.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the purpose of concurrency control in databases?",
+                    "expectedAnswer": "Concurrency control guarantees ACID properties for concurrent transactions.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the different types of concurrency control protocols?",
+            "expectedAnswer": "The different types of concurrency control protocols include lock-based protocols, timestamp protocols, validation protocols, and snapshot isolation.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are some concurrency control methods in databases?",
+                    "expectedAnswer": "Methods include lock-based, timestamp, validation protocols, and snapshot isolation.",
+                    "similarityLevel": "0.89"
+                },
+                {
+                    "question": "How is concurrency control managed in databases?",
+                    "expectedAnswer": "Concurrency control is managed with lock-based, timestamp, validation, and snapshot isolation protocols.",
+                    "similarityLevel": "0.32"
+                },
+                {
+                    "question": "Can you list concurrency control protocols?",
+                    "expectedAnswer": "Protocols include lock-based, timestamp, validation, and snapshot isolation.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the two modes in which data items can be locked?",
+            "expectedAnswer": "Data items can be locked in two modes: exclusive (X) mode, which allows data items to be both read and written, and shared (S) mode, which allows data items to be only read.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How are data items locked in databases?",
+                    "expectedAnswer": "Data items can be locked in exclusive (X) or shared (S) modes.",
+                    "similarityLevel": "0.65"
+                },
+                {
+                    "question": "What are the exclusive and shared lock modes in databases?",
+                    "expectedAnswer": "Exclusive (X) locks allow read/write; shared (S) locks allow only read.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you explain the modes of locking data items?",
+                    "expectedAnswer": "Data items can be locked in exclusive (X) and shared (S) modes.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a B-tree in database systems?",
+            "expectedAnswer": "A B-tree is a balanced search tree where each node has a minimum and maximum number of keys, which are stored in a sorted array. It is used to maintain sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a B-tree structure work?",
+                    "expectedAnswer": "A B-tree is a balanced tree with sorted keys, used for efficient searches and operations.",
+                    "similarityLevel": "0.52"
+                },
+                {
+                    "question": "What are the characteristics of a B-tree?",
+                    "expectedAnswer": "A B-tree is balanced, has sorted keys, and allows efficient searches, insertions, and deletions.",
+                    "similarityLevel": "0.63"
+                },
+                {
+                    "question": "Can you explain the structure of a B-tree?",
+                    "expectedAnswer": "A B-tree is a balanced tree with nodes containing a range of sorted keys for efficient operations.",
+                    "similarityLevel": "0.60"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does a B-tree maintain balance?",
+            "expectedAnswer": "A B-tree maintains balance by ensuring that every leaf has the same depth. When nodes are inserted or deleted, the tree is adjusted to maintain this balance, often involving splitting nodes during insertion and merging nodes during deletion.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What methods ensure balance in a B-tree?",
+                    "expectedAnswer": "Balance is maintained by keeping leaf depth equal and adjusting nodes during insertions and deletions.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "How does node splitting and merging affect B-tree balance?",
+                    "expectedAnswer": "Node splitting during insertion and merging during deletion keep the B-tree balanced.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "Can you describe the balancing mechanism of a B-tree?",
+                    "expectedAnswer": "Balancing is maintained by ensuring equal leaf depth and adjusting nodes through splitting and merging.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between a B-tree and a B+-tree?",
+            "expectedAnswer": "A B+-tree is a variation of a B-tree where all data is stored at the leaf nodes, and leaf nodes are linked to provide ordered access. Interior nodes only store pointers to other nodes, not actual data, which improves search and sequential access performance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a B+-tree differ from a B-tree?",
+                    "expectedAnswer": "In a B+-tree, data is only in leaf nodes, which are linked for ordered access, while interior nodes store pointers.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What distinguishes a B-tree from a B+-tree?",
+                    "expectedAnswer": "A B+-tree has all data at leaf nodes, linked for order, with interior nodes holding only pointers.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the differences between a B-tree and a B+-tree?",
+                    "expectedAnswer": "A B+-tree stores data at leaf nodes and uses pointers in interior nodes, enhancing search and access performance.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is an R-tree?",
+            "expectedAnswer": "An R-tree is a generalized B-tree suitable for processing spatial queries. It handles multidimensional data, unlike B-trees, which handle only one-dimensional keys.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does an R-tree function?",
+                    "expectedAnswer": "An R-tree manages multidimensional data for spatial queries, unlike B-trees handling one-dimensional keys.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What are the characteristics of an R-tree?",
+                    "expectedAnswer": "An R-tree processes spatial queries and manages multidimensional data.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the purpose of an R-tree?",
+                    "expectedAnswer": "An R-tree handles spatial queries and multidimensional data, differing from one-dimensional key B-trees.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What types of spatial data can R-trees handle?",
+            "expectedAnswer": "R-trees can handle multidimensional points, lines, rectangles, and other geometric objects. Spatial data objects occupy a region of space, defined by their location and boundary.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What kind of data do R-trees manage?",
+                    "expectedAnswer": "R-trees handle points, lines, rectangles, and other geometric objects in multidimensional space.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "How does an R-tree process spatial data?",
+                    "expectedAnswer": "R-trees manage multidimensional geometric objects based on their location and boundary.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "Can you describe the data types suitable for R-trees?",
+                    "expectedAnswer": "R-trees handle spatial data like points, lines, and rectangles in multidimensional space.",
+                    "similarityLevel": "0.87"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the different types of spatial queries?",
+            "expectedAnswer": "The different types of spatial queries include spatial range queries (e.g., finding all cities within 50 miles of a location), nearest neighbor queries (e.g., finding the closest cities to a location), and spatial join queries (e.g., finding all cities near a lake).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What kinds of spatial queries exist?",
+                    "expectedAnswer": "Types include spatial range queries, nearest neighbor queries, and spatial join queries.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do different spatial queries work?",
+                    "expectedAnswer": "Spatial queries include range, nearest neighbor, and join queries.",
+                    "similarityLevel": "0.94"
+                },
+                {
+                    "question": "Can you explain the various spatial queries?",
+                    "expectedAnswer": "Types of spatial queries include range, nearest neighbor, and join queries.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of creating indexes in SQL?",
+            "expectedAnswer": "The purpose of creating indexes in SQL is to improve query performance by allowing faster retrieval of records. Indexes achieve this by creating a data structure that allows for quick searches, updates, and deletes.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why are indexes used in SQL?",
+                    "expectedAnswer": "Indexes improve query performance by allowing faster record retrieval.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "What are the benefits of creating indexes in SQL?",
+                    "expectedAnswer": "Indexes allow quicker searches, updates, and deletes, improving query performance.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the purpose of SQL indexes?",
+                    "expectedAnswer": "Indexes improve performance by enabling faster record retrieval and operations.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between a unique index and a regular index in SQL?",
+            "expectedAnswer": "A unique index ensures that all values in the indexed column are unique, meaning no duplicates are allowed. A regular index does not enforce uniqueness and can contain duplicate values.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a unique index differ from a regular index in SQL?",
+                    "expectedAnswer": "A unique index enforces unique values in the column, while a regular index does not.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What distinguishes a unique index from a regular index in SQL?",
+                    "expectedAnswer": "A unique index disallows duplicates, while a regular index allows them.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the differences between unique and regular indexes in SQL?",
+                    "expectedAnswer": "A unique index ensures column values are unique; a regular index allows duplicates.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does a clustered index differ from a non-clustered index?",
+            "expectedAnswer": "A clustered index sorts and stores the data rows of the table based on the index key. This means the table data is physically reordered to match the index. A non-clustered index creates a separate structure that points to the original table rows without altering the physical order of the data.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the difference between clustered and non-clustered indexes?",
+                    "expectedAnswer": "Clustered indexes sort and store table data rows; non-clustered indexes create a separate structure pointing to the table rows.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do clustered and non-clustered indexes differ?",
+                    "expectedAnswer": "Clustered indexes reorder table data; non-clustered indexes do not alter physical order.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the difference between clustered and non-clustered indexes?",
+                    "expectedAnswer": "Clustered indexes sort and store data rows; non-clustered indexes point to table rows without reordering.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the main goal of using hash indexes in database systems?",
+            "expectedAnswer": "The main goal of using hash indexes in database systems is to reduce the number of block accesses required for operations to one.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why are hash indexes used in databases?",
+                    "expectedAnswer": "Hash indexes reduce the number of block accesses needed for operations.",
+                    "similarityLevel": "0.86"
+                },
+                {
+                    "question": "What is the purpose of hash indexes?",
+                    "expectedAnswer": "Hash indexes aim to minimize block accesses for efficient operations.",
+                    "similarityLevel": "0.80"
+                },
+                {
+                    "question": "Can you explain the goal of hash indexes in databases?",
+                    "expectedAnswer": "The goal is to reduce block accesses needed for database operations to one.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a collision in the context of hash indexing and how is it typically handled?",
+            "expectedAnswer": "A collision occurs when two different keys hash to the same location in the hash table. It is typically handled using techniques like open addressing (e.g., linear probing) or separate chaining, where each array location points to a linked list of elements.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How are collisions managed in hash indexing?",
+                    "expectedAnswer": "Collisions are managed using open addressing or separate chaining.",
+                    "similarityLevel": "0.91"
+                },
+                {
+                    "question": "What are common methods for handling hash index collisions?",
+                    "expectedAnswer": "Common methods include open addressing and separate chaining.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Can you explain how hash indexing collisions are resolved?",
+                    "expectedAnswer": "Collisions are resolved using techniques like open addressing or separate chaining.",
+                    "similarityLevel": "0.67"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is linear hashing and how does it handle database growth?",
+            "expectedAnswer": "Linear hashing is a dynamic hashing technique that allows a hash table to expand and shrink dynamically. It uses a linear method for splitting and merging buckets as needed, triggered either by bucket overflow or when the load factor of the hash table exceeds a certain threshold.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does linear hashing manage database growth?",
+                    "expectedAnswer": "Linear hashing dynamically expands and shrinks the hash table by splitting and merging buckets.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What is the purpose of linear hashing in databases?",
+                    "expectedAnswer": "Linear hashing allows dynamic resizing of the hash table to handle growth.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Can you explain how linear hashing handles database growth?",
+                    "expectedAnswer": "Linear hashing expands and shrinks the hash table by splitting and merging buckets as needed.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For the COSC 404 Lab 5 on Query Parsing with JavaCC, when adding ORDER BY support in SQLParser.jjt, the instructions state that the default sorting order should be used if neither ASC nor DESC is specified. Should this default sorting order be ASC?",
+            "expectedAnswer": "Yes, if neither ASC nor DESC is specified in the ORDER BY clause, the default sorting order should be ASC.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the default sorting order in SQL?",
+                    "expectedAnswer": "The default sorting order is ASC if not specified.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Should the default sort order in SQL be ASC if not specified?",
+                    "expectedAnswer": "Yes, it defaults to ASC if no order is specified.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you confirm the default ORDER BY sorting in SQL?",
+                    "expectedAnswer": "The default sorting order is ASC if neither ASC nor DESC is specified.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In the COSC 404 Lab 5 instructions on Query Parsing with JavaCC, it mentions modifying SQLParser.jjt to support ORDER BY with multiple attributes. Should I include support for expressions in the ORDER BY clause or just attribute names?",
+            "expectedAnswer": "You should only include support for attribute names in the ORDER BY clause, not expressions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should the ORDER BY clause handle multiple attributes?",
+                    "expectedAnswer": "Support should be included only for attribute names, not expressions.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What should be supported in the ORDER BY clause for multiple attributes?",
+                    "expectedAnswer": "Only attribute names should be supported, not expressions.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you clarify the support for multiple attributes in ORDER BY?",
+                    "expectedAnswer": "Support only for attribute names, not expressions, in the ORDER BY clause.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For COSC 404 Lab 5 on Query Parsing with JavaCC, the instructions state to limit support in query/Optimizer.java to only one attribute either in ASC or DESC order. Should I ignore additional attributes in the ORDER BY clause if they are provided?",
+            "expectedAnswer": "Yes, you should limit the support to only one attribute in either ASC or DESC order. If multiple attributes are provided, you can ignore the additional attributes.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How should additional attributes in ORDER BY be handled?",
+                    "expectedAnswer": "Ignore additional attributes and limit to one attribute in either ASC or DESC order.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What to do with extra attributes in ORDER BY in query/Optimizer.java?",
+                    "expectedAnswer": "Limit to one attribute and ignore extra ones.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "Can you explain handling extra attributes in ORDER BY?",
+                    "expectedAnswer": "Support only one attribute in ASC or DESC order and ignore additional attributes.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In COSC 404 Lab 8 on Transactions with Microsoft SQL Server, for the readBalance() transaction that reads a balance for a given account, do we need to handle any specific transaction isolation level or is the default level sufficient?",
+            "expectedAnswer": "For the readBalance() transaction, you should use the transaction isolation level that ensures the correct balance is read without being affected by other concurrent transactions. The default isolation level might be sufficient, but it's generally recommended to use READ COMMITTED or higher to avoid dirty reads.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What isolation level should be used for reading account balances?",
+                    "expectedAnswer": "Use READ COMMITTED or higher to avoid dirty reads.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How to handle isolation level for readBalance() in SQL Server?",
+                    "expectedAnswer": "Use the default isolation level, but READ COMMITTED or higher is recommended to avoid dirty reads.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "Can you confirm the isolation level for reading balances?",
+                    "expectedAnswer": "Use READ COMMITTED or higher to ensure accurate balance reading without dirty reads.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In the COSC 404 Lab 8 instructions on Transactions with Microsoft SQL Server, for the transfer() transaction that transfers an amount from one account to another, is there a specific isolation level recommended to ensure consistency during the transfer?",
+            "expectedAnswer": "For the transfer() transaction, it is recommended to use the REPEATABLE READ or SERIALIZABLE isolation level to ensure consistency and prevent issues such as non-repeatable reads or phantom reads.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which isolation level is best for transferring amounts between accounts?",
+                    "expectedAnswer": "Use REPEATABLE READ or SERIALIZABLE to ensure consistency during transfers.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "What isolation level should be used for account transfers to maintain consistency?",
+                    "expectedAnswer": "REPEATABLE READ or SERIALIZABLE is recommended to prevent non-repeatable reads or phantom reads.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Can you recommend an isolation level for transferring amounts between accounts?",
+                    "expectedAnswer": "Use REPEATABLE READ or SERIALIZABLE to ensure consistency during transfers.",
+                    "similarityLevel": "0.03"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For the COSC 404 Lab 8 on Transactions with Microsoft SQL Server, when implementing the setIsolationLevelTest, do we need to test all five isolation levels (READ UNCOMMITTED, READ COMMITTED, SNAPSHOT, REPEATABLE READ, and SERIALIZABLE) or only a subset?",
+            "expectedAnswer": "For the setIsolationLevelTest, you need to test all five isolation levels to understand the effects of each isolation level on the transactions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which isolation levels should be tested in setIsolationLevelTest?",
+                    "expectedAnswer": "Test all five isolation levels to understand their effects.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Is it necessary to test all isolation levels in setIsolationLevelTest?",
+                    "expectedAnswer": "Yes, test all five isolation levels to comprehend their effects on transactions.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Should all isolation levels be included in setIsolationLevelTest?",
+                    "expectedAnswer": "Yes, test all five levels to understand their transaction effects.",
+                    "similarityLevel": "0.01"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In COSC 404 Lab 10 on Recovering from a Database Failure, when implementing undo-redo recovery using a write-ahead log, should we consider the checkpoint end record during pass #1 to ensure the database is recovered to the proper state?",
+            "expectedAnswer": "Yes, during pass 1, you should set the item values to those in the checkpoint end record to ensure the database is recovered to the proper state.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should the checkpoint end record be considered during pass 1 in undo-redo recovery?",
+                    "expectedAnswer": "Yes, set item values to those in the checkpoint end record to ensure proper recovery.",
+                    "similarityLevel": "0.22"
+                },
+                {
+                    "question": "How should checkpoint end records be handled in undo-redo recovery?",
+                    "expectedAnswer": "During pass 1, set item values to the checkpoint end record to ensure proper state recovery.",
+                    "similarityLevel": "0.13"
+                },
+                {
+                    "question": "What is the role of the checkpoint end record in undo-redo recovery?",
+                    "expectedAnswer": "During pass 1, set item values to those in the checkpoint end record to ensure the correct state.",
+                    "similarityLevel": "0.12"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For COSC 404 Lab 10 on Recovering from a Database Failure, when modifying Recovery.java, how should we handle log records that contain both the before and after values of data items to ensure proper undo-redo recovery?",
+            "expectedAnswer": "In Recovery.java, you should implement the logic to first use the after values to redo changes for committed transactions and then use the before values to undo changes for uncommitted transactions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How to handle log records with before and after values in undo-redo recovery?",
+                    "expectedAnswer": "First use after values to redo for committed transactions, then use before values to undo for uncommitted transactions.",
+                    "similarityLevel": "0.05"
+                },
+                {
+                    "question": "What is the process for handling log records in undo-redo recovery?",
+                    "expectedAnswer": "First redo using after values for committed transactions, then undo using before values for uncommitted transactions.",
+                    "similarityLevel": "0.01"
+                },
+                {
+                    "question": "Can you explain how to manage log records in undo-redo recovery?",
+                    "expectedAnswer": "Redo with after values for committed transactions, undo with before values for uncommitted transactions.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "How do I create a new Snowflake database and a table within it?",
+            "expectedAnswer": "To create a new database in Snowflake, you can use the following SQL command: `CREATE DATABASE lab;`. To create a table within this database, you can use: `USE DATABASE lab; CREATE TABLE OrderedProduct (OrderId char(5) NOT NULL, ProductId char(5) NOT NULL, Quantity integer, Price decimal(9,2), PRIMARY KEY (OrderId, ProductId), FOREIGN KEY (OrderId) REFERENCES Orders (OrderId) ON UPDATE CASCADE ON DELETE CASCADE, FOREIGN KEY (ProductId) REFERENCES Product (ProductId));`.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the process to create a database and table in Snowflake?",
+                    "expectedAnswer": "Use `CREATE DATABASE` to create a database and `CREATE TABLE` to create a table within it.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How to establish a new Snowflake database and table?",
+                    "expectedAnswer": "Create a database with `CREATE DATABASE`, then create a table with `CREATE TABLE`.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you describe how to create a database and table in Snowflake?",
+                    "expectedAnswer": "Create a database with `CREATE DATABASE` and then use `CREATE TABLE` to create a table.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "How can I load data into a Snowflake table from a CSV file using the web interface?",
+            "expectedAnswer": "To load data into a Snowflake table from a CSV file using the web interface, follow these steps: 1. Navigate to the classic user interface. 2. Click on the 'Databases' icon. 3. Find your database and select the table you want to load data into. 4. Click the 'Load Data..' button. 5. Select your warehouse and CSV file. 6. Define the CSV import format by clicking on '+', entering the necessary details, and clicking 'Load'.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the steps to load a CSV file into a Snowflake table via the web interface?",
+                    "expectedAnswer": "Navigate to 'Databases', select your table, click 'Load Data..', choose warehouse and CSV file, define import format, click 'Load'.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How do you upload a CSV file into Snowflake using the web interface?",
+                    "expectedAnswer": "Go to 'Databases', select table, click 'Load Data..', pick warehouse and CSV file, set import format, and click 'Load'.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain how to load CSV data into a Snowflake table using the web interface?",
+                    "expectedAnswer": "Navigate to 'Databases', select table, click 'Load Data..', choose warehouse and CSV file, set import format, and click 'Load'.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "What is the purpose of a warehouse in Snowflake and how do I create one?",
+            "expectedAnswer": "In Snowflake, a warehouse is required to perform any operations on data. It is essentially a cluster of compute resources that processes queries. To create a warehouse, navigate to 'Compute' then 'Warehouses' in the user interface. If there are no warehouses defined, click on the '+ Warehouse' button, fill out the necessary information (e.g., name, size, auto-suspend), and create the warehouse. Using an X-Small warehouse is recommended to avoid using up too many credits.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is a Snowflake warehouse and how can it be created?",
+                    "expectedAnswer": "A warehouse is a cluster of compute resources. Create one by navigating to 'Compute' > 'Warehouses', and clicking '+ Warehouse'.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "How to create a warehouse in Snowflake?",
+                    "expectedAnswer": "Go to 'Compute', select 'Warehouses', click '+ Warehouse', and provide the required information.",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you describe the steps to create a Snowflake warehouse?",
+                    "expectedAnswer": "Navigate to 'Compute', select 'Warehouses', click '+ Warehouse', fill in the necessary details, and create it.",
+                    "similarityLevel": "0.91"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "How do I execute a SQL query in Snowflake using JDBC in Java?",
+            "expectedAnswer": "To execute a SQL query in Snowflake using JDBC in Java, you can follow these steps: 1. Add the Snowflake JDBC driver to your project dependencies. 2. Establish a connection to Snowflake using the `Connection` class. 3. Create a `Statement` object. 4. Execute your query using the `executeQuery` method. 5. Process the results using a `ResultSet` object. Example code snippet: `Connection conn = DriverManager.getConnection(url, user, password); Statement stmt = conn.createStatement(); ResultSet rs = stmt.executeQuery(\"SELECT * FROM lab.OrderedProduct\"); while (rs.next()) { System.out.println(rs.getString(1)); }`.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the steps to execute a SQL query in Snowflake using JDBC?",
+                    "expectedAnswer": "Add Snowflake JDBC driver, establish connection, create `Statement`, execute query with `executeQuery`, process results with `ResultSet`.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How to run a SQL query in Snowflake with JDBC in Java?",
+                    "expectedAnswer": "Add Snowflake JDBC driver, establish connection, create `Statement`, execute query using `executeQuery`, process with `ResultSet`.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain executing a SQL query in Snowflake using JDBC?",
+                    "expectedAnswer": "Add Snowflake JDBC driver, connect using `Connection`, create `Statement`, execute query with `executeQuery`, process results with `ResultSet`.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "I'm getting an error while trying to load data into Snowflake from a CSV file. The error message says 'File not found'. How can I resolve this?",
+            "expectedAnswer": "The 'File not found' error indicates that Snowflake cannot locate the specified CSV file. Ensure that the file path is correct and that the file exists at the specified location. If you are loading the file via the web interface, make sure to upload the CSV file correctly by selecting the file through the file picker dialog. Additionally, verify that the file format settings match the structure of your CSV file.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How to resolve 'File not found' error when loading CSV into Snowflake?",
+                    "expectedAnswer": "Ensure the file path is correct, the file exists, and upload via file picker dialog in the web interface.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Why do I get 'File not found' error in Snowflake when loading CSV?",
+                    "expectedAnswer": "Check the file path and existence, and ensure correct upload through the file picker in the web interface.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain fixing 'File not found' error when loading CSV into Snowflake?",
+                    "expectedAnswer": "Verify the file path, ensure the file exists, and upload correctly using the file picker in the web interface.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the load factor in hashing and why is it important?",
+            "expectedAnswer": "The load factor in hashing is the ratio of the number of records stored to the number of possible storage locations in the hash table. It is important because it helps determine when the hash table should be resized to maintain efficiency. A high load factor can lead to more collisions and decreased performance, while a low load factor indicates underutilized space.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is load factor significant in hashing?",
+                    "expectedAnswer": "The load factor indicates when the hash table should be resized to maintain efficiency.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How does the load factor affect hashing performance?",
+                    "expectedAnswer": "A high load factor can lead to collisions and decreased performance, while a low load factor indicates underutilized space.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you explain the importance of load factor in hashing?",
+                    "expectedAnswer": "The load factor determines when the hash table should be resized to maintain efficiency and performance.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        }
+    ],
+    "Assume Context": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Regarding 2PC protocol question on Slide 13 p43, can you explain the statements in the slide? Which ones are correct and why?",
+            "expectedAnswer": "All of them are correct. i is correct because there is prepare and commit phase. ii is correct message to all sites. iii is correct because each site can report their status. iv is correct because coordinator would abort if any site votes no.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What phases are involved in the 2PC protocol?",
+                    "expectedAnswer": "The 2PC protocol involves the prepare and commit phases.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "How does the 2PC protocol ensure all sites can report their status?",
+                    "expectedAnswer": "Each site can report their status during the prepare phase.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "What happens if any site votes 'no' in the 2PC protocol?",
+                    "expectedAnswer": "If any site votes 'no', the coordinator would abort the transaction.",
+                    "similarityLevel": "0.03"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "When are the midterm exams?",
+            "expectedAnswer": "Midterm 1 is on February 28th and Midterm 2 is on March 21st.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the dates for the midterm exams?",
+                    "expectedAnswer": "Midterm 1 is on February 28th and Midterm 2 is on March 21st.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "When are the scheduled midterm exams?",
+                    "expectedAnswer": "Midterm 1 is on February 28th and Midterm 2 is on March 21st.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "On which dates will the midterms be held?",
+                    "expectedAnswer": "Midterm 1 is on February 28th and Midterm 2 is on March 21st.",
+                    "similarityLevel": "0.48"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What percentage is the projects for me (graduate student)?",
+            "expectedAnswer": "The percentage of graduate projects is 15%.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How much do graduate projects contribute to the final grade?",
+                    "expectedAnswer": "Graduate projects contribute 15% to the final grade.",
+                    "similarityLevel": "0.19"
+                },
+                {
+                    "question": "What is the weight of graduate projects in the course?",
+                    "expectedAnswer": "Graduate projects have a weight of 15%.",
+                    "similarityLevel": "0.09"
+                },
+                {
+                    "question": "What portion of the grade is assigned to graduate projects?",
+                    "expectedAnswer": "Graduate projects make up 15% of the overall grade.",
+                    "similarityLevel": "0.28"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the requirement on the graduate project?",
+            "expectedAnswer": "The primary objective of the Database Implementation Project for graduate students is to explore new database systems or innovative techniques that extend beyond the course material, fostering a deeper understanding of database systems. This project accounts for 15% of the overall grade.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What should the graduate project focus on?",
+                    "expectedAnswer": "The project should explore new database systems or innovative techniques beyond the course material.",
+                    "similarityLevel": "0.50"
+                },
+                {
+                    "question": "What is the aim of the graduate Database Implementation Project?",
+                    "expectedAnswer": "The aim is to explore new database systems or innovative techniques, extending beyond course material.",
+                    "similarityLevel": "0.31"
+                },
+                {
+                    "question": "What does the Database Implementation Project require?",
+                    "expectedAnswer": "It requires exploring new database systems or innovative techniques beyond the course material, accounting for 15% of the grade.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the policy on midterms, if I can't make to one of them",
+            "expectedAnswer": "There is no make-up exam for the midterm.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Is there a make-up exam for midterms if missed?",
+                    "expectedAnswer": "No, there is no make-up exam for the midterm.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can I retake a missed midterm exam?",
+                    "expectedAnswer": "No, there is no make-up exam for the midterm.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What happens if I miss a midterm exam?",
+                    "expectedAnswer": "There is no make-up exam for the midterm.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "In Question 18 of the midterm, can you explain how the number of disk operations for the sort-merge join is calculated?",
+            "expectedAnswer": "The number of disk operations for the sort-merge join is calculated as 3 * (B(S) + B(R)), where B(S) and B(R) are the number of blocks for relations S and R respectively. For this question, it should be 3 * (100,000 + 200,000) = 900,000 disk operations.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How are disk operations for sort-merge join determined?",
+                    "expectedAnswer": "The number of disk operations is 3 * (B(S) + B(R)).",
+                    "similarityLevel": "0.72"
+                },
+                {
+                    "question": "What formula is used to calculate disk operations in sort-merge join?",
+                    "expectedAnswer": "3 * (B(S) + B(R)), where B(S) and B(R) are the number of blocks for relations S and R.",
+                    "similarityLevel": "0.62"
+                },
+                {
+                    "question": "How do you calculate disk operations for a sort-merge join?",
+                    "expectedAnswer": "The formula is 3 * (B(S) + B(R)). For example, 3 * (100,000 + 200,000) = 900,000 disk operations.",
+                    "similarityLevel": "0.79"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "For Question 21 in the midterm, can you clarify the steps for this calculation?",
+            "expectedAnswer": "To retrieve a record using a dense secondary index, perform a binary search on the index. With 25,000 blocks, the number of probes is ceiling(log2(25000)) = 15. Including 1 block to read the primary index and 1 block to get the data record, the total is 17 blocks.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you calculate the number of probes in a dense secondary index?",
+                    "expectedAnswer": "Perform a binary search on the index, resulting in ceiling(log2(25000)) = 15 probes.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What steps are involved in retrieving a record with a dense secondary index?",
+                    "expectedAnswer": "Perform a binary search, calculate the number of probes, and include blocks to read the primary index and data record.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How many blocks are needed for retrieving a record using a dense secondary index?",
+                    "expectedAnswer": "The total is 17 blocks: 15 probes + 1 block to read the primary index + 1 block to get the data record.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "I am confused about the B-tree insertion steps shown in the final exam slides. Specifically, for Insert #2, could you explain why the value 23 is placed where it is?",
+            "expectedAnswer": "During the insertion of 23 into the B-tree, the value 23 is inserted into the appropriate leaf node in sorted order. As a result, the structure of the tree is adjusted to maintain the B-tree properties, leading to the reorganization of the nodes as shown.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How is the value 23 inserted into a B-tree?",
+                    "expectedAnswer": "23 is inserted into the appropriate leaf node in sorted order, adjusting the tree to maintain B-tree properties.",
+                    "similarityLevel": "0.18"
+                },
+                {
+                    "question": "Why is 23 placed in a specific position in the B-tree?",
+                    "expectedAnswer": "The value 23 is placed to maintain sorted order and B-tree properties.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "What steps are involved in inserting 23 into a B-tree?",
+                    "expectedAnswer": "23 is inserted into the appropriate leaf node, and the tree structure is adjusted to maintain B-tree properties.",
+                    "similarityLevel": "0.33"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In Lab 5 of COSC 404, for the ORDER BY clause modification in SQLParser.jjt, should we handle cases where both ASC and DESC are specified for the same attribute?",
+            "expectedAnswer": "No, you only need to handle cases where either ASC or DESC is specified for an attribute, or where neither is specified (defaulting to ASC). Both ASC and DESC should not be specified for the same attribute.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should we handle cases where both ASC and DESC are specified for the same attribute in the ORDER BY clause?",
+                    "expectedAnswer": "No, handle cases where either ASC or DESC is specified, or neither is specified (defaulting to ASC).",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "Do we need to consider both ASC and DESC for the same attribute in ORDER BY clause modification?",
+                    "expectedAnswer": "No, only handle cases where either ASC or DESC is specified, or neither is specified (defaulting to ASC).",
+                    "similarityLevel": "0.73"
+                },
+                {
+                    "question": "How should the ORDER BY clause handle both ASC and DESC for the same attribute?",
+                    "expectedAnswer": "It should not handle both; only handle either ASC or DESC, or default to ASC if neither is specified.",
+                    "similarityLevel": "0.84"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For COSC 404 Lab 5, when modifying the query/Optimizer.java file to support ORDER BY, how should we handle ordering by multiple attributes?",
+            "expectedAnswer": "For this lab, you only need to support ordering by a single attribute either in ASC or DESC order as specified in the instructions. Handling multiple attributes is not required.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Should we handle ordering by multiple attributes in query/Optimizer.java?",
+                    "expectedAnswer": "No, only support ordering by a single attribute either in ASC or DESC order.",
+                    "similarityLevel": "0.68"
+                },
+                {
+                    "question": "Is it necessary to support multiple attribute ordering in ORDER BY clause for this lab?",
+                    "expectedAnswer": "No, only single attribute ordering in either ASC or DESC order is required.",
+                    "similarityLevel": "0.14"
+                },
+                {
+                    "question": "How should we handle ordering by attributes in query/Optimizer.java for this lab?",
+                    "expectedAnswer": "Support ordering by a single attribute in either ASC or DESC order, as specified.",
+                    "similarityLevel": "0.85"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In the COSC 404 Lab 5 setup instructions, it mentions using the command: ../../../scripts/jjtree SQLParser.jjt. I'm getting a 'Permission denied' error on macOS. How do I fix this?",
+            "expectedAnswer": "Normally this is an issue on MacOS, if so, you need to make the script files executable. Run the commands chmod +x ../../../scripts/jjtree and chmod +x ../../../scripts/javacc to fix the 'Permission denied' error.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can I resolve the 'Permission denied' error on macOS when running jjtree?",
+                    "expectedAnswer": "Make the script files executable by running chmod +x ../../../scripts/jjtree and chmod +x ../../../scripts/javacc.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What should I do if I get a 'Permission denied' error for jjtree on macOS?",
+                    "expectedAnswer": "Run chmod +x ../../../scripts/jjtree and chmod +x ../../../scripts/javacc to make the scripts executable.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "How do I fix 'Permission denied' errors for jjtree and javacc scripts on macOS?",
+                    "expectedAnswer": "Use chmod +x to make the scripts executable: chmod +x ../../../scripts/jjtree and chmod +x ../../../scripts/javacc.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        }
+    ]
+}

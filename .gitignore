@@ -1,0 +1,14 @@
+*node_modules/
+.env
+dist/
+logs/
+docker/data
+test/RAGtesting/venv
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+coverage/
+yarn.lock
+*venv

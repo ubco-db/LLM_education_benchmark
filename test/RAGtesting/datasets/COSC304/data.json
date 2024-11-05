@@ -1,0 +1,379 @@
+{
+  "Assume Context": [
+    {
+      "category": "Administrative",
+      "question": "What are the learning goals for the COSC304 course?",
+      "expectedAnswer": "The COSC304 course aims to teach students how to create, query, and program with databases to develop applications, websites, and perform data analysis.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "What is the percentage contribution of lab assignments to the final grade in COSC304?",
+      "expectedAnswer": "Lab assignments contribute 25% to the overall grade in the COSC304 course.",
+      "history": []
+    },
+    {
+      "category": "Exam_Related",
+      "question": "What is the policy on midterms, if I can't make to one of them",
+      "expectedAnswer": "There is no make-up exam for the midterm.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "How are online questions integrated into the grading system in COSC304?",
+      "expectedAnswer": "Answering online questions correctly accounts for 10% of the overall grade. Students must achieve at least 80% correct answers to receive full marks for this component.",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "How can I excel in the COSC304 course?",
+      "expectedAnswer": "To excel in COSC304, students should attend every class, read notes beforehand, participate in class exercises, complete all lab assignments, and practice extensively on their own.",
+      "history": []
+    },
+    {
+      "category": "Exam_Related",
+      "question": "What topics are covered up to midterm 1",
+      "expectedAnswer": "Relational Model, Relational Algebra, SQL, Database Design, ER and Database design",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "Where do I go to for office hours",
+      "expectedAnswer": "Instructor's office hours are held every thursday 2:00 PM to 4:00 PM in ASC 349. TA office hours are held online every other day from 2:00 PM to 4:00 PM. Check canvas for zoom link",
+      "history": []
+    },
+    {
+      "category": "Administrative",
+      "question": "What is the policy on late submissions for lab assignments?",
+      "expectedAnswer": "No late assignments will be accepted",
+      "history": []
+    },    
+    {
+      "category": "Assignment",
+      "question": "For Assignment 2, Question 1, regarding the creation of the 'Flight' table, could you clarify how to set the foreign key constraints to null on delete and cascade on update?",
+      "expectedAnswer": "The foreign key constraints should be defined with the ON DELETE SET NULL and ON UPDATE CASCADE options to handle the required actions. Ensure that each foreign key references the appropriate columns in the related tables.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "In Assignment 2, Question 2, how should the SQL DDL be structured to update the seat number for passenger id 1 on flight 'AC35' departing on '2022-09-14' at 7 a.m.?",
+      "expectedAnswer": "The update statement should specify the exact flight and seat number details, and use the appropriate conditions to identify the record that needs to be updated in the 'OnFlight' table.",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "Regarding Assignment 2, Question 2, when removing an airport from the 'Airport' table, what should be the expected changes to the 'Flight' table due to the SET NULL foreign key action?",
+      "expectedAnswer": "The removal of an airport from the 'Airport' table should result in setting the related foreign key fields in the 'Flight' table to NULL, as specified by the ON DELETE SET NULL constraint.",
+      "history": []
+    }
+  ],
+  "General": [
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How do we know an XML document is valid?",
+      "expectedAnswer": "An XML document is valid if it is well-formed and it conforms to a Document Type Definition (DTD) or an XML Schema Definition (XSD).",
+      "history": []
+    },
+
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can each table have have multiple foreigns keys?",
+      "expectedAnswer": "Yes, a table can have multiple foreign keys, each referencing a primary key of another table.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How do I model a domain in an ER diagram?",
+      "expectedAnswer": "To model a domain in an ER diagram, identify entities, relationships between entities, attributes of entities, and cardinalities. Represent entities as rectangles, relationships as diamonds, and draw lines between them indicating the relationships.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is cardinality?",
+      "expectedAnswer": "Cardinality defines the numerical relationship between entities in an ER diagram, such as one-to-one (1:1), one-to-many (1:M), or many-to-many (M:N).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the steps for programming with database and does it matter which programming language it is?",
+      "expectedAnswer": "Steps: 1) Define the database schema; 2) Establish a connection to the database; 3) Use SQL or other querying languages to interact (CRUD operations: Create, Read, Update, Delete); 4) Handle errors and exceptions; 5) Close the connection. The general steps will be similar across different programming languages.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the differences between the selection and projection operations in relational algebra?",
+      "expectedAnswer": "In relational algebra, the selection operation (denoted by σ) filters rows from a relation based on a specific condition, maintaining the same number of columns. In contrast, the projection operation (denoted by Π) reduces the number of columns, potentially reducing rows if duplicates are eliminated, by selecting certain columns from a relation.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the advantages of views, and how about triggers, and how are they related?",
+      "expectedAnswer": "Views offer data abstraction, security by limiting data exposure, a simplified interface for complex queries, and can encapsulate frequent operations.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are functional dependencies? And what are related knowledge I should know?",
+      "expectedAnswer": "Functional dependencies (FD) are constraints between attributes in a relation. If A → B, then B is functionally dependent on A. Related concepts: normalization, closure, candidate keys, superkeys, and normal forms.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can you explain how to compute attribute closure in detail and provide an example?",
+      "expectedAnswer": "Use given FDs to determine all attributes that are functionally dependent on {A}. Example: With FDs A→B and B→C, the closure of {A} is {A, B, C}.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the create connection errors? Explain each one.",
+      "expectedAnswer": "Common errors: 1) Invalid URL: The URL provided for the database connection is incorrect or malformed, preventing the connection from being established. 2) Incorrect User Information: The username or password used for the connection is incorrect, leading to authentication failure. 3) Network Issues: Network problems, such as server downtime or firewall restrictions, can prevent a successful connection. 4) Wrong Library: The database library or driver used is not compatible with the database system, causing connection failures.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "difference between a superkey and a candidate key?",
+      "expectedAnswer": "A superkey is a set of one or more attributes that, taken collectively, allow us to identify uniquely a tuple in a relation. A candidate key is a minimal superkey, meaning no subset of a candidate key can be a superkey.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the main differences between two-tier and three-tier database architectures?",
+      "expectedAnswer": "In a two-tier architecture, the client directly interacts with the database on the server. In a three-tier architecture, an additional middle layer, called the application server, processes the business logic and interacts with the database, providing an additional layer of abstraction which helps in load balancing and more efficient data processing.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is database normalization and why is it important?",
+      "expectedAnswer": "Database normalization is the process of structuring a relational database in a way that reduces data redundancy and improves data integrity. It is important because it optimizes the database by eliminating redundant data, which can improve the efficiency of queries and maintain data integrity by reducing the chances of data inconsistencies.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is JSON and what are its key benefits?",
+      "expectedAnswer": "JSON (JavaScript Object Notation) is a method for serializing data objects into text form. The key benefits of JSON are: it is human-readable, supports semi-structured data, and is supported by many programming languages (not just JavaScript).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How can values be represented in JSON?",
+      "expectedAnswer": "In JSON, values can be numbers, strings (enclosed in double quotes), true, false, or null.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What structures can be used in JSON to organize data?",
+      "expectedAnswer": "In JSON, data can be organized using objects (enclosed in curly braces and consisting of key-value pairs) and arrays (enclosed in square brackets and consisting of lists of values). Both objects and arrays can be nested.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How does JSON structure differ from the relational model?",
+      "expectedAnswer": "JSON allows nested objects and arrays, while the relational model uses tables. JSON does not require a fixed schema, whereas the relational model does. JSON is case-sensitive, unlike most relational systems.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the limitations of querying JSON data compared to relational databases?",
+      "expectedAnswer": "JSON queries are limited and do not support the full SQL expressiveness found in relational databases. JSON data often requires different methods for querying, which may not be as powerful or standardized as SQL.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "In what ways are arrays handled differently in JSON compared to relational databases?",
+      "expectedAnswer": "In JSON, arrays are sorted, while in relational databases, there is no inherent ordering of rows in tables.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the role of a JSON parser?",
+      "expectedAnswer": "A JSON parser converts a JSON file or string into program objects, assuming there are no syntactic errors.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How can you validate JSON and what tool can be used online for this purpose?",
+      "expectedAnswer": "A JSON validator checks a JSON document against a schema and then performs parsing. An online validation tool that can be used for this purpose is JSONLint (http://jsonlint.com).",
+      "history": []
+    },
+    {
+      "category": "Coding_Help",
+      "question": "How can you parse a JSON string in JavaScript?",
+      "expectedAnswer": "In JavaScript, you can parse a JSON string by calling the JSON.parse() method on the string. For example: JSON.parse('{\"name\":\"John\"}').",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How is JSON typically used in web applications?",
+      "expectedAnswer": "In web applications, JSON is often used for data interchange between a web server and a client, especially with AJAX/REST. The server provides JSON data to the web client, which then converts the JSON into objects and manipulates it using JavaScript.",
+      "history": []
+    },
+    {
+      "category": "Coding_Help",
+      "question": "How do you convert a JavaScript object to a JSON string?",
+      "expectedAnswer": "You can convert a JavaScript object to a JSON string using the JSON.stringify() method. For example: JSON.stringify({name: 'John'}).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What makes JSON suitable for data interchange in web applications?",
+      "expectedAnswer": "JSON is suitable for data interchange in web applications because it is lightweight, easy for humans to read and write, easy for machines to parse and generate, and supported by many programming languages.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are some data models other than the relational model?",
+      "expectedAnswer": "Some data models other than the relational model include the hierarchical model, object-oriented model, XML, graphs, key-value stores, and document models.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Why are relational databases not always the best way to represent data?",
+      "expectedAnswer": "Relational databases are not always the best way to represent data because they require fixed schemas, have complicated queries, include transaction overhead, and may not scale well for high data and query loads.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What challenges do fixed schemas in relational databases pose?",
+      "expectedAnswer": "Fixed schemas in relational databases must be defined ahead of time, making changes difficult. This is challenging because real-world data is often 'messy' and evolves over time.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the typical features of NoSQL databases?",
+      "expectedAnswer": "Typical features of NoSQL databases include variable data (semi-structured, evolving, or without schema), massive data storage capabilities, architectures to handle massive parallelism, simpler queries, relaxed consistency ('eventual consistency'), and lower initial cost.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What does 'NoSQL' stand for and what does it signify?",
+      "expectedAnswer": "'NoSQL' stands for 'Not Only SQL'. It signifies developing data management systems that are not strictly based on the relational model and SQL, offering alternatives for handling specific types of data and workloads.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are some common types of NoSQL systems?",
+      "expectedAnswer": "Common types of NoSQL systems include MapReduce systems, key-value stores, document stores, and graph databases.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What operations are supported by key-value stores?",
+      "expectedAnswer": "Key-value stores support operations such as insert(key, value), fetch(key), update(key), and delete(key).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the benefits and limitations of key-value stores?",
+      "expectedAnswer": "The benefits of key-value stores include high scalability, availability, and performance. The limitations include single record transactions, eventual consistency, and a simple query interface.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can you name some key-value store systems?",
+      "expectedAnswer": "Some key-value store systems include Cassandra, Amazon Dynamo, Google BigTable, and HBase.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How do document stores differ from key-value stores?",
+      "expectedAnswer": "Document stores are similar to key-value stores, but the value stored is a structured document (e.g., JSON, XML). They can store and query documents by key as well as retrieve and filter documents by their properties.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the benefits and limitations of document stores?",
+      "expectedAnswer": "The benefits of document stores include high scalability, availability, and performance. The limitations include the potential for redundancy and the need for more code to manipulate documents.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Can you name some document store systems?",
+      "expectedAnswer": "Some document store systems include MongoDB, CouchDB, and SimpleDB.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How do graph databases model data?",
+      "expectedAnswer": "Graph databases model data as nodes (with properties) and edges (with labels), representing data in a graph structure.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are some systems that use graph databases?",
+      "expectedAnswer": "Some systems that use graph databases include Neo4J and FlockDB.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What types of problems are graph databases well-suited for?",
+      "expectedAnswer": "Graph databases are well-suited for problems that involve complex relationships and interconnections between data, such as social networks, recommendation systems, and fraud detection.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the purpose of the MapReduce framework?",
+      "expectedAnswer": "The MapReduce framework is designed for processing large-scale data sets with a distributed algorithm on a cluster.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the main functions used in MapReduce?",
+      "expectedAnswer": "The main functions used in MapReduce are reader(file), map(records), combine(key, list of values), reduce(key, list of values), and write(file).",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the role of the 'combine' function in MapReduce?",
+      "expectedAnswer": "The 'combine' function in MapReduce performs optional aggregation of key-value pairs after the map stage, before they are passed to the reduce function.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is normalization in the context of database design?",
+      "expectedAnswer": "Normalization is a technique for producing relations with desirable properties by decomposing them into smaller relations that contain less redundancy, ensuring no information is lost and the original relations can be reconstructed.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "Why is normalization important in database design?",
+      "expectedAnswer": "Normalization is important because it helps to minimize redundancies and update anomalies, which occur when the same data value is stored more than once, wasting space and reducing performance.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What are the different normal forms in normalization?",
+      "expectedAnswer": "The different normal forms in normalization are 1NF (First Normal Form), 2NF (Second Normal Form), 3NF (Third Normal Form), BCNF (Boyce-Codd Normal Form), 4NF (Fourth Normal Form), and 5NF (Fifth Normal Form). Each form has stricter requirements to reduce redundancy and anomalies.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is the purpose of a data warehouse?",
+      "expectedAnswer": "A data warehouse is a historical database that summarizes, integrates, and organizes data from one or more operational databases in a format that is more efficient for analytical queries.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "How does OLAP differ from OLTP?",
+      "expectedAnswer": "OLAP (Online Analytical Processing) systems are designed for decision support applications where large amounts of data are analyzed, often with ad hoc queries. In contrast, OLTP (Online Transaction Processing) systems handle many small queries and updates, focusing on transaction-driven processes.",
+      "history": []
+    },
+    {
+      "category": "Course_Content_Clarification",
+      "question": "What is a star schema in the context of data warehousing?",
+      "expectedAnswer": "A star schema is a type of dimensional model used in data warehousing where a main table (fact table) is linked to multiple dimension tables. The fact table contains composite primary keys and numerical facts, while the dimension tables contain descriptive attributes.",
+      "history": []
+    },
+    {
+      "category": "Assignment_code",
+      "question": "For Assignment 7, Question 1, I need to modify the listorder.jsp to list all orders and their products. How do I establish a connection to the SQL Server database and retrieve the orders with their associated products? Provide a code snippet to demonstrate this.",
+      "expectedAnswer": "To establish a connection to the SQL Server database and retrieve the orders with their associated products in listorder.jsp, you can use the following code snippet:\n\n```jsp\n<%@ page import=\"java.sql.*\" %>\n<%\nConnection conn = null;\nStatement stmt = null;\nResultSet rs = null;\ntry {\n    Class.forName(\"com.microsoft.sqlserver.jdbc.SQLServerDriver\");\n    String dbURL = \"jdbc:sqlserver://cosc304_sqlserver:1433;DatabaseName=orders;TrustServerCertificate=True\";\n    conn = DriverManager.getConnection(dbURL, \"username\", \"password\");\n    stmt = conn.createStatement();\n    String sql = \"SELECT o.order_id, o.order_date, p.product_name, p.price FROM orders o JOIN order_products op ON o.order_id = op.order_id JOIN products p ON op.product_id = p.product_id\";\n    rs = stmt.executeQuery(sql);\n    while (rs.next()) {\n        out.println(\"Order ID: \" + rs.getInt(\"order_id\") + \", Date: \" + rs.getDate(\"order_date\") + \", Product: \" + rs.getString(\"product_name\") + \", Price: \" + rs.getDouble(\"price\") + \"<br>\");\n    }\n} catch (Exception e) {\n    e.printStackTrace();\n} finally {\n    if (rs != null) try { rs.close(); } catch (SQLException ignore) {}\n    if (stmt != null) try { stmt.close(); } catch (SQLException ignore) {}\n    if (conn != null) try { conn.close(); } catch (SQLException ignore) {}\n}\n%>\n```",
+      "history": []
+    },
+    {
+      "category": "Assignment",
+      "question": "For Assignment 7, Question 2, I need to implement order.jsp to store an order and its products in the database. How can I validate the customer id, insert the order, and save the ordered products? Provide a code snippet demonstrating this functionality.",
+      "expectedAnswer": "To implement order.jsp and store an order with its products, you need to validate the customer id, insert the order, and save each product in the order. Here is a code snippet demonstrating this functionality:\n\n```jsp\n<%@ page import=\"java.sql.*\" %>\n<%@ page import=\"java.util.*\" %>\n<%\nString customerId = request.getParameter(\"customerId\");\nList<String> cart = (List<String>) session.getAttribute(\"cart\");\nConnection conn = null;\nPreparedStatement pstmtOrder = null;\nPreparedStatement pstmtProduct = null;\nResultSet rs = null;\ntry {\n    Class.forName(\"com.microsoft.sqlserver.jdbc.SQLServerDriver\");\n    String dbURL = \"jdbc:sqlserver://cosc304_sqlserver:1433;DatabaseName=orders;TrustServerCertificate=True\";\n    conn = DriverManager.getConnection(dbURL, \"username\", \"password\");\n    // Validate customer id\n    String sqlCustomer = \"SELECT COUNT(*) FROM customers WHERE customer_id = ?\";\n    pstmtOrder = conn.prepareStatement(sqlCustomer);\n    pstmtOrder.setInt(1, Integer.parseInt(customerId));\n    rs = pstmtOrder.executeQuery();\n    rs.next();\n    if (rs.getInt(1) == 0) {\n        out.println(\"Invalid customer id\");\n        return;\n    }\n    // Insert order\n    String sqlInsertOrder = \"INSERT INTO orders (customer_id, order_date) VALUES (?, GETDATE())\";\n    pstmtOrder = conn.prepareStatement(sqlInsertOrder, Statement.RETURN_GENERATED_KEYS);\n    pstmtOrder.setInt(1, Integer.parseInt(customerId));\n    pstmtOrder.executeUpdate();\n    rs = pstmtOrder.getGeneratedKeys();\n    rs.next();\n    int orderId = rs.getInt(1);\n    // Insert order products\n    String sqlInsertProduct = \"INSERT INTO order_products (order_id, product_id) VALUES (?, ?)\";\n    pstmtProduct = conn.prepareStatement(sqlInsertProduct);\n    for (String productId : cart) {\n        pstmtProduct.setInt(1, orderId);\n        pstmtProduct.setInt(2, Integer.parseInt(productId));\n        pstmtProduct.executeUpdate();\n    }\n    out.println(\"Order placed successfully with Order ID: \" + orderId);\n    // Clear cart\n    session.setAttribute(\"cart\", new ArrayList<String>());\n} catch (Exception e) {\n    e.printStackTrace();\n} finally {\n    if (rs != null) try { rs.close(); } catch (SQLException ignore) {}\n    if (pstmtOrder != null) try { pstmtOrder.close(); } catch (SQLException ignore) {}\n    if (pstmtProduct != null) try { pstmtProduct.close(); } catch (SQLException ignore) {}\n    if (conn != null) try { conn.close(); } catch (SQLException ignore) {}\n}\n%>\n```",
+      "history": []
+    }
+  ]
+}

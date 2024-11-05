@@ -1,0 +1,23 @@
+services:
+    db:
+        image: ankane/pgvector
+        ports:
+            - 5433:5432
+        restart: always
+        environment:
+            - POSTGRES_PASSWORD=12345
+            - POSTGRES_USER=postgres
+            - POSTGRES_DB=chatbot
+            - POSTGRES_HOST_AUTH_METHOD=trust
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+    pgadmin:
+        image: dpage/pgadmin4
+        ports:
+            - 5454:5454/tcp
+        environment:
+            - PGADMIN_DEFAULT_EMAIL=admin@mydomain.com
+            - PGADMIN_DEFAULT_PASSWORD=postgres
+            - PGADMIN_LISTEN_PORT=5454
+volumes:
+    pgdata:

@@ -1,0 +1,1432 @@
+{
+    "Assume Context": [
+        {
+            "category": "Administrative",
+            "question": "What are the learning goals for the COSC304 course?",
+            "expectedAnswer": "The COSC304 course aims to teach students how to create, query, and program with databases to develop applications, websites, and perform data analysis.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What skills does the COSC304 course aim to develop?",
+                    "expectedAnswer": "The course focuses on creating, querying, and programming databases for applications, websites, and data analysis.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What will students learn in COSC304?",
+                    "expectedAnswer": "Students will learn to create, query, and program databases for various applications and data analysis.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What are the main learning objectives of COSC304?",
+                    "expectedAnswer": "To teach students database creation, querying, programming, application development, and data analysis.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the percentage contribution of lab assignments to the final grade in COSC304?",
+            "expectedAnswer": "Lab assignments contribute 25% to the overall grade in the COSC304 course.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How much do lab assignments count towards the final grade in COSC304?",
+                    "expectedAnswer": "Lab assignments make up 25% of the final grade.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "What is the weight of lab assignments in COSC304?",
+                    "expectedAnswer": "Lab assignments contribute 25% to the overall grade.",
+                    "similarityLevel": "0.31"
+                },
+                {
+                    "question": "How are lab assignments factored into the final grade for COSC304?",
+                    "expectedAnswer": "They account for 25% of the final grade.",
+                    "similarityLevel": "0.93"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What is the policy on midterms, if I can't make to one of them",
+            "expectedAnswer": "There is no make-up exam for the midterm.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What happens if I miss a midterm in COSC304?",
+                    "expectedAnswer": "There is no make-up exam for the midterm.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Is there a make-up exam for a missed midterm in COSC304?",
+                    "expectedAnswer": "No, there is no make-up exam.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What is the policy for missing a midterm in COSC304?",
+                    "expectedAnswer": "No make-up exam will be provided.",
+                    "similarityLevel": "0.21"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "How are online questions integrated into the grading system in COSC304?",
+            "expectedAnswer": "Answering online questions correctly accounts for 10% of the overall grade. Students must achieve at least 80% correct answers to receive full marks for this component.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What percentage of the grade do online questions account for in COSC304?",
+                    "expectedAnswer": "Online questions account for 10% of the overall grade.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How do online questions affect the final grade in COSC304?",
+                    "expectedAnswer": "They contribute 10% to the overall grade, with 80% correct answers required for full marks.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the grading weight for online questions in COSC304?",
+                    "expectedAnswer": "Online questions are worth 10% of the total grade.",
+                    "similarityLevel": "0.95"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "How can I excel in the COSC304 course?",
+            "expectedAnswer": "To excel in COSC304, students should attend every class, read notes beforehand, participate in class exercises, complete all lab assignments, and practice extensively on their own.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the best practices to succeed in COSC304?",
+                    "expectedAnswer": "Attend every class, read notes beforehand, participate in exercises, complete lab assignments, and practice on your own.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "How can students do well in COSC304?",
+                    "expectedAnswer": "By attending classes, reading notes, participating in exercises, completing labs, and practicing independently.",
+                    "similarityLevel": "0.65"
+                },
+                {
+                    "question": "What strategies can help excel in COSC304?",
+                    "expectedAnswer": "Attend every class, read notes beforehand, participate in exercises, complete all lab assignments, and practice extensively.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Exam_Related",
+            "question": "What topics are covered up to midterm 1",
+            "expectedAnswer": "Relational Model, Relational Algebra, SQL, Database Design, ER and Database design",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Which topics are included up to midterm 1 in COSC304?",
+                    "expectedAnswer": "Relational Model, Relational Algebra, SQL, Database Design, ER and Database design.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What subjects should I study for midterm 1 in COSC304?",
+                    "expectedAnswer": "Relational Model, Relational Algebra, SQL, Database Design, ER and Database design.",
+                    "similarityLevel": "0.87"
+                },
+                {
+                    "question": "What areas are tested in midterm 1 for COSC304?",
+                    "expectedAnswer": "Relational Model, Relational Algebra, SQL, Database Design, ER and Database design.",
+                    "similarityLevel": "0.16"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "Where do I go to for office hours",
+            "expectedAnswer": "Instructor's office hours are held every Thursday 2:00 PM to 4:00 PM in ASC 349. TA office hours are held online every other day from 2:00 PM to 4:00 PM. Check canvas for zoom link",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "When and where are the instructor's office hours for COSC304?",
+                    "expectedAnswer": "Every Thursday 2:00 PM to 4:00 PM in ASC 349.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What are the times and locations for TA office hours in COSC304?",
+                    "expectedAnswer": "Online every other day from 2:00 PM to 4:00 PM. Check Canvas for Zoom link.",
+                    "similarityLevel": "0.06"
+                },
+                {
+                    "question": "How can I attend office hours for COSC304?",
+                    "expectedAnswer": "Instructor: Thursdays 2:00 PM to 4:00 PM in ASC 349. TA: Online every other day 2:00 PM to 4:00 PM. Check Canvas for Zoom link.",
+                    "similarityLevel": "0.24"
+                }
+            ]
+        },
+        {
+            "category": "Administrative",
+            "question": "What is the policy on late submissions for lab assignments?",
+            "expectedAnswer": "No late assignments will be accepted.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can I submit lab assignments late in COSC304?",
+                    "expectedAnswer": "No, late assignments will not be accepted.",
+                    "similarityLevel": "0.83"
+                },
+                {
+                    "question": "Is there any leniency for late lab submissions in COSC304?",
+                    "expectedAnswer": "No, late submissions are not accepted.",
+                    "similarityLevel": "0.89"
+                },
+                {
+                    "question": "What is the rule for submitting lab assignments after the deadline in COSC304?",
+                    "expectedAnswer": "Late submissions are not accepted.",
+                    "similarityLevel": "0.79"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For Assignment 2, Question 1, regarding the creation of the 'Flight' table, could you clarify how to set the foreign key constraints to null on delete and cascade on update?",
+            "expectedAnswer": "The foreign key constraints should be defined with the ON DELETE SET NULL and ON UPDATE CASCADE options to handle the required actions. Ensure that each foreign key references the appropriate columns in the related tables.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you define foreign key constraints to set null on delete and cascade on update in SQL?",
+                    "expectedAnswer": "Use ON DELETE SET NULL and ON UPDATE CASCADE in the foreign key definition.",
+                    "similarityLevel": "0.11"
+                },
+                {
+                    "question": "What is the purpose of ON DELETE SET NULL and ON UPDATE CASCADE in foreign key constraints?",
+                    "expectedAnswer": "ON DELETE SET NULL sets the foreign key to null when the referenced record is deleted, and ON UPDATE CASCADE updates the foreign key when the referenced record is updated.",
+                    "similarityLevel": "0.08"
+                },
+                {
+                    "question": "Can you explain how to use ON DELETE SET NULL and ON UPDATE CASCADE in a foreign key constraint?",
+                    "expectedAnswer": "ON DELETE SET NULL makes the foreign key null on deletion of the referenced record, and ON UPDATE CASCADE updates the foreign key when the referenced record changes.",
+                    "similarityLevel": "0.09"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "In Assignment 2, Question 2, how should the SQL DDL be structured to update the seat number for passenger id 1 on flight 'AC35' departing on '2022-09-14' at 7 a.m.?",
+            "expectedAnswer": "The update statement should specify the exact flight and seat number details, and use the appropriate conditions to identify the record that needs to be updated in the 'OnFlight' table.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you write an SQL update statement to change a seat number for a specific flight and passenger?",
+                    "expectedAnswer": "Specify the flight and passenger details in the WHERE clause and set the new seat number.",
+                    "similarityLevel": "0.37"
+                },
+                {
+                    "question": "What is the correct SQL syntax to update the seat number for a passenger on a given flight?",
+                    "expectedAnswer": "Use the UPDATE statement with SET to change the seat number and WHERE to specify the flight and passenger.",
+                    "similarityLevel": "0.62"
+                },
+                {
+                    "question": "Can you show an example of an SQL update statement to change a seat for a passenger on a specific flight?",
+                    "expectedAnswer": "Example: UPDATE OnFlight SET seat_number = 'new_seat' WHERE passenger_id = 1 AND flight_id = 'AC35' AND departure_date = '2022-09-14' AND departure_time = '07:00:00'.",
+                    "similarityLevel": "0.20"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "Regarding Assignment 2, Question 2, when removing an airport from the 'Airport' table, what should be the expected changes to the 'Flight' table due to the SET NULL foreign key action?",
+            "expectedAnswer": "The removal of an airport from the 'Airport' table should result in setting the related foreign key fields in the 'Flight' table to NULL, as specified by the ON DELETE SET NULL constraint.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What happens to the 'Flight' table when an airport is removed from the 'Airport' table with a SET NULL foreign key constraint?",
+                    "expectedAnswer": "The related foreign key fields in the 'Flight' table are set to NULL.",
+                    "similarityLevel": "0.86"
+                },
+                {
+                    "question": "How does the ON DELETE SET NULL action affect the 'Flight' table when an airport is deleted?",
+                    "expectedAnswer": "It sets the corresponding foreign key fields in the 'Flight' table to NULL.",
+                    "similarityLevel": "0.21"
+                },
+                {
+                    "question": "Can you explain the effect of deleting an airport on the 'Flight' table with a SET NULL foreign key constraint?",
+                    "expectedAnswer": "Deleting the airport sets the foreign key fields in the 'Flight' table to NULL.",
+                    "similarityLevel": "0.28"
+                }
+            ]
+        }
+    ],
+    "General": [
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do we know an XML document is valid?",
+            "expectedAnswer": "An XML document is valid if it is well-formed and it conforms to a Document Type Definition (DTD) or an XML Schema Definition (XSD).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the necessary conditions for an XML document to be considered valid?",
+                    "expectedAnswer": "An XML document is valid if it meets the criteria of being well-formed and conforms to a DTD or XSD.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "How can you ensure an XML document is both well-formed and valid?",
+                    "expectedAnswer": "To ensure an XML document is valid, it must be well-formed and conform to a DTD or XSD.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are the requirements for validating an XML document?",
+                    "expectedAnswer": "A valid XML document must be well-formed and conform to a DTD or XSD.",
+                    "similarityLevel": "0.86"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can each table have multiple foreign keys?",
+            "expectedAnswer": "Yes, a table can have multiple foreign keys, each referencing a primary key of another table.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Is it allowed for a table to reference multiple keys from other tables?",
+                    "expectedAnswer": "Yes, a table can reference multiple primary keys from different tables.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How can a table be designed to reference multiple other tables?",
+                    "expectedAnswer": "A table can have multiple foreign keys, each pointing to a primary key in another table.",
+                    "similarityLevel": "0.08"
+                },
+                {
+                    "question": "Are multiple foreign keys permitted within a single database table?",
+                    "expectedAnswer": "Yes, a table can have multiple foreign keys referencing primary keys of other tables.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do I model a domain in an ER diagram?",
+            "expectedAnswer": "To model a domain in an ER diagram, identify entities, relationships between entities, attributes of entities, and cardinalities. Represent entities as rectangles, relationships as diamonds, and draw lines between them indicating the relationships.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the process for creating an ER diagram for a domain?",
+                    "expectedAnswer": "Identify entities, their relationships, attributes, and cardinalities, using rectangles, diamonds, and connecting lines.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "How do you represent a domain in an ER diagram?",
+                    "expectedAnswer": "Use rectangles for entities, diamonds for relationships, and lines to show connections, indicating attributes and cardinalities.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "Can you explain the steps for modeling a domain in an ER diagram?",
+                    "expectedAnswer": "Identify entities, relationships, attributes, and cardinalities. Use appropriate symbols to represent them.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is cardinality?",
+            "expectedAnswer": "Cardinality defines the numerical relationship between entities in an ER diagram, such as one-to-one (1:1), one-to-many (1:M), or many-to-many (M:N).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does cardinality affect relationships in an ER diagram?",
+                    "expectedAnswer": "Cardinality specifies the numerical relationships between entities, such as 1:1, 1:M, or M:N.",
+                    "similarityLevel": "0.50"
+                },
+                {
+                    "question": "What role does cardinality play in an ER diagram?",
+                    "expectedAnswer": "Cardinality defines how entities relate numerically to one another, such as 1:1, 1:M, or M:N.",
+                    "similarityLevel": "0.52"
+                },
+                {
+                    "question": "Can you describe the concept of cardinality in an ER diagram?",
+                    "expectedAnswer": "Cardinality indicates numerical relationships between entities, like 1:1, 1:M, or M:N.",
+                    "similarityLevel": "0.81"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the steps for programming with a database and does it matter which programming language it is?",
+            "expectedAnswer": "Steps: 1) Define the database schema; 2) Establish a connection to the database; 3) Use SQL or other querying languages to interact (CRUD operations: Create, Read, Update, Delete); 4) Handle errors and exceptions; 5) Close the connection. The general steps will be similar across different programming languages.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the typical steps for interacting with a database in programming?",
+                    "expectedAnswer": "Define the schema, connect to the database, use SQL for CRUD operations, handle errors, and close the connection.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How do you typically program with a database across different languages?",
+                    "expectedAnswer": "Define the schema, connect to the database, perform CRUD operations, handle errors, and close the connection.",
+                    "similarityLevel": "0.31"
+                },
+                {
+                    "question": "Can you outline the steps for database programming?",
+                    "expectedAnswer": "Define the schema, connect to the database, use SQL for CRUD operations, handle errors, and close the connection.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the differences between the selection and projection operations in relational algebra?",
+            "expectedAnswer": "In relational algebra, the selection operation (denoted by \u03c3) filters rows from a relation based on a specific condition, maintaining the same number of columns. In contrast, the projection operation (denoted by \u03a0) reduces the number of columns, potentially reducing rows if duplicates are eliminated, by selecting certain columns from a relation.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do selection and projection differ in relational algebra?",
+                    "expectedAnswer": "Selection filters rows based on a condition, while projection reduces columns by selecting certain ones.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the difference between selection and projection operations?",
+                    "expectedAnswer": "Selection filters rows, maintaining columns; projection reduces columns, potentially eliminating duplicate rows.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain the selection and projection operations?",
+                    "expectedAnswer": "Selection filters rows based on a condition; projection selects specific columns, potentially reducing rows.",
+                    "similarityLevel": "0.65"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the advantages of views, and how about triggers, and how are they related?",
+            "expectedAnswer": "Views offer data abstraction, security by limiting data exposure, a simplified interface for complex queries, and can encapsulate frequent operations. Triggers automatically perform predefined actions in response to specific database events, like insertions, updates, or deletions.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the benefits of using views and triggers in databases?",
+                    "expectedAnswer": "Views provide data abstraction and security; triggers automate actions in response to database events.",
+                    "similarityLevel": "0.87"
+                },
+                {
+                    "question": "How do views and triggers benefit databases?",
+                    "expectedAnswer": "Views simplify complex queries and improve security; triggers automate actions for database events.",
+                    "similarityLevel": "0.68"
+                },
+                {
+                    "question": "Can you explain the advantages of views and triggers?",
+                    "expectedAnswer": "Views enhance data abstraction and security; triggers automate actions for database events.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are functional dependencies? And what are related knowledge I should know?",
+            "expectedAnswer": "Functional dependencies (FD) are constraints between attributes in a relation. If A \u2192 B, then B is functionally dependent on A. Related concepts: normalization, closure, candidate keys, superkeys, and normal forms.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can you define functional dependencies and related concepts?",
+                    "expectedAnswer": "FDs are constraints between attributes (A \u2192 B). Related concepts: normalization, closure, candidate keys, superkeys, normal forms.",
+                    "similarityLevel": "0.93"
+                },
+                {
+                    "question": "What are functional dependencies and their related concepts?",
+                    "expectedAnswer": "FDs are constraints between attributes. Related concepts: normalization, closure, candidate keys, superkeys, normal forms.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How do functional dependencies relate to other database concepts?",
+                    "expectedAnswer": "FDs are constraints (A \u2192 B). Related concepts: normalization, closure, candidate keys, superkeys, normal forms.",
+                    "similarityLevel": "0.68"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can you explain how to compute attribute closure in detail and provide an example?",
+            "expectedAnswer": "Use given FDs to determine all attributes that are functionally dependent on {A}. Example: With FDs A\u2192B and B\u2192C, the closure of {A} is {A, B, C}.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do you compute attribute closure with an example?",
+                    "expectedAnswer": "Use FDs to find all attributes functionally dependent on {A}. Example: A\u2192B, B\u2192C; closure of {A} is {A, B, C}.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the process to compute attribute closure?",
+                    "expectedAnswer": "Use FDs to find attributes functionally dependent on {A}. Example: A\u2192B, B\u2192C; closure of {A} is {A, B, C}.",
+                    "similarityLevel": "0.58"
+                },
+                {
+                    "question": "Can you provide an example of computing attribute closure?",
+                    "expectedAnswer": "Use FDs to find attributes dependent on {A}. Example: A\u2192B, B\u2192C; closure of {A} is {A, B, C}.",
+                    "similarityLevel": "0.95"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the create connection errors? Explain each one.",
+            "expectedAnswer": "Common errors: 1) Invalid URL: The URL provided for the database connection is incorrect or malformed, preventing the connection from being established. 2) Incorrect User Information: The username or password used for the connection is incorrect, leading to authentication failure. 3) Network Issues: Network problems, such as server downtime or firewall restrictions, can prevent a successful connection. 4) Wrong Library: The database library or driver used is not compatible with the database system, causing connection failures.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are common errors when creating a database connection?",
+                    "expectedAnswer": "Invalid URL, incorrect user information, network issues, and incompatible library or driver.",
+                    "similarityLevel": "0.79"
+                },
+                {
+                    "question": "Can you explain errors encountered during database connection?",
+                    "expectedAnswer": "Common errors: Invalid URL, incorrect user info, network issues, incompatible library or driver.",
+                    "similarityLevel": "0.22"
+                },
+                {
+                    "question": "What are typical errors when establishing a database connection?",
+                    "expectedAnswer": "Errors: Invalid URL, incorrect user info, network issues, incompatible library or driver.",
+                    "similarityLevel": "0.17"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the difference between a superkey and a candidate key?",
+            "expectedAnswer": "A superkey is a set of one or more attributes that, taken collectively, allow us to identify uniquely a tuple in a relation. A candidate key is a minimal superkey, meaning no subset of a candidate key can be a superkey.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do superkeys and candidate keys differ?",
+                    "expectedAnswer": "A superkey uniquely identifies a tuple; a candidate key is a minimal superkey with no subsets.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What distinguishes a superkey from a candidate key?",
+                    "expectedAnswer": "A superkey uniquely identifies a tuple; a candidate key is a minimal superkey.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the difference between a superkey and a candidate key?",
+                    "expectedAnswer": "A superkey uniquely identifies a tuple; a candidate key is a minimal superkey with no subsets.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the main differences between two-tier and three-tier database architectures?",
+            "expectedAnswer": "In a two-tier architecture, the client directly interacts with the database on the server. In a three-tier architecture, an additional middle layer, called the application server, processes the business logic and interacts with the database, providing an additional layer of abstraction which helps in load balancing and more efficient data processing.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do two-tier and three-tier database architectures differ?",
+                    "expectedAnswer": "Two-tier: client interacts directly with the database. Three-tier: adds an application server for business logic and database interaction.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the difference between two-tier and three-tier architectures?",
+                    "expectedAnswer": "Two-tier: client interacts directly with database. Three-tier: adds an application server for business logic.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the differences between two-tier and three-tier architectures?",
+                    "expectedAnswer": "Two-tier: client interacts directly with the database. Three-tier: adds an application server for business logic.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is database normalization and why is it important?",
+            "expectedAnswer": "Database normalization is the process of structuring a relational database in a way that reduces data redundancy and improves data integrity. It is important because it optimizes the database by eliminating redundant data, which can improve the efficiency of queries and maintain data integrity by reducing the chances of data inconsistencies.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is normalization crucial in database design?",
+                    "expectedAnswer": "Normalization reduces data redundancy and improves data integrity, optimizing the database.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does normalization affect database efficiency?",
+                    "expectedAnswer": "Normalization eliminates redundant data, improving query efficiency and data integrity.",
+                    "similarityLevel": "0.73"
+                },
+                {
+                    "question": "Can you explain the importance of database normalization?",
+                    "expectedAnswer": "Normalization reduces redundancy and enhances data integrity, optimizing database performance.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is JSON and what are its key benefits?",
+            "expectedAnswer": "JSON (JavaScript Object Notation) is a method for serializing data objects into text form. The key benefits of JSON are: it is human-readable, supports semi-structured data, and is supported by many programming languages (not just JavaScript).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the purpose of JSON?",
+                    "expectedAnswer": "JSON is used for serializing data objects into text form.",
+                    "similarityLevel": "0.57"
+                },
+                {
+                    "question": "How is JSON beneficial in data serialization?",
+                    "expectedAnswer": "JSON is human-readable, supports semi-structured data, and is supported by many programming languages.",
+                    "similarityLevel": "0.37"
+                },
+                {
+                    "question": "Can you explain the key benefits of JSON?",
+                    "expectedAnswer": "JSON is human-readable, supports semi-structured data, and is widely supported by programming languages.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How can values be represented in JSON?",
+            "expectedAnswer": "In JSON, values can be numbers, strings (enclosed in double quotes), true, false, or null.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What types of values can JSON represent?",
+                    "expectedAnswer": "JSON can represent numbers, strings, true, false, and null values.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How are different types of values represented in JSON?",
+                    "expectedAnswer": "JSON represents values as numbers, strings, true, false, or null.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you list the value types JSON supports?",
+                    "expectedAnswer": "JSON supports numbers, strings, true, false, and null values.",
+                    "similarityLevel": "0.52"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What structures can be used in JSON to organize data?",
+            "expectedAnswer": "In JSON, data can be organized using objects (enclosed in curly braces and consisting of key-value pairs) and arrays (enclosed in square brackets and consisting of lists of values). Both objects and arrays can be nested.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How can data be structured in JSON?",
+                    "expectedAnswer": "JSON structures data using objects (key-value pairs) and arrays (lists of values).",
+                    "similarityLevel": "0.78"
+                },
+                {
+                    "question": "What are the organizational structures in JSON?",
+                    "expectedAnswer": "JSON uses objects (key-value pairs) and arrays (lists of values) to organize data.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain how data is organized in JSON?",
+                    "expectedAnswer": "JSON organizes data using objects (key-value pairs) and arrays (lists of values).",
+                    "similarityLevel": "0.87"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does JSON structure differ from the relational model?",
+            "expectedAnswer": "JSON allows nested objects and arrays, while the relational model uses tables. JSON does not require a fixed schema, whereas the relational model does. JSON is case-sensitive, unlike most relational systems.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the differences between JSON and the relational model?",
+                    "expectedAnswer": "JSON allows nesting and is schema-less, whereas the relational model uses fixed schemas and tables.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How does the structure of JSON compare to relational databases?",
+                    "expectedAnswer": "JSON allows nested structures and does not require a fixed schema, unlike relational databases.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you compare JSON structure to the relational model?",
+                    "expectedAnswer": "JSON supports nesting and is schema-less, while relational databases use fixed schemas and tables.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the limitations of querying JSON data compared to relational databases?",
+            "expectedAnswer": "JSON queries are limited and do not support the full SQL expressiveness found in relational databases. JSON data often requires different methods for querying, which may not be as powerful or standardized as SQL.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do JSON query limitations compare to SQL?",
+                    "expectedAnswer": "JSON queries lack the full expressiveness and standardization of SQL in relational databases.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What are the challenges of querying JSON data?",
+                    "expectedAnswer": "JSON queries are limited compared to SQL, often requiring different methods and lacking standardization.",
+                    "similarityLevel": "0.39"
+                },
+                {
+                    "question": "Can you explain the limitations of JSON querying?",
+                    "expectedAnswer": "JSON queries are less powerful and standardized compared to SQL queries in relational databases.",
+                    "similarityLevel": "0.85"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "In what ways are arrays handled differently in JSON compared to relational databases?",
+            "expectedAnswer": "In JSON, arrays are sorted, while in relational databases, there is no inherent ordering of rows in tables.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do JSON arrays differ from relational database rows?",
+                    "expectedAnswer": "JSON arrays are ordered, whereas relational database rows are not inherently ordered.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the difference between JSON arrays and relational table rows?",
+                    "expectedAnswer": "JSON arrays are sorted, unlike relational table rows, which lack inherent ordering.",
+                    "similarityLevel": "0.86"
+                },
+                {
+                    "question": "Can you compare arrays in JSON to rows in relational databases?",
+                    "expectedAnswer": "JSON arrays are ordered, while rows in relational databases are not inherently ordered.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the role of a JSON parser?",
+            "expectedAnswer": "A JSON parser converts a JSON file or string into program objects, assuming there are no syntactic errors.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What does a JSON parser do?",
+                    "expectedAnswer": "A JSON parser converts JSON strings or files into program objects.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "How does a JSON parser function?",
+                    "expectedAnswer": "A JSON parser reads JSON strings or files and converts them into program objects.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "Can you explain the purpose of a JSON parser?",
+                    "expectedAnswer": "A JSON parser converts JSON data into program objects, assuming no syntax errors.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How can you validate JSON and what tool can be used online for this purpose?",
+            "expectedAnswer": "A JSON validator checks a JSON document against a schema and then performs parsing. An online validation tool that can be used for this purpose is JSONLint (http://jsonlint.com).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the process for validating JSON?",
+                    "expectedAnswer": "Validation involves checking a JSON document against a schema and parsing it. JSONLint is an online tool for this purpose.",
+                    "similarityLevel": "0.50"
+                },
+                {
+                    "question": "How do you validate JSON online?",
+                    "expectedAnswer": "Use an online tool like JSONLint to check a JSON document against a schema and parse it.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain how to validate JSON?",
+                    "expectedAnswer": "Validation checks a JSON document against a schema before parsing. JSONLint can be used for online validation.",
+                    "similarityLevel": "0.65"
+                }
+            ]
+        },
+        {
+            "category": "Coding_Help",
+            "question": "How can you parse a JSON string in JavaScript?",
+            "expectedAnswer": "In JavaScript, you can parse a JSON string by calling the JSON.parse() method on the string. For example: JSON.parse('{\"name\":\"John\"}').",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What method is used to parse JSON in JavaScript?",
+                    "expectedAnswer": "Use JSON.parse() to convert a JSON string into an object.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do you convert a JSON string into an object in JavaScript?",
+                    "expectedAnswer": "Call JSON.parse() on the JSON string to convert it into an object.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you explain how to parse JSON in JavaScript?",
+                    "expectedAnswer": "Use JSON.parse() to convert a JSON string into an object.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How is JSON typically used in web applications?",
+            "expectedAnswer": "In web applications, JSON is often used for data interchange between a web server and a client, especially with AJAX/REST. The server provides JSON data to the web client, which then converts the JSON into objects and manipulates it using JavaScript.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the role of JSON in web applications?",
+                    "expectedAnswer": "JSON is used for data interchange between web servers and clients, especially with AJAX/REST.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How is JSON utilized in web applications?",
+                    "expectedAnswer": "JSON facilitates data interchange between web servers and clients, often with AJAX/REST.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you describe the use of JSON in web applications?",
+                    "expectedAnswer": "JSON is used for data interchange between web servers and clients, particularly with AJAX/REST.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Coding_Help",
+            "question": "How do you convert a JavaScript object to a JSON string?",
+            "expectedAnswer": "You can convert a JavaScript object to a JSON string using the JSON.stringify() method. For example: JSON.stringify({name: 'John'}).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What method is used to convert a JavaScript object to JSON?",
+                    "expectedAnswer": "Use JSON.stringify() to convert a JavaScript object to a JSON string.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do you serialize a JavaScript object into JSON?",
+                    "expectedAnswer": "Call JSON.stringify() on the JavaScript object to serialize it into JSON.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "Can you explain how to convert a JavaScript object to JSON?",
+                    "expectedAnswer": "Use JSON.stringify() to convert a JavaScript object to a JSON string.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What makes JSON suitable for data interchange in web applications?",
+            "expectedAnswer": "JSON is suitable for data interchange in web applications because it is lightweight, easy for humans to read and write, easy for machines to parse and generate, and supported by many programming languages.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why is JSON preferred for data interchange in web applications?",
+                    "expectedAnswer": "JSON is lightweight, human-readable, easy for machines to parse, and supported by many programming languages.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How does JSON facilitate data interchange in web applications?",
+                    "expectedAnswer": "JSON is lightweight, human-readable, easy to parse, and widely supported, making it ideal for data interchange.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain why JSON is used for data interchange in web applications?",
+                    "expectedAnswer": "JSON's lightweight, human-readable format and easy parsing make it suitable for data interchange in web applications.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are some data models other than the relational model?",
+            "expectedAnswer": "Some data models other than the relational model include the hierarchical model, object-oriented model, XML, graphs, key-value stores, and document models.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What alternative data models exist beyond the relational model?",
+                    "expectedAnswer": "Alternative data models include hierarchical, object-oriented, XML, graph, key-value, and document models.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you list data models other than relational databases?",
+                    "expectedAnswer": "Other data models include hierarchical, object-oriented, XML, graph, key-value, and document models.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are some non-relational data models?",
+                    "expectedAnswer": "Non-relational data models include hierarchical, object-oriented, XML, graph, key-value, and document models.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Why are relational databases not always the best way to represent data?",
+            "expectedAnswer": "Relational databases are not always the best way to represent data because they require fixed schemas, have complicated queries, include transaction overhead, and may not scale well for high data and query loads.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the limitations of relational databases?",
+                    "expectedAnswer": "Relational databases require fixed schemas, complex queries, transaction overhead, and may not scale well.",
+                    "similarityLevel": "0.02"
+                },
+                {
+                    "question": "Why might relational databases be less suitable for certain data representation?",
+                    "expectedAnswer": "Relational databases require fixed schemas, have complex queries, transaction overhead, and scalability issues.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you explain the drawbacks of using relational databases?",
+                    "expectedAnswer": "Drawbacks include fixed schemas, complex queries, transaction overhead, and scalability challenges.",
+                    "similarityLevel": "0.01"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What challenges do fixed schemas in relational databases pose?",
+            "expectedAnswer": "Fixed schemas in relational databases must be defined ahead of time, making changes difficult. This is challenging because real-world data is often 'messy' and evolves over time.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do fixed schemas complicate relational databases?",
+                    "expectedAnswer": "Fixed schemas must be predefined, making changes difficult and not accommodating messy, evolving real-world data.",
+                    "similarityLevel": "0.84"
+                },
+                {
+                    "question": "Why are fixed schemas a challenge in relational databases?",
+                    "expectedAnswer": "Fixed schemas require upfront definition, complicating changes and handling messy, evolving data.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the issues with fixed schemas in relational databases?",
+                    "expectedAnswer": "Fixed schemas must be defined in advance, complicating changes and handling real-world data's messiness and evolution.",
+                    "similarityLevel": "0.90"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the typical features of NoSQL databases?",
+            "expectedAnswer": "Typical features of NoSQL databases include variable data (semi-structured, evolving, or without schema), massive data storage capabilities, architectures to handle massive parallelism, simpler queries, relaxed consistency ('eventual consistency'), and lower initial cost.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the common characteristics of NoSQL databases?",
+                    "expectedAnswer": "NoSQL databases feature variable data, massive storage, massive parallelism, simpler queries, eventual consistency, and lower initial cost.",
+                    "similarityLevel": "0.90"
+                },
+                {
+                    "question": "How do NoSQL databases typically function?",
+                    "expectedAnswer": "NoSQL databases handle variable data, provide massive storage and parallelism, use simpler queries, offer eventual consistency, and have lower initial costs.",
+                    "similarityLevel": "0.68"
+                },
+                {
+                    "question": "Can you describe the features of NoSQL databases?",
+                    "expectedAnswer": "NoSQL databases handle semi-structured data, massive storage, massive parallelism, simpler queries, eventual consistency, and have lower costs.",
+                    "similarityLevel": "0.96"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What does 'NoSQL' stand for and what does it signify?",
+            "expectedAnswer": "'NoSQL' stands for 'Not Only SQL'. It signifies developing data management systems that are not strictly based on the relational model and SQL, offering alternatives for handling specific types of data and workloads.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the meaning of 'NoSQL'?",
+                    "expectedAnswer": "'NoSQL' means 'Not Only SQL', indicating data management systems that are not strictly relational.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does 'NoSQL' differ from traditional databases?",
+                    "expectedAnswer": "'NoSQL' systems are not strictly relational, offering alternatives for specific data types and workloads.",
+                    "similarityLevel": "0.64"
+                },
+                {
+                    "question": "Can you explain the concept of 'NoSQL' databases?",
+                    "expectedAnswer": "'NoSQL' stands for 'Not Only SQL', signifying data systems that are not strictly based on the relational model.",
+                    "similarityLevel": "0.73"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are some common types of NoSQL systems?",
+            "expectedAnswer": "Common types of NoSQL systems include MapReduce systems, key-value stores, document stores, and graph databases.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can you list some types of NoSQL databases?",
+                    "expectedAnswer": "Types of NoSQL databases include MapReduce systems, key-value stores, document stores, and graph databases.",
+                    "similarityLevel": "0.97"
+                },
+                {
+                    "question": "What are the different categories of NoSQL systems?",
+                    "expectedAnswer": "Categories of NoSQL systems include MapReduce, key-value stores, document stores, and graph databases.",
+                    "similarityLevel": "0.94"
+                },
+                {
+                    "question": "Can you name different types of NoSQL databases?",
+                    "expectedAnswer": "Types of NoSQL databases include MapReduce systems, key-value stores, document stores, and graph databases.",
+                    "similarityLevel": "0.92"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What operations are supported by key-value stores?",
+            "expectedAnswer": "Key-value stores support operations such as insert(key, value), fetch(key), update(key), and delete(key).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What functions do key-value stores provide?",
+                    "expectedAnswer": "Key-value stores provide insert(key, value), fetch(key), update(key), and delete(key) operations.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you list the operations supported by key-value stores?",
+                    "expectedAnswer": "Key-value stores support insert(key, value), fetch(key), update(key), and delete(key) operations.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are the key operations of key-value stores?",
+                    "expectedAnswer": "Key operations of key-value stores include insert(key, value), fetch(key), update(key), and delete(key).",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the benefits and limitations of key-value stores?",
+            "expectedAnswer": "The benefits of key-value stores include high scalability, availability, and performance. The limitations include single record transactions, eventual consistency, and a simple query interface.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do key-value stores balance benefits and limitations?",
+                    "expectedAnswer": "Benefits: high scalability, availability, performance. Limitations: single record transactions, eventual consistency, simple queries.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are the pros and cons of key-value stores?",
+                    "expectedAnswer": "Pros: high scalability, availability, performance. Cons: single record transactions, eventual consistency, simple queries.",
+                    "similarityLevel": "0.59"
+                },
+                {
+                    "question": "Can you describe the benefits and drawbacks of key-value stores?",
+                    "expectedAnswer": "Benefits: high scalability, availability, performance. Drawbacks: single record transactions, eventual consistency, simple queries.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can you name some key-value store systems?",
+            "expectedAnswer": "Some key-value store systems include Cassandra, Amazon Dynamo, Google BigTable, and HBase.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are examples of key-value store systems?",
+                    "expectedAnswer": "Examples include Cassandra, Amazon Dynamo, Google BigTable, and HBase.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you list key-value store systems?",
+                    "expectedAnswer": "Key-value store systems include Cassandra, Amazon Dynamo, Google BigTable, and HBase.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are some key-value store databases?",
+                    "expectedAnswer": "Key-value store databases include Cassandra, Amazon Dynamo, Google BigTable, and HBase.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do document stores differ from key-value stores?",
+            "expectedAnswer": "Document stores are similar to key-value stores, but the value stored is a structured document (e.g., JSON, XML). They can store and query documents by key as well as retrieve and filter documents by their properties.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the main difference between document stores and key-value stores?",
+                    "expectedAnswer": "Document stores store structured documents and allow querying by key and properties, unlike key-value stores.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How do document stores enhance the functionality of key-value stores?",
+                    "expectedAnswer": "Document stores store structured documents and enable querying by key and properties.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain how document stores are different from key-value stores?",
+                    "expectedAnswer": "Document stores store structured documents (e.g., JSON, XML) and allow querying by key and properties, unlike key-value stores.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the benefits and limitations of document stores?",
+            "expectedAnswer": "The benefits of document stores include high scalability, availability, and performance. The limitations include the potential for redundancy and the need for more code to manipulate documents.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do document stores balance benefits and limitations?",
+                    "expectedAnswer": "Benefits: high scalability, availability, performance. Limitations: potential redundancy, more code for manipulation.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What are the pros and cons of document stores?",
+                    "expectedAnswer": "Pros: high scalability, availability, performance. Cons: potential redundancy, more code for manipulation.",
+                    "similarityLevel": "0.29"
+                },
+                {
+                    "question": "Can you describe the benefits and drawbacks of document stores?",
+                    "expectedAnswer": "Benefits: high scalability, availability, performance. Drawbacks: potential redundancy, more code for manipulation.",
+                    "similarityLevel": "0.89"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Can you name some document store systems?",
+            "expectedAnswer": "Some document store systems include MongoDB, CouchDB, and SimpleDB.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are examples of document store systems?",
+                    "expectedAnswer": "Examples include MongoDB, CouchDB, and SimpleDB.",
+                    "similarityLevel": "0.95"
+                },
+                {
+                    "question": "Can you list document store systems?",
+                    "expectedAnswer": "Document store systems include MongoDB, CouchDB, and SimpleDB.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What are some document store databases?",
+                    "expectedAnswer": "Document store databases include MongoDB, CouchDB, and SimpleDB.",
+                    "similarityLevel": "0.94"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How do graph databases model data?",
+            "expectedAnswer": "Graph databases model data as nodes (with properties) and edges (with labels), representing data in a graph structure.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the data modeling approach of graph databases?",
+                    "expectedAnswer": "Graph databases use nodes (with properties) and edges (with labels) to model data in a graph structure.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How is data represented in graph databases?",
+                    "expectedAnswer": "Graph databases represent data as nodes (with properties) and edges (with labels).",
+                    "similarityLevel": "0.96"
+                },
+                {
+                    "question": "Can you explain the data modeling in graph databases?",
+                    "expectedAnswer": "Graph databases model data using nodes (with properties) and edges (with labels) in a graph structure.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are some systems that use graph databases?",
+            "expectedAnswer": "Some systems that use graph databases include Neo4J and FlockDB.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can you name systems that use graph databases?",
+                    "expectedAnswer": "Systems include Neo4J and FlockDB.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are examples of systems using graph databases?",
+                    "expectedAnswer": "Examples include Neo4J and FlockDB.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "What systems utilize graph databases?",
+                    "expectedAnswer": "Systems such as Neo4J and FlockDB utilize graph databases.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What types of problems are graph databases well-suited for?",
+            "expectedAnswer": "Graph databases are well-suited for problems that involve complex relationships and interconnections between data, such as social networks, recommendation systems, and fraud detection.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What problems are best addressed by graph databases?",
+                    "expectedAnswer": "Graph databases are ideal for problems with complex relationships and interconnections, like social networks and recommendation systems.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do graph databases handle complex data relationships?",
+                    "expectedAnswer": "Graph databases excel at handling complex relationships and interconnections, suitable for social networks and fraud detection.",
+                    "similarityLevel": "0.30"
+                },
+                {
+                    "question": "Can you describe the problems graph databases are suited for?",
+                    "expectedAnswer": "Graph databases handle complex relationships and interconnections well, such as in social networks and recommendation systems.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of the MapReduce framework?",
+            "expectedAnswer": "The MapReduce framework is designed for processing large-scale data sets with a distributed algorithm on a cluster.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What is the function of the MapReduce framework?",
+                    "expectedAnswer": "MapReduce processes large-scale data sets using a distributed algorithm on a cluster.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "How does the MapReduce framework operate?",
+                    "expectedAnswer": "MapReduce operates by processing large data sets with a distributed algorithm on a cluster.",
+                    "similarityLevel": "0.92"
+                },
+                {
+                    "question": "Can you explain the purpose of MapReduce?",
+                    "expectedAnswer": "MapReduce is used for processing large-scale data sets with a distributed algorithm on a cluster.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the main functions used in MapReduce?",
+            "expectedAnswer": "The main functions used in MapReduce are reader(file), map(records), combine(key, list of values), reduce(key, list of values), and write(file).",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the primary functions of MapReduce?",
+                    "expectedAnswer": "Primary functions: reader(file), map(records), combine(key, list of values), reduce(key, list of values), and write(file).",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "How does MapReduce utilize its main functions?",
+                    "expectedAnswer": "MapReduce functions: reader(file), map(records), combine(key, list of values), reduce(key, list of values), write(file).",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you list the main functions of MapReduce?",
+                    "expectedAnswer": "Main functions: reader(file), map(records), combine(key, list of values), reduce(key, list of values), write(file).",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the role of the 'combine' function in MapReduce?",
+            "expectedAnswer": "The 'combine' function in MapReduce performs optional aggregation of key-value pairs after the map stage, before they are passed to the reduce function.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does the 'combine' function work in MapReduce?",
+                    "expectedAnswer": "The 'combine' function aggregates key-value pairs after the map stage before passing them to the reduce function.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the function of 'combine' in MapReduce?",
+                    "expectedAnswer": "The 'combine' function aggregates key-value pairs post-map stage before the reduce function.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "Can you explain the 'combine' function in MapReduce?",
+                    "expectedAnswer": "The 'combine' function aggregates key-value pairs after mapping and before reducing.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is normalization in the context of database design?",
+            "expectedAnswer": "Normalization is a technique for producing relations with desirable properties by decomposing them into smaller relations that contain less redundancy, ensuring no information is lost and the original relations can be reconstructed.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does normalization improve database design?",
+                    "expectedAnswer": "Normalization reduces redundancy by decomposing relations into smaller, well-structured relations.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What is the purpose of normalization in databases?",
+                    "expectedAnswer": "Normalization decomposes relations into smaller, less redundant relations while ensuring data integrity.",
+                    "similarityLevel": "0.94"
+                },
+                {
+                    "question": "Can you explain normalization in database design?",
+                    "expectedAnswer": "Normalization reduces redundancy and ensures no information is lost by decomposing relations into smaller, well-structured ones.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "Why is normalization important in database design?",
+            "expectedAnswer": "Normalization is important because it helps to minimize redundancies and update anomalies, which occur when the same data value is stored more than once, wasting space and reducing performance.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does normalization benefit database design?",
+                    "expectedAnswer": "Normalization minimizes redundancies and update anomalies, optimizing space and performance.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What are the benefits of normalization in databases?",
+                    "expectedAnswer": "Normalization reduces redundancies and update anomalies, optimizing space and performance.",
+                    "similarityLevel": "0.76"
+                },
+                {
+                    "question": "Can you explain the importance of normalization in databases?",
+                    "expectedAnswer": "Normalization minimizes redundancies and update anomalies, improving space usage and performance.",
+                    "similarityLevel": "0.97"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What are the different normal forms in normalization?",
+            "expectedAnswer": "The different normal forms in normalization are 1NF (First Normal Form), 2NF (Second Normal Form), 3NF (Third Normal Form), BCNF (Boyce-Codd Normal Form), 4NF (Fourth Normal Form), and 5NF (Fifth Normal Form). Each form has stricter requirements to reduce redundancy and anomalies.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Can you list the various normal forms in normalization?",
+                    "expectedAnswer": "The normal forms in normalization are 1NF, 2NF, 3NF, BCNF, 4NF, and 5NF.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "What are the stages of normalization?",
+                    "expectedAnswer": "Normalization stages include 1NF, 2NF, 3NF, BCNF, 4NF, and 5NF, each with stricter requirements.",
+                    "similarityLevel": "0.19"
+                },
+                {
+                    "question": "Can you explain the different normal forms in database normalization?",
+                    "expectedAnswer": "Normal forms include 1NF, 2NF, 3NF, BCNF, 4NF, and 5NF, each reducing redundancy and anomalies.",
+                    "similarityLevel": "0.98"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is the purpose of a data warehouse?",
+            "expectedAnswer": "A data warehouse is a historical database that summarizes, integrates, and organizes data from one or more operational databases in a format that is more efficient for analytical queries.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "Why are data warehouses used?",
+                    "expectedAnswer": "Data warehouses summarize, integrate, and organize data from operational databases for efficient analytical queries.",
+                    "similarityLevel": "0.91"
+                },
+                {
+                    "question": "What role do data warehouses play in data management?",
+                    "expectedAnswer": "Data warehouses store summarized, integrated data from operational databases for efficient analysis.",
+                    "similarityLevel": "0.98"
+                },
+                {
+                    "question": "Can you explain the purpose of data warehouses?",
+                    "expectedAnswer": "Data warehouses organize and summarize data from operational databases for efficient analytical queries.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "How does OLAP differ from OLTP?",
+            "expectedAnswer": "OLAP (Online Analytical Processing) systems are designed for decision support applications where large amounts of data are analyzed, often with ad hoc queries. In contrast, OLTP (Online Transaction Processing) systems handle many small queries and updates, focusing on transaction-driven processes.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "What are the differences between OLAP and OLTP systems?",
+                    "expectedAnswer": "OLAP is for decision support with large data analysis; OLTP handles small queries and updates for transaction processes.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "How do OLAP and OLTP systems differ in functionality?",
+                    "expectedAnswer": "OLAP supports large data analysis for decisions; OLTP handles small, transaction-driven queries and updates.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the differences between OLAP and OLTP?",
+                    "expectedAnswer": "OLAP is for large data analysis and decision support; OLTP handles small, transaction-driven queries and updates.",
+                    "similarityLevel": "0.99"
+                }
+            ]
+        },
+        {
+            "category": "Course_Content_Clarification",
+            "question": "What is a star schema in the context of data warehousing?",
+            "expectedAnswer": "A star schema is a type of dimensional model used in data warehousing where a main table (fact table) is linked to multiple dimension tables. The fact table contains composite primary keys and numerical facts, while the dimension tables contain descriptive attributes.",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How does a star schema function in data warehousing?",
+                    "expectedAnswer": "A star schema links a fact table with composite keys and numerical facts to multiple dimension tables with descriptive attributes.",
+                    "similarityLevel": "0.99"
+                },
+                {
+                    "question": "What is the structure of a star schema in data warehousing?",
+                    "expectedAnswer": "A star schema consists of a fact table linked to multiple dimension tables, with composite keys and descriptive attributes.",
+                    "similarityLevel": "1.00"
+                },
+                {
+                    "question": "Can you explain the star schema in data warehousing?",
+                    "expectedAnswer": "A star schema links a main fact table with composite keys to multiple dimension tables with descriptive attributes.",
+                    "similarityLevel": "1.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment_code",
+            "question": "For Assignment 7, Question 1, I need to modify the listorder.jsp to list all orders and their products. How do I establish a connection to the SQL Server database and retrieve the orders with their associated products? Provide a code snippet to demonstrate this.",
+            "expectedAnswer": "To establish a connection to the SQL Server database and retrieve the orders with their associated products in listorder.jsp, you can use the following code snippet:\n\n```jsp\n<%@ page import=\"java.sql.*\" %>\n<%\nConnection conn = null;\nStatement stmt = null;\nResultSet rs = null;\ntry {\n    Class.forName(\"com.microsoft.sqlserver.jdbc.SQLServerDriver\");\n    String dbURL = \"jdbc:sqlserver://cosc304_sqlserver:1433;DatabaseName=orders;TrustServerCertificate=True\";\n    conn = DriverManager.getConnection(dbURL, \"username\", \"password\");\n    stmt = conn.createStatement();\n    String sql = \"SELECT o.order_id, o.order_date, p.product_name, p.price FROM orders o JOIN order_products op ON o.order_id = op.order_id JOIN products p ON op.product_id = p.product_id\";\n    rs = stmt.executeQuery(sql);\n    while (rs.next()) {\n        out.println(\"Order ID: \" + rs.getInt(\"order_id\") + \", Date: \" + rs.getDate(\"order_date\") + \", Product: \" + rs.getString(\"product_name\") + \", Price: \" + rs.getDouble(\"price\") + \"<br>\");\n    }\n} catch (Exception e) {\n    e.printStackTrace();\n} finally {\n    if (rs != null) try { rs.close(); } catch (SQLException ignore) {}\n    if (stmt != null) try { stmt.close(); } catch (SQLException ignore) {}\n    if (conn != null) try { conn.close(); } catch (SQLException ignore) {}\n}\n%>\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do I connect to an SQL Server database in JSP?",
+                    "expectedAnswer": "Use Class.forName() to load the driver and DriverManager.getConnection() to connect to the database.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "What is the process for retrieving data from SQL Server in JSP?",
+                    "expectedAnswer": "Load the driver with Class.forName(), connect with DriverManager.getConnection(), and execute a query with Statement.",
+                    "similarityLevel": "0.00"
+                },
+                {
+                    "question": "Can you provide a JSP code snippet for database connection and data retrieval?",
+                    "expectedAnswer": "Load the driver with Class.forName(), connect with DriverManager.getConnection(), execute a query with Statement, and process ResultSet.",
+                    "similarityLevel": "0.00"
+                }
+            ]
+        },
+        {
+            "category": "Assignment",
+            "question": "For Assignment 7, Question 2, I need to implement order.jsp to store an order and its products in the database. How can I validate the customer id, insert the order, and save the ordered products? Provide a code snippet demonstrating this functionality.",
+            "expectedAnswer": "To implement order.jsp and store an order with its products, you need to validate the customer id, insert the order, and save each product in the order. Here is a code snippet demonstrating this functionality:\n\n```jsp\n<%@ page import=\"java.sql.*\" %>\n<%@ page import=\"java.util.*\" %>\n<%\nString customerId = request.getParameter(\"customerId\");\nList<String> cart = (List<String>) session.getAttribute(\"cart\");\nConnection conn = null;\nPreparedStatement pstmtOrder = null;\nPreparedStatement pstmtProduct = null;\nResultSet rs = null;\ntry {\n    Class.forName(\"com.microsoft.sqlserver.jdbc.SQLServerDriver\");\n    String dbURL = \"jdbc:sqlserver://cosc304_sqlserver:1433;DatabaseName=orders;TrustServerCertificate=True\";\n    conn = DriverManager.getConnection(dbURL, \"username\", \"password\");\n    // Validate customer id\n    String sqlCustomer = \"SELECT COUNT(*) FROM customers WHERE customer_id = ?\";\n    pstmtOrder = conn.prepareStatement(sqlCustomer);\n    pstmtOrder.setInt(1, Integer.parseInt(customerId));\n    rs = pstmtOrder.executeQuery();\n    rs.next();\n    if (rs.getInt(1) == 0) {\n        out.println(\"Invalid customer id\");\n        return;\n    }\n    // Insert order\n    String sqlInsertOrder = \"INSERT INTO orders (customer_id, order_date) VALUES (?, GETDATE())\";\n    pstmtOrder = conn.prepareStatement(sqlInsertOrder, Statement.RETURN_GENERATED_KEYS);\n    pstmtOrder.setInt(1, Integer.parseInt(customerId));\n    pstmtOrder.executeUpdate();\n    rs = pstmtOrder.getGeneratedKeys();\n    rs.next();\n    int orderId = rs.getInt(1);\n    // Insert order products\n    String sqlInsertProduct = \"INSERT INTO order_products (order_id, product_id) VALUES (?, ?)\";\n    pstmtProduct = conn.prepareStatement(sqlInsertProduct);\n    for (String productId : cart) {\n        pstmtProduct.setInt(1, orderId);\n        pstmtProduct.setInt(2, Integer.parseInt(productId));\n        pstmtProduct.executeUpdate();\n    }\n    out.println(\"Order placed successfully with Order ID: \" + orderId);\n    // Clear cart\n    session.setAttribute(\"cart\", new ArrayList<String>());\n} catch (Exception e) {\n    e.printStackTrace();\n} finally {\n    if (rs != null) try { rs.close(); } catch (SQLException ignore) {}\n    if (pstmtOrder != null) try { pstmtOrder.close(); } catch (SQLException ignore) {}\n    if (pstmtProduct != null) try { pstmtProduct.close(); } catch (SQLException ignore) {}\n    if (conn != null) try { conn.close(); } catch (SQLException ignore) {}\n}\n%>\n```",
+            "history": [],
+            "similarQuestions": [
+                {
+                    "question": "How do I validate a customer ID in JSP?",
+                    "expectedAnswer": "Use a SQL query to check if the customer ID exists in the customers table.",
+                    "similarityLevel": "0.04"
+                },
+                {
+                    "question": "What is the process for inserting an order in JSP?",
+                    "expectedAnswer": "Validate the customer ID, insert the order into the orders table, and get the generated order ID.",
+                    "similarityLevel": "0.23"
+                },
+                {
+                    "question": "Can you provide a JSP code snippet for order validation and insertion?",
+                    "expectedAnswer": "Validate the customer ID with a SQL query, insert the order, get the order ID, and insert order products.",
+                    "similarityLevel": "0.08"
+                }
+            ]
+        }
+    ]
+}
